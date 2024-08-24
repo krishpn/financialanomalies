@@ -1,4 +1,4 @@
-# financialanomalies
+# Financial Anomalies
 
 The repository is on-going project related to the financial anomalies primarily comparing results of:
 
