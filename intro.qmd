@@ -1,3 +1,12 @@
 # Introduction
 
-Financial Anomalies have been studied for a long time (@fama1973risk). 
+
+@fama1973risk : Two-parameter risk-return regression equation
+
+```{=tex}
+
+\begin{equation}
+E=m
+\end{equation}
+
+```
