@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.23)  24 AUG 2024 19:31
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.23)  24 AUG 2024 19:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1334,31 +1334,21 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 7.66417pt on input line 207.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 5.47441pt on input line 207.
-
-LaTeX Warning: Reference `Equation:BlackScholes1972' on page 4 undefined on inp
-ut line 212.
-
-[4
-
-]
-chapter 2.
-[5
-
-] [6
-
-] (./index.aux
-! Missing \endcsname inserted.
-<to be read again> 
-                   \xparse function is not expandable 
-l.24 ... }{{1}{4}{Introduction}{equation.1.0.1}{}}
-                                                   
+)
+Runaway argument?
+{\text {total market value of all units of assets \} i}{\text {total \ETC.
+! File ended while scanning use of \frac .
+<inserted text> 
+                \par 
+<*> index.tex
+              
 Here is how much of TeX's memory you used:
- 36990 strings out of 476683
- 772590 string characters out of 5804046
+ 36966 strings out of 476683
+ 772112 string characters out of 5804046
  1845018 words of memory out of 5000000
- 56691 multiletter control sequences out of 15000+600000
- 518710 words of font info for 81 fonts, out of 8000000 for 9000
+ 56678 multiletter control sequences out of 15000+600000
+ 518686 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  108i,7n,121p,10600b,390s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on index.pdf (6 pages).
+Output written on index.pdf (3 pages).
