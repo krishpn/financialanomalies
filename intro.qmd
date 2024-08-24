@@ -5,7 +5,7 @@
 
 ```{=tex}
 \begin{equation}
-x_{im}  \equiv \frac{\text{total market value of all units of assets } i}{\text{total market value of all assets}}
+x_{im}  \equiv \frac{\text{total market value of all units of assets} \ i}{\text{total market value of all assets}}
 \end{equation} 
 \label{\ref}
 
