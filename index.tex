@@ -179,7 +179,7 @@
 
 \begin{document}
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, breakable, frame hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced, boxrule=0pt, sharp corners]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, interior hidden, boxrule=0pt, breakable, frame hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -205,10 +205,8 @@ The article is desiged to study financial anomalies
 Fama and MacBeth (1973) : Two-parameter risk-return regression equation
 
 \begin{equation}
-$x_{im} \equiv \frac{total market value of all units of assets $i$}{total market value of all assets}$ 
+$x_{im} \equiv \frac{total market value of all units of assets}{total market value of all assets}$ 
 \end{equation} 
-
-\cite{black1972capital}
 
 \bookmarksetup{startatroot}
 

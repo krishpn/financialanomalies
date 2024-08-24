@@ -5,6 +5,6 @@
 
 ```{=tex}
 \begin{equation}
-$x_{im} \equiv \frac{total market value of all units of assets}{total market value of all assets}$ 
+$x_{im}  \equiv \frac{total market value of all units of assets}{total market value of all assets}$ 
 \end{equation} 
 ```
