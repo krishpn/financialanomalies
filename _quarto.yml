@@ -1,9 +1,10 @@
 project:
   type: book
+  output-dir: .
 
 book:
-  title: "Book"
-  author: "Norah Jones"
+  title: "Financial Anomalies"
+  author: "Krishna Neupane"
   date: "8/24/2024"
   chapters:
     - index.qmd
@@ -14,10 +15,9 @@ book:
 bibliography: references.bib
 
 format:
-  html:
-    theme: cosmo
   pdf:
     documentclass: scrreprt
+
 
 
 
