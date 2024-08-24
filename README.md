@@ -1,6 +1,6 @@
 # Financial Anomalies
 
-The repository is on-going project related to the financial anomalies primarily comparing results of:
+The repository is on-going project related to the financial anomalies:
 
 - Chen, Andrew Y., and Tom Zimmermann. "Open source cross-sectional asset pricing." Critical Finance Review, Forthcoming (2021).
 - Hou, Kewei, Chen Xue, and Lu Zhang. "Replicating anomalies." The Review of financial studies 33.5 (2020): 2019-2133
