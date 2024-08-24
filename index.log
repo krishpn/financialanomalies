@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.23)  24 AUG 2024 19:15
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.23)  24 AUG 2024 19:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1338,7 +1338,7 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 <to be read again> 
                    x
 l.208 $x
-        _{im} \equiv \frac{total market value of all units of assets}{total ...
+        _{im}  \equiv \frac{total market value of all units of assets}{total...
  
 Here is how much of TeX's memory you used:
  36966 strings out of 476683
