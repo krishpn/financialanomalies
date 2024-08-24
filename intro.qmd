@@ -5,9 +5,9 @@
 
 ```{=tex}
 \begin{equation}
-x_{im}  \equiv \frac{\text{total market value of all units of assets} i}{\text{total market value of all assets}}
+x_{im}  \equiv \frac{\text{total market value of all units of assets } i}{\text{total market value of all assets}}
 \end{equation} 
 \label{\ref}
 
 ```
-\ref{Equation:BlackScholes1972} is from @black1972capital
+\ref{Equation:BlackScholes1972} refers to the market equilibrium (market portflio) is always efficient (@black1972capital).
