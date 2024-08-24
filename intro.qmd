@@ -9,14 +9,14 @@ where asset (i) in the portfolio (m)
 \end{equation} 
 \label{Equation:BlackScholes1972}
 ```
-@Equation:BlackScholes1972 refers to the market equilibrium (market portflio) is always efficient (@black1972capital).
+Equation \ref{Equation:BlackScholes1972} refers to the market equilibrium (market portflio) is always efficient (@black1972capital).
 
-Excepted Return is given by 
+Excepted Return is given by Equation \ref{Equation:ExpectedReturnFama1953}
 
 ```{=tex}
 \begin{equation}
 E(\tilde{R_i}) = \left[E(\tilde{R_m}) -S_m \sigma(\tilde{R_m} ) \right] + S_m \sigma (\tilde{R_m}) \beta_i,
-where
+\text{where}
 \beta_i \equiv \frac{cov(\tilde{R_i}, \tilde{R_m})}{\sigma^2(\tilde{R_m})}
 \end{equation} 
 \label{Equation:ExpectedReturnFama1953}
