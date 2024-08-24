@@ -8,6 +8,7 @@
 \begin{equation}
 $x_{im} \equiv \frac{total market value of all units of assets $i$}{total market value of all assets}$ 
 \end{equation} 
-\ref{black1972capital}
+
+\cite{black1972capital}
 
 ```
