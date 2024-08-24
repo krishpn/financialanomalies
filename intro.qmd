@@ -1,12 +1,13 @@
 # Introduction
 
-
 @fama1973risk : Two-parameter risk-return regression equation
 
 ```{=tex}
 \begin{equation}
 x_{im}  \equiv \frac{\text{total market value of all units of assets} \ i}{\text{total market value of all assets}}
+where asset ($i$) in the portfolio ($m$)
 \end{equation} 
 \label{Equation:BlackScholes1972}
 ```
 @Equation:BlackScholes1972 refers to the market equilibrium (market portflio) is always efficient (@black1972capital).
+
