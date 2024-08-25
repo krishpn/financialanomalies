@@ -86,7 +86,7 @@ Equation \ref{Equation:ExpectedReturnFama1953EquationTen} the indepenent variabl
 \label{Equation:Litzenberger1979Eqn23}
 ```
 
-@banz1981relationship: studies "size effect" by using market indices - Market Index, CRSP value weighted, CRSP equal weighted indexes, US Bond Index, Corporate Bond Index to estimate the relationship between the return and market value.
+@banz1981relationship: studies "size effect" by using market indices - Market Index, CRSP value weighted, CRSP equal weighted indexes, US Bond Index, Corporate Bond Index to estimate the relationship between the return and market value based on Equation \ref{Equation:banz1981Equation3}. The study suggests the CAPM is misspecified. 
 
 ```{=tex}
 \begin{align}
@@ -101,3 +101,13 @@ Equation \ref{Equation:ExpectedReturnFama1953EquationTen} the indepenent variabl
 \end{align}
 \label{Equation:banz1981Equation3}
 ```
+
+@figlewski1981informational estimates "The test methodology we will use is a familiar one. We construct ten port?
+folios to which stocks are assigned according to their average short interest
+during the previous six months, and calculate the portfolio a's or excess returns."
+
+@basu1983relationship: The empirical findings reported in this paper indicate that, at least during the 1963-80 time period, the returns on the common stock of NYSE firms appear to have been related to earnings’ yield and firm size. 
+
+@de1985does: "This study of market efficiency investigates whether such behavior affects stock prices. The empirical
+evidence, based on CRSP monthly return data, is consistent with the overreaction hypothesis. Substantial weak form market inefficiencies are discovered. The results also shed new light on the January returns earned by prior "winners" and "losers." Portfolios of losers experience exceptionally large January returns as late as five years after
+portfolio formation. "

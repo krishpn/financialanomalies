@@ -1,4 +1,4 @@
-year,citation_key,authors,title,variables,method,data_frequency,data_coverage, link,journal
+year,google_Scholar_citation_key,authors,title,variables,method,data_frequency,data_coverage, link,journal
 1973,"fama1973risk
 ",Eugene F. Fama and James D. MacBeth,Risk Return and Equilibrium: Empirical Tests,risk and return,OLS,monthly,1943-68,https://www.jstor.org/stable/pdf/1831028.pdf,Journal of Political Economy
 1975,"gupta1975investors
@@ -13,4 +13,16 @@ Denominator - Annual Earnings ",OLS,monthly,1956-69,https://www.jstor.org/stable
 1979,"litzenberger1979effect
 ","Litzenberger, Robert H and Ramaswamy, Krishna
 ","The effect of personal taxes and dividends on capital asset prices: Theory and empirical evidence
-",,,,,,
+",Dividend Yield:  the dollar dividend divided by the current price,OLS,monthly,1931-51,https://www.sciencedirect.com/science/article/abs/pii/0304405X79900126,Journal of Financial Economics
+1981,"banz1981relationship
+","Banz, Rolf W
+","The relationship between return and market value of common stocks
+","Total Market Value and its Return : Price, Return and Number of Outstanding Shares: Market Index, CRSP value weighted index, CRSP equal weighted index, Government bon index, Corporate Bond index",OLS,monthly,1936-75,https://www.sciencedirect.com/science/article/abs/pii/0304405X81900180,Journal of Financial Economics
+1981,"figlewski1981informational
+","Figlewski, Stephen","The informational effects of restrictions on short sales: Some empirical evidence
+",Short Interest to calculate Excess Returns,OLS,monthly,1973-79,https://www.jstor.org/stable/2330366,Journal of Financial and Quantitative Analysis
+1983,basu1983relationship,"Basu, Sanjoy
+","The relationship between earnings' yield, market value and return for NYSE common stocks: Further evidence
+","Earning Yield (E/P) : 12-month moving earnings per share, excluding extraordinary items and discontinued operations,
+Market Value: market price times the number of shares outstanding,
+Returns and Firm Size",OLS,monthly,1962-78,https://www.sciencedirect.com/science/article/abs/pii/0304405X83900314,Journal of Financial Economics
