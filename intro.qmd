@@ -11,7 +11,7 @@
 ```
 Equation \ref{Equation:BlackScholes1972} refers to the market equilibrium (market portflio) is always efficient (@black1972capital).
 
-Excepted Return is given by Equation \ref{Equation:ExpectedReturnFama1953}
+Excepted Return is given by Equation \ref{Equation:ExpectedReturnFama1953}, $\beta_i$ is the risk of the asset $i$ of the portfolio $m$, measured relative to $\sigma^2(\tilde{R}_m) $
 
 ```{=tex}
 \begin{align}
