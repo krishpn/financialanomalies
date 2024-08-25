@@ -110,4 +110,6 @@ during the previous six months, and calculate the portfolio a's or excess return
 
 @de1985does: "This study of market efficiency investigates whether such behavior affects stock prices. The empirical
 evidence, based on CRSP monthly return data, is consistent with the overreaction hypothesis. Substantial weak form market inefficiencies are discovered. The results also shed new light on the January returns earned by prior "winners" and "losers." Portfolios of losers experience exceptionally large January returns as late as five years after
-portfolio formation. "
+portfolio formation. To repeat, our goal is to test whether the overreaction hypothesis is predictive. Specifically, two hypotheses are suggested: (1) Extreme movements in stock prices will be followed by subsequent price movements in the opposite direction. (2) The more extreme the initial price movement, the greater will be the subsequent adjustment. Both hypotheses imply a violation of weak-form market efficiency."
+
+
