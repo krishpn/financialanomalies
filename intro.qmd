@@ -15,8 +15,8 @@ Excepted Return is given by Equation \ref{Equation:ExpectedReturnFama1953}
 
 ```{=tex}
 \begin{equation}
-E(\tilde{R_i}) = \left[E(\tilde{R_m}) -S_m \sigma(\tilde{R_m} ) \right] + S_m \sigma (\tilde{R_m}) \beta_i,
-\text{where}
+E(\tilde{R_i}) = \left[E(\tilde{R_m}) -S_m \sigma(\tilde{R_m} ) \right] + S_m \sigma (\tilde{R_m}) \beta_i,\\
+\text{where}\\
 \beta_i \equiv \frac{cov(\tilde{R_i}, \tilde{R_m})}{\sigma^2(\tilde{R_m})}
 \end{equation} 
 \label{Equation:ExpectedReturnFama1953}
