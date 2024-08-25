@@ -179,7 +179,7 @@
 
 \begin{document}
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, interior hidden, borderline west={3pt}{0pt}{shadecolor}, frame hidden, enhanced, sharp corners, boxrule=0pt]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, frame hidden, sharp corners, enhanced, interior hidden, borderline west={3pt}{0pt}{shadecolor}, breakable]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -257,10 +257,7 @@ price movement.
     & \delta P_{i}^{t} = \frac{P_{it}-P_{it-1}}{P_{it-1}} \times 100 \\
     & \text{where } \delta P_{i}^{t} \text{is the percent change of the security } i \text{during the period} t-1 \text{to} t \nonumber \\
     & \text{The average yearly percentage of the prices change for portfolio} j (\delta P_j) \text{is given by }
-
     & \delta P_{j} =\frac{\sum_{t=1}^{14} \frac{\sum_{\tau_t}^{10j=10j-9} \deltaP_{rt}^{t}}{10}}{14}
-
-
 \end{align}
 \label{Equation:OferEquation1975}
 

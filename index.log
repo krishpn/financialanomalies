@@ -1349,18 +1349,16 @@ LaTeX Warning: Reference `Equation:ExpectedReturnFama1953EquationTen' on page 4
 [4
 
 ]
-Runaway argument?
- & \delta P_{i}^{t} = \frac {P_{it}-P_{it-1}}{P_{it-1}} \times 100 \\\ETC.
-! Paragraph ended before \align was complete.
-<to be read again> 
-                   \par 
-l.260 
-       
+! Undefined control sequence.
+<argument> \sum _{\tau _t}^{10j=10j-9} \deltaP 
+                                               _{rt}^{t}
+l.261 \end{align}
+                  
 Here is how much of TeX's memory you used:
- 36978 strings out of 476683
- 772468 string characters out of 5804046
+ 36979 strings out of 476683
+ 772474 string characters out of 5804046
  1861018 words of memory out of 5000000
- 56686 multiletter control sequences out of 15000+600000
+ 56687 multiletter control sequences out of 15000+600000
  518702 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  108i,11n,121p,10600b,390s stack positions out of 10000i,1000n,20000p,200000b,200000s
