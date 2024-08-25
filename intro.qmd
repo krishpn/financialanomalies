@@ -1,6 +1,6 @@
 # Introduction
 
-@fama1973risk defines two-parameter regression model estimates average risk-return relationships based on efficient market porfolio ($m$) constructed according to Equation \ref{Equation:BlackScholes1972} for an asset ($i$) proposed by @@black1972capital. 
+@fama1973risk show two-parameter regression model estimates average risk-return relationships based on efficient market porfolio ($m$), that is, the market prices fully reflect the available information. The asset are  constructed based on Equation \ref{Equation:BlackScholes1972} for an asset ($i$) proposed by @@black1972capital. 
 
 ```{=tex}
 \begin{align}
