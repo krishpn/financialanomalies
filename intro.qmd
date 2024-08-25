@@ -40,10 +40,10 @@ Equation \ref{Equation:ExpectedReturnFama1953EquationTen} the indepenent variabl
 
 @gupta1975investors examines investors growth expectations reflected in the stock prices. A change in the expectation is reflected in the price movement. The study defines the earnings price ratio is a function of risk characteristics of the security and the expected growth in the earnings in Equation \ref{Equation:OferEquation1975EquationOne}. The risk component are measured by:
 - the beta coefficient
-- the firm asset size
+- the firm asset size (natural logarithm of total asset)
 - dividend payout ratio
-- leverage
-- earnings variablity
+- leverage ratio of liabilties and preferred stocks to the common stock outstanding
+- earnings variablity (standard deviation of earnings to price ratio calcuated over period of seven years)
 
 ```{=tex}
 \begin{align}
@@ -53,7 +53,6 @@ Equation \ref{Equation:ExpectedReturnFama1953EquationTen} the indepenent variabl
 & EP = \text{earnings price ratio- }, \nonumber \\
 & RS = \text{risk characteristics of the security} \nonumber \\
 & EG =\text{the expected growth rate in the earnings} \nonumber \\
-
 \end{align}
 \label{Equation:OferEquation1975EquationOne}
 ```
