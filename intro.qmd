@@ -32,7 +32,8 @@ For each period of $t$, the cross sectional regression is given by
 
 ```{=tex}
 \begin{align}
-    & R_{pt} = \tilde{\gamma}_{0t} + \tilde{\gamma}_{1t} \tilde{\beta}_{p,t-1}+\tilde{\gamma}_{2t} \tilde{\beta}_{p,t-1} 
+    & R_{pt} = \tilde{\gamma}_{0t} + \tilde{\gamma}_{1t} \tilde{\beta}_{p,t-1}+\tilde{\gamma}_{2t} \tilde{\beta}_{p,t-1}^{2} +  \tilde{\gamma}_{3t} \bar{s}_{p, t-1} \tilde{\epsilon}_{i}+\tilde{\eta}_{pt}, \\
+    &p=1,2,...t \nonumber
 \end{align}
 \label{Equation:ExpectedReturnFama1953EquationTen}
 ```
