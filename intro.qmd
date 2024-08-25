@@ -47,12 +47,11 @@ Equation \ref{Equation:ExpectedReturnFama1953EquationTen} the indepenent variabl
 
 ```{=tex}
 \begin{align}
-
-&EP = f(RS, EG) \\
-&\text{where:} \nonumber \\
-& EP = \text{earnings price ratio- }, \nonumber \\
-& RS = \text{risk characteristics of the security} \nonumber \\
-& EG =\text{the expected growth rate in the earnings} \nonumber \\
+    &EP = f(RS, EG) \\
+    &\text{where:} \nonumber \\
+    & EP = \text{earnings price ratio- }, \nonumber \\
+    & RS = \text{risk characteristics of the security} \nonumber \\
+    & EG =\text{the expected growth rate in the earnings} \nonumber \\
 \end{align}
 \label{Equation:OferEquation1975EquationOne}
 ```

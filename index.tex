@@ -179,7 +179,7 @@
 
 \begin{document}
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, enhanced, borderline west={3pt}{0pt}{shadecolor}, breakable, sharp corners, frame hidden, boxrule=0pt]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[enhanced, sharp corners, borderline west={3pt}{0pt}{shadecolor}, interior hidden, frame hidden, breakable, boxrule=0pt]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -255,7 +255,10 @@ price movement. The study defines the earnings price ratio is a function
 of risk characteristics of the security and the expected growth in the
 earnings in Equation \ref{Equation:OferEquation1975EquationOne}. The
 risk component are measured by: - the beta coefficient - the firm asset
-size - dividend payout ratio - leverage - earnings variablity
+size (natural logarithm of total asset) - dividend payout ratio -
+leverage ratio of liabilties and preferred stocks to the common stock
+outstanding - earnings variablity (standard deviation of earnings to
+price ratio calcuated over period of seven years)
 
 \begin{align}
 
@@ -264,7 +267,6 @@ size - dividend payout ratio - leverage - earnings variablity
 & EP = \text{earnings price ratio- }, \nonumber \\
 & RS = \text{risk characteristics of the security} \nonumber \\
 & EG =\text{the expected growth rate in the earnings} \nonumber \\
-
 \end{align}
 \label{Equation:OferEquation1975EquationOne}
 
