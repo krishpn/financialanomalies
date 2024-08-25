@@ -77,9 +77,11 @@ Equation \ref{Equation:ExpectedReturnFama1953EquationTen} the indepenent variabl
 
 ```{=tex}
 \begin{align}
-    & \tilde{R} -r_{ft} = \gamma_{0} +  \gamma_{1} \beta_{it} +  \gamma_{2} (d_{it}-r_{ft}) + \tilde{\epsilon}_{it}, i=1,2,\cdots,N, t=1,2,\cdots,T
-    &\text{litzenberger1979effect}
-  
+    & \tilde{R} -r_{ft} = \gamma_{0} +  \gamma_{1} \beta_{it} +  \gamma_{2} (d_{it}-r_{ft}) + \tilde{\epsilon}_{it}, i=1,2,\cdots,N, t=1,2,\cdots,T \\
+    &\text{where :} \nonumber \\
+    & \tilde{R}_{it} \text{Return of the security } i \text{ in period } t, \beta_{it} \text{ and } d_{it} \text{ are the systemic risk and the dividend yield of security  } i \text{ in period } t. \nonumber \\
+    & \tilde{\epsilon}_{it}, a disturbance term is \tilde{R} - E(\tilde{R}_{it}), the deviation of the realized return from the expected value.\nonumber \\
+    & \text{coeffiecients } \gamma_0, \gamma_1, \gamma_2
 \end{align}
 \label{Equation:Litzenberger1979Eqn23}
 ```
