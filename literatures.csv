@@ -1,3 +1,16 @@
-year,authors,title,variables,method,data_frequency,data_coverage, link
-1973,Eugene F. Fama and James D. MacBeth,Risk Returnand Equilibrium: Empirical Tests,risk and return,regression,monthly,1943-68,https://www.jstor.org/stable/pdf/1831028.pdf
-1975,Aharon R. Ofer,"Investors' Expectations of Earnings Growth, Their Accuracy and Effects on the Structure of Realized Rates of Return","Price Earnings Ratio : Risk and Earnings Growth Expectation. Risk measured by beta coefficient, dividend payout ratio, firm asset size, leverage, earnings variability",regression,monthly,1948-68,https://www.jstor.org/stable/pdf/2978730.pdf
+year,citation_key,authors,title,variables,method,data_frequency,data_coverage, link,journal
+1973,"fama1973risk
+",Eugene F. Fama and James D. MacBeth,Risk Return and Equilibrium: Empirical Tests,risk and return,OLS,monthly,1943-68,https://www.jstor.org/stable/pdf/1831028.pdf,Journal of Political Economy
+1975,"gupta1975investors
+",Aharon R. Ofer,"Investors' Expectations of Earnings Growth, Their Accuracy and Effects on the Structure of Realized Rates of Return","Price Earnings Ratio : Risk and Earnings Growth Expectation. 
+Risk measured by beta coefficient, dividend payout ratio, firm asset size (natural log of total asset), leverage, earnings variability",OLS,monthly,1948-68,https://www.jstor.org/stable/pdf/2978730.pdf,Journal of Finance
+"1977
+","basu1977investment
+","Basu, Sanjoy
+",Investment performance of common stocks in relation to their price-earnings ratios: a test of the efficient market hypothesis,"Price Earnings Ratio:
+Numerator - market prices times the number of shares outstanding
+Denominator - Annual Earnings ",OLS,monthly,1956-69,https://www.jstor.org/stable/pdf/2326304.pdf,Journal of Finance
+1979,"litzenberger1979effect
+","Litzenberger, Robert H and Ramaswamy, Krishna
+","The effect of personal taxes and dividends on capital asset prices: Theory and empirical evidence
+",,,,,,
