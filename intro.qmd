@@ -32,8 +32,10 @@ For each period of $t$, the cross sectional regression is given by
 
 ```{=tex}
 \begin{align}
-    & R_{pt} = \tilde{\gamma}_{0t} + \tilde{\gamma}_{1t} \tilde{\beta}_{p,t-1}+\tilde{\gamma}_{2t} \tilde{\beta}_{p,t-1}^{2} +  \tilde{\gamma}_{3t} \bar{s}_{p, t-1} \tilde{\epsilon}_{i}+\tilde{\eta}_{pt}, \\
+    & R_{pt} = \tilde{\gamma}_{0t} + \tilde{\gamma}_{1t} \tilde{\beta}_{p,t-1}+\tilde{\gamma}_{2t} \tilde{\beta}_{p,t-1}^{2} + \tilde{\gamma}_{3t} \bar{s}_{p, t-1} \tilde{\epsilon}_{i}+\tilde{\eta}_{pt}, \\
     &p=1,2,...t \nonumber
 \end{align}
 \label{Equation:ExpectedReturnFama1953EquationTen}
 ```
+
+In Equation \ref{Equation:ExpectedReturnFama1953EquationTen} the indepenent variable $\tilde{\beta}_{p,t-1}$ is the average of the $\tilde{\beta}_i$ for securities in portfolio $p$, $\tilde{\beta}_{p,t-1}^2$ is the average of the squared values of these $\tilde{\beta}_i$, $\bar{s}_{p, t-1} \tilde{\epsilon}_{i}$ is the average of $s\tilde{\epsilon}_i$ for portfolio $p_i$
