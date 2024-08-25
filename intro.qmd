@@ -5,7 +5,7 @@
 ```{=tex}
 \begin{equation}
 x_{im}  \equiv \frac{\text{total market value of all units of assets} \ i}{\text{total market value of all assets}}
-where asset (i) in the portfolio (m)
+\text{where asset} (i) \text{in the portfolio} (m)
 \end{equation} 
 \label{Equation:BlackScholes1972}
 ```
