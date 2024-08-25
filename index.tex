@@ -179,7 +179,7 @@
 
 \begin{document}
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, breakable, borderline west={3pt}{0pt}{shadecolor}, boxrule=0pt, sharp corners, enhanced, interior hidden]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, interior hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced, breakable, boxrule=0pt, sharp corners]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -221,8 +221,7 @@ asset \(i\) of the portfolio \(m\), measured relative to
 
 \begin{align}
     E(\tilde{R_i}) = \left[E(\tilde{R_m}) -S_m \sigma(\tilde{R_m} ) \right] + S_m \sigma (\tilde{R_m}) \beta_i,\\
-    \text{where}\\
-    \beta_i \equiv \frac{cov(\tilde{R_i}, \tilde{R_m})}{\sigma^2(\tilde{R_m})} = \frac{\sigma_{j=1}^{N} x_{jm}\sigma_{ij}}{\sigma^2 (\tilde{R_m})}
+    \text{where},
 \end{align}
 \label{Equation:ExpectedReturnFama1953}
 
