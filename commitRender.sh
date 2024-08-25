@@ -5,4 +5,4 @@ rm *pdf
 quarto render ./index.qmd --to pdf --no-browser --no-watch-inputs
 git add .  
 git commit -m "$1"
-git push 
+git push
