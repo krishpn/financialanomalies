@@ -85,3 +85,19 @@ Equation \ref{Equation:ExpectedReturnFama1953EquationTen} the indepenent variabl
 \end{align}
 \label{Equation:Litzenberger1979Eqn23}
 ```
+
+@banz1981relationship: studies "size effect" by using market indices - Market Index, CRSP value weighted, CRSP equal weighted indexes, US Bond Index, Corporate Bond Index to estimate the relationship between the return and market value.
+
+```{=tex}
+\begin{align}
+    &R_{it} = \gamma_{0t}+\gamma_{1t}\beta_{1t}+\gamma_{2t} \left[ (\phi_{1t}-\phi_{mt}) \right] + \epsilon_{it}, i=1,\cdots,N \\
+    &\text{where:} \nonumber \\
+    & R_i = \text{return on security } i \nonumber \\
+    & \gamma_0= \text{return on a zero-beta portfolio}\nonumber \\
+    & \gamma_1= \text{return on market risk premium}\nonumber \\
+    & \phi_i= \text{market value security } i\nonumber \\
+    & \phi_m= \text{average market value } \nonumber \\
+    & \gamma_2 \text{constant measuring the contribution of} \phi_i \text{to the expected return of a security} \nonumber \\
+\end{align}
+\label{Equation:banz1981Equation3}
+```
