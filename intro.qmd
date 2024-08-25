@@ -1,6 +1,6 @@
 # Introduction
 
-@fama1973risk : Two-parameter risk-return regression equation is based in 
+@fama1973risk : Two-parameter risk-return regression equation is based on Equation \ref{Equation:BlackScholes1972}: 
 
 ```{=tex}
 \begin{align}
