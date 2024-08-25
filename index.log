@@ -1345,9 +1345,8 @@ See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.214 \caption
-              {Definition of weighted market equilibirum (market portfloio) ...
- 
+l.214 \end{align*}
+                   
 Here is how much of TeX's memory you used:
  36977 strings out of 476683
  772530 string characters out of 5804046
@@ -1356,4 +1355,5 @@ Here is how much of TeX's memory you used:
  518702 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  108i,11n,121p,10600b,390s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
 Output written on index.pdf (3 pages).
