@@ -27,3 +27,12 @@ Excepted Return is given by Equation \ref{Equation:ExpectedReturnFama1953}, $\be
 ```
 
 Hence, Equation \ref{Equation:ExpectedReturnFama1953} refers that expected return on security $i$ is $E(\tilde{R_0})$, the expected return on a security that is riskless in the portfolio $m$, plus a risk premium that is $\beta_i$ times the difference between $E(\tilde{R_m})$ and $E(\tilde{R_0})$
+
+For each period of $t$, the cross sectional regression is given by 
+
+```{=tex}
+\begin{align}
+    & R_{pt} = \tilde{\gamma}_{0t} + \tilde{\gamma}_{1t} \tilde{\beta}_{p,t-1}+\tilde{\gamma}_{2t} \tilde{\beta}_{p,t-1} 
+\end{align}
+\label{Equation:ExpectedReturnFama1953EquationTen}
+```
