@@ -179,7 +179,7 @@
 
 \begin{document}
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, interior hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced, boxrule=0pt, frame hidden, breakable]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, frame hidden, interior hidden, borderline west={3pt}{0pt}{shadecolor}, boxrule=0pt, breakable, enhanced]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -207,10 +207,10 @@ risk-return relationships based on efficient market porfolio (\(m\))
 constructed according to Equation \ref{Equation:BlackScholes1972} for an
 asset (\(i\)).
 
-\begin{align}
+\begin{align*}
     &x_{im}  \equiv \frac{\text{total market value of all units of assets} \ i}{\text{total market value of all assets}} \\
     &\text{where asset} (i) \text{in the portfolio} (m) \nonumber
-\end{align}
+\end{align*}
 \caption{Definition of weighted market equilibirum (market portfloio) according to Black Scholes. This is assumed to be always efficient construction.}
 \label{Equation:BlackScholes1972}
 
