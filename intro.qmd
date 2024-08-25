@@ -61,7 +61,7 @@ Equation \ref{Equation:ExpectedReturnFama1953EquationTen} the indepenent variabl
 \begin{align}
     & \Delta P_{i}^{t} = \frac{P_{it}-P_{it-1}}{P_{it-1}} \times 100 \\
     & \text{where } \Delta P_{i}^{t} \text{is the percent change of the security } i \text{during the period} t-1 \text{to} t \nonumber \\
-    & \text{The average yearly percentage of the prices change for portfolio} j (\Delta P_j) \text{is given by}
+    & \text{The average yearly percentage of the prices change for portfolio} j (\Delta P_j) \text{is given by} \nonumber \\
     & \Delta P_{j} =\frac{\sum_{t=1}^{14} \frac{\sum_{r_t=10j-9}^{10j} \Delta P_{rt}^{t}}{14} }{14}, r_{t}=1,\cdots,190 \nonumber\\
     & \text{where:} \nonumber \\
     & r_{t} = \text{the relative ranking of a security at time t according to its prediction error at that year}. \\
