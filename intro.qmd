@@ -16,11 +16,11 @@ Excepted Return is given by Equation \ref{Equation:ExpectedReturnFama1953}, $\be
 
 ```{=tex}
 \begin{align}
-    &E(\tilde{R_i}) = \left[E(\tilde{R_m}) -S_m \sum\tilde{R_m}  \right] + S_m \sigma (\tilde{R_m}) \beta_i,\\
-    &\text{where}, \nonumber \\ 
-    &\beta_i \equiv \frac{cov(\tilde{R_i}, \tilde{R_m})}{\sigma^2(\tilde{R_m})} = \frac{\sigma_{j=1}^{N} x_{jm}\sigma_{ij}}{\sigma^2 (\tilde{R_m})}=\frac{cov(\tilde{R_i},\tilde{R_m})/\sigma(\tilde{R_m})}{\sigma (\tilde{R_m})} \nonumber \\
-    &S_m=\frac{E(\tilde{R_m})-E(\tilde{R_0})}{\sigma (\tilde{R_m})} \\ \nonumber
-    &\text{hence} \nonumber
+    E(\tilde{R_i}) = \left[E(\tilde{R_m}) -S_m \sum\tilde{R_m}  \right] + S_m \sigma (\tilde{R_m}) \beta_i,\\
+    \text{where}, \nonumber \\ 
+    \beta_i \equiv \frac{cov(\tilde{R_i}, \tilde{R_m})}{\sigma^2(\tilde{R_m})} = \frac{\sigma_{j=1}^{N} x_{jm}\sigma_{ij}}{\sigma^2 (\tilde{R_m})}=\frac{cov(\tilde{R_i},\tilde{R_m})/\sigma(\tilde{R_m})}{\sigma (\tilde{R_m})} \nonumber \\
+    S_m=\frac{E(\tilde{R_m})-E(\tilde{R_0})}{\sigma (\tilde{R_m})}  \nonumber\\
+    \text{hence} \nonumber \\
     E(\tilde{R_i}) = E(\tilde{R_0}) + \left[ E(\tilde{R_m}) - E(\tilde{R_0}) \right] \beta_i
 \end{align}
 \label{Equation:ExpectedReturnFama1953}
