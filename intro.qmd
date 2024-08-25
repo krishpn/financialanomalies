@@ -38,7 +38,26 @@ For each period of $t$, the cross sectional regression is given by
 Equation \ref{Equation:ExpectedReturnFama1953EquationTen} the indepenent variable $\tilde{\beta}_{p,t-1}$ is the average of the $\tilde{\beta}_i$ for securities in portfolio $p$, $\tilde{\beta}_{p,t-1}^2$ is the average of the squared values of these $\tilde{\beta}_i$, $\bar{s}_{p, t-1} \tilde{\epsilon}_{i}$ is the average of $s\tilde{\epsilon}_i$ for portfolio $p_i$
 
 
-@gupta1975investors examines investors growth expectations reflected in the stock prices. A change in the expectation is reflected in the price movement. 
+@gupta1975investors examines investors growth expectations reflected in the stock prices. A change in the expectation is reflected in the price movement. The study defines the earnings price ratio is a function of risk characteristics of the security and the expected growth in the earnings in Equation \ref{Equation:OferEquation1975EquationOne}. The risk component are measured by:
+- the beta coefficient
+- the firm asset size
+- dividend payout ratio
+- leverage
+- earnings variablity
+
+```{=tex}
+\begin{align}
+
+&EP = f(RS, EG) \\
+&\text{where:} \nonumber \\
+& EP = \text{earnings price ratio- }, \nonumber \\
+& RS = \text{risk characteristics of the security} \nonumber \\
+& EG =\text{the expected growth rate in the earnings} \nonumber \\
+
+\end{align}
+\label{Equation:OferEquation1975EquationOne}
+```
+
 
 ```{=tex}
 \begin{align}
