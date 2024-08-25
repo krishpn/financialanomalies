@@ -71,5 +71,7 @@ Equation \ref{Equation:ExpectedReturnFama1953EquationTen} the indepenent variabl
 \label{Equation:OferEquation1975}
 ```
 
-<!-- \frac{\sum_{\tau_t}^{10j=10j-9} \deltaP_{rt}^{t}}{10} -->
 
+@basu1977investment: to determine empirically whether the investment performance of the common stocks is related to the $P/E$ ratios. 
+
+$P/E$ is the ratio of market value of the common stock (market price times the number of shares outstanding) as of December 31 to reporting annual earnings (before extraordinary items) available for common stockholders. 
