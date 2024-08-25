@@ -3,10 +3,10 @@
 @fama1973risk two-parameter regression model estimates average risk-return relationships based on efficient market porfolio ($m$) constructed according to Equation \ref{Equation:BlackScholes1972} for an asset ($i$). 
 
 ```{=tex}
-\begin{align}
+\begin{align*}
     &x_{im}  \equiv \frac{\text{total market value of all units of assets} \ i}{\text{total market value of all assets}} \\
     &\text{where asset} (i) \text{in the portfolio} (m) \nonumber
-\end{align}
+\end{align*}
 \caption{Definition of weighted market equilibirum (market portfloio) according to Black Scholes. This is assumed to be always efficient construction.}
 \label{Equation:BlackScholes1972}
 ```
