@@ -112,7 +112,7 @@ during the previous six months, and calculate the portfolio a's or excess return
 evidence, based on CRSP monthly return data, is consistent with the overreaction hypothesis. Substantial weak form market inefficiencies are discovered. The results also shed new light on the January returns earned by prior "winners" and "losers." Portfolios of losers experience exceptionally large January returns as late as five years after
 portfolio formation. To repeat, our goal is to test whether the overreaction hypothesis is predictive. Specifically, two hypotheses are suggested: (1) Extreme movements in stock prices will be followed by subsequent price movements in the opposite direction. (2) The more extreme the initial price movement, the greater will be the subsequent adjustment. Both hypotheses imply a violation of weak-form market efficiency."
 
-@bhandari1988debt: 
+@bhandari1988debt: "The expected returns on common stocks are positively related to the debt/equity ratio (DER), controlling for the beta and firm size, both including and excluding January. This relationship is not sensitive to variations in the market proxy, estimation technique, etc. The evidence suggests that the "premium" associated with the debt/equity ratio is not likely to be just some kind of "risk premium""
 
 ```{=tex}
 \begin{align}
@@ -125,3 +125,18 @@ portfolio formation. To repeat, our goal is to test whether the overreaction hyp
 \label{Equation:bhandari1988debtEquation1}
 ```
 
+@amihud1989effects: 
+
+
+```{=tex}
+\begin{align}
+    &R_{pm} = \gamma_{0}+\gamma_{1}\beta_{pn}+\gamma_{2}\sigma_{pn}+\gamma_{3}SZ_{pn}+\gamma_{4}S_{pn}+\sum_{n=1}^{19}d_n{DY}_n+\epsilon_{pn}
+    &\text{where: } \nonumber \\
+    & p \text{ is the portolio} \nonumber \\
+    & \beta_{pn} \text{ portfolio beta} \nonumber \\
+    & \sigma_{pn} \text{ residual standard deviation} \nonumber \\
+    & S_{pn} \text{ the portfolio average spread} \nonumber \\
+    & {SZ}_{pn} \text{ average market value of the portfolio} \nonumber \\
+\end{align}
+\label{Equation:amihud1989effectsEquation2}
+```
