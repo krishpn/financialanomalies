@@ -36,5 +36,11 @@ Returns and Firm Size",OLS,monthly,1962-78,https://www.sciencedirect.com/science
 
 Debt to Equity Ratio (DER)= (book value of total assets -book value of common equity)/(market value of common equity);
  BETA, the risk measure
-",OLS,monthly,,https://www.jstor.org/stable/pdf/2328473.pdf,"The journal of finance
+",OLS,monthly,1948-79,https://www.jstor.org/stable/pdf/2328473.pdf,"The journal of finance
+"
+1989,amihud1989effects,"Amihud, Yakov and Mendelson, Haim","The effects of beta, bid-ask spread, residual risk, and size on stock returns","Portfolio
+portfolio beta
+residual standard deviation
+the portfolio average spread
+average market value of the portfolio",OLS,annual,1961-80,https://www.jstor.org/stable/pdf/2328600.pdf,"The Journal of Finance
 "
