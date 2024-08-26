@@ -12,8 +12,7 @@ Numerator - market prices times the number of shares outstanding
 Denominator - Annual Earnings ",OLS,monthly,1956-69,https://www.jstor.org/stable/pdf/2326304.pdf,Journal of Finance
 1979,"litzenberger1979effect
 ","Litzenberger, Robert H and Ramaswamy, Krishna
-","The effect of personal taxes and dividends on capital asset prices: Theory and empirical evidence
-",Dividend Yield:  the dollar dividend divided by the current price,OLS,monthly,1931-51,https://www.sciencedirect.com/science/article/abs/pii/0304405X79900126,Journal of Financial Economics
+",The effect of personal taxes and dividends on capital asset prices: Theory and empirical evidence,Dividend Yield:  the dollar dividend divided by the current price,OLS,monthly,1931-51,https://www.sciencedirect.com/science/article/abs/pii/0304405X79900126,Journal of Financial Economics
 1981,"banz1981relationship
 ","Banz, Rolf W
 ","The relationship between return and market value of common stocks
@@ -29,5 +28,13 @@ Returns and Firm Size",OLS,monthly,1962-78,https://www.sciencedirect.com/science
 1985,"de1985does
 ","De Bondt, Werner FM and Thaler, Richard
 ","Does the stock market overreact?
-",Overreaction Effects: Returns reversals based on P/E ,,monthly,1926-1982,https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1540-6261.1985.tb05004.x,"The Journal of finance
+",Overreaction Effects: Returns reversals based on P/E ,OLS,monthly,1926-1982,https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1540-6261.1985.tb05004.x,"The Journal of finance
+"
+1988,bhandari1988debt,"Bhandari, Laxmi Chand
+","Debt/equity ratio and expected common stock returns: Empirical evidence
+","Natural logarithm of total common equity - number of shares outstanding times (month-end) price per share;
+
+Debt to Equity Ratio (DER)= (book value of total assets -book value of common equity)/(market value of common equity);
+ BETA, the risk measure
+",OLS,monthly,,https://www.jstor.org/stable/pdf/2328473.pdf,"The journal of finance
 "

@@ -112,4 +112,16 @@ during the previous six months, and calculate the portfolio a's or excess return
 evidence, based on CRSP monthly return data, is consistent with the overreaction hypothesis. Substantial weak form market inefficiencies are discovered. The results also shed new light on the January returns earned by prior "winners" and "losers." Portfolios of losers experience exceptionally large January returns as late as five years after
 portfolio formation. To repeat, our goal is to test whether the overreaction hypothesis is predictive. Specifically, two hypotheses are suggested: (1) Extreme movements in stock prices will be followed by subsequent price movements in the opposite direction. (2) The more extreme the initial price movement, the greater will be the subsequent adjustment. Both hypotheses imply a violation of weak-form market efficiency."
 
+@bhandari1988debt: 
+
+```{=tex}
+\begin{align}
+    & E(\tilde{r}_i) = E(\tilde{\gamma}_0) + E(\tilde{\gamma}_1){LTEQ}_i+E(\tilde{\gamma}_2){BETA}_i+E(\tilde{\gamma}_3)+{DER}_i, i=1,\cdots, N \\
+    &\text{where: } \nonumber \\
+    &\text{LETQ, natural logarithm of total common equity - number of shares outstanding times (month-end) price per share }\nonumber \\
+    &\text{Debt to Equity Ratio (DER)}\nonumber = \frac{book value of total assets -book value of common equity}{market value of common equity}\\
+    &\text{BETA, the risk measure}\nonumber
+\end{align}
+\label{Equation:bhandari1988debtEquation1}
+```
 
