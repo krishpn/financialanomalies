@@ -38,9 +38,56 @@ Debt to Equity Ratio (DER)= (book value of total assets -book value of common eq
  BETA, the risk measure
 ",OLS,monthly,1948-79,https://www.jstor.org/stable/pdf/2328473.pdf,"The journal of finance
 "
-1989,amihud1989effects,"Amihud, Yakov and Mendelson, Haim","The effects of beta, bid-ask spread, residual risk, and size on stock returns","Portfolio
+1989,amihud1989effects,"Amihud, Yakov and Mendelson, Haim","The effects of beta, bid-ask spread, residual risk, and size on stock returns","The percentage bid-ask spread (= dollar spread divided by the stock price)
+Portfolio
 portfolio beta
 residual standard deviation
 the portfolio average spread
-average market value of the portfolio",OLS,annual,1961-80,https://www.jstor.org/stable/pdf/2328600.pdf,"The Journal of Finance
+average market value of the portfolio",OLS,annual,1960-79,https://www.jstor.org/stable/pdf/2328600.pdf,"The Journal of Finance
 "
+1989,ou1989financial,"Ou, Jane A and Penman, Stephen H",Financial statement analysis and the prediction of stock returns,"Current ratio & its percent change 
+Quick ratio & its percent change
+Days sales in Accounts Receivables and its percentage Change
+Inventory Turnover and its percentage Change
+Inventory / Total Asset Ratio and its percent Change
+Perecent Change in Inventory
+Percent Change in Sales
+Percent Change in Depreciation
+Depreciation / Plant Assets and its percent Change
+Return on Equity and its percent Change
+Percent Change in Capital Expenditure / Total Assets
+Debt-Equity Ratio
+Long Term Debt to Equity and Change in LT
+Equity to Fixed Asset and its Percent Change
+Times interest earned and its percent changes
+Sales / Total Assets
+Return on Total Assets
+Return on Closing Equity
+Gross Margin Ratio and its percent changes
+Operating Profit before depreciation to sales and its percent change
+Pretax income to sales and its percent change
+Net profit Margin and its percent change
+Sales to total Cash
+Sales to accounts receivables
+Sales to inventory and its percent change 
+Sales to working capital and its percent change
+Sales to fixed assets
+Percent Change in Production 
+Percent change in Research and Development
+Percent Change in R&D /Sales
+Percent Change in Advertising Expenses
+Percent Change in Advertising/Sales
+Percent change in Total Assets
+Cash Flow to Total Debt
+Working Capital / Total Assets and its percent change
+Operating Income / Total Assets and its percent change
+Percent change in total uses of funds
+Percent change in total sources of funds
+Repayment of LT debt and percent of total LT debt
+Issuance of LT debt as percent of the total debt
+Purchase of Treasury Stock as percent of the stock
+Percent change in Funds
+Percent Change in LT Debt
+Cash dividend as percent of cash flows
+Percent in working capital
+Net income over cash flows",LOGIT,monthly,1965-83,https://www.sciencedirect.com/science/article/abs/pii/0165410189900177,The Journal of Accounting and Economics

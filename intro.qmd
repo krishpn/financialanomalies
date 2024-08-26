@@ -127,6 +127,7 @@ portfolio formation. To repeat, our goal is to test whether the overreaction hyp
 
 @amihud1989effects: 
 
+The percentage bid-ask spread (= dollar spread divided by the stock price)
 
 ```{=tex}
 \begin{align}
@@ -140,3 +141,5 @@ portfolio formation. To repeat, our goal is to test whether the overreaction hyp
 \end{align}
 \label{Equation:amihud1989effectsEquation2}
 ```
+
+@ou1989financial: "Implements multivariate LOGIT analysis in financial statements. Fundamental analysis extracts value measures from financial statements and compares them to prices to identify mispriced stocks. The evidence here suggests that financial statements capture fundamentals that are not reflected in prices."
