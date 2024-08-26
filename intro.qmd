@@ -118,7 +118,7 @@ portfolio formation. To repeat, our goal is to test whether the overreaction hyp
 \begin{align}
     & E(\tilde{r}_i) = E(\tilde{\gamma}_0) + E(\tilde{\gamma}_1){LTEQ}_i+E(\tilde{\gamma}_2){BETA}_i+E(\tilde{\gamma}_3)+{DER}_i, i=1,\cdots, N \\
     &\text{where: } \nonumber \\
-    &\text{LETQ, natural logarithm of total common equity} - \nonumber \\ \text{number of shares outstanding times (month-end) price per share }\nonumber \\
+    &\text{LETQ, natural logarithm of total common equity} - \nonumber \\ &\text{number of shares outstanding times (month-end) price per share }\nonumber \\
     &\text{Debt to Equity Ratio (DER)}\nonumber = \frac{\text{book value of total assets} -\text{book value of common equity}}{\text{market value of common equity}}\\
     &\text{BETA, the risk measure}\nonumber
 \end{align}
