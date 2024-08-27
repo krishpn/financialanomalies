@@ -143,3 +143,17 @@ The percentage bid-ask spread (= dollar spread divided by the stock price)
 ```
 
 @ou1989financial: "Implements multivariate LOGIT analysis in financial statements. Fundamental analysis extracts value measures from financial statements and compares them to prices to identify mispriced stocks. The evidence here suggests that financial statements capture fundamentals that are not reflected in prices."
+
+
+@jegadeesh1990evidence: "This paper documents strong evidence of predictable behavior of security returns. The results here show that the monthly returns on individual stocks exhibit. significantly negative first-order serial correlation and significantly positive higher-order serial correlation. The pattern of serial correlation exhibits seasonality, with the pattern in January significantly different from that in the other months."
+
+@jegadeesh1993returns: 
+
+@loughran1995new : "Investing in firms issuing stock is hazardous to your wealth. Firms issuing stock during 1970 to 1990, whether an IPO or an SEO, have been poor long-run investments for investors. s. The average annual return during the five years after issuing is only 5 percent for firms conducting IPOs, and only 7 percent for firms conducting SEOs. Investing an equal amount at the same time in a nonissuing firm with approximately the same market capitalization, and holding it for an identical period, would have produced an average compound return of 12 percent per year for IPOs and 15 percent for SEOs. The magnitude of the underperformance is large: it implies that 44 percent more money would need to be invested in the issuers than in the nonissuers to be left with the same wealth five years later."
+
+
+@michaely1995price: "Market reaction to the dividend initiations. "
+
+@la1996expectations: 
+
+

@@ -91,3 +91,18 @@ Percent Change in LT Debt
 Cash dividend as percent of cash flows
 Percent in working capital
 Net income over cash flows",LOGIT,monthly,1965-83,https://www.sciencedirect.com/science/article/abs/pii/0165410189900177,The Journal of Accounting and Economics
+1990,jegadeesh1990evidence,"Jegadeesh, Narasimhan
+","Evidence of predictable behavior of security returns
+","Serial Correlation of Monthly Returns (Short Terms)
+Serial Correlation of Annual Returns (Long Terms)
+",OLS,monthly,1934-87,https://www.jstor.org/stable/pdf/2328797.pdf,The Journal of Finance
+1993,jegadeesh1993returns,"Jegadeesh, Narasimhan and Titman, Sheridan
+",Returns to buying winners and selling losers: Implications for stock market efficiency,Holding Period Returns ,OLS,monthly,1965-89,https://www.jstor.org/stable/pdf/2328882.pdf,The Journal of Finance
+1995,loughran1995new,"Loughran, Tim and Ritter, Jay R
+","The new issues puzzle
+","Seasoned Equity Offerings (Initial Public Offerings), Holding Period Returns, Firm Size, Book to Market Value",OLS,monthly,1970-90,https://www.jstor.org/stable/pdf/2329238.pdf,The Journal of finance
+1995,"michaely1995price
+","Michaely, Roni and Thaler, Richard H and Womack, Kent L",Price reactions to dividend initiations and omissions: Overreaction or drift?,"Cash Dividend
+Prices
+Volume
+Changes in Clientele",,,1964-88,https://www.nber.org/system/files/working_papers/w4778/w4778.pdf,The Journal of Finance
