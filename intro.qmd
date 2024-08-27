@@ -156,4 +156,8 @@ The percentage bid-ask spread (= dollar spread divided by the stock price)
 
 @la1996expectations: " Contrarian strategies that use analysts' expectations to form portfolios yield high returns. Specifically, when stocks are sorted by the expected growth rate in earnings, low E{g} stocks beat high E{g} stocks by twenty percentage points.. Finally, event study evidence suggests that the market was overly pessimistic about the earnings of the low E{g} portfolio and excessively optimistic about the earnings of the high E{g} portfolio"
 
+@lev1996capitalization: "To address these concerns, we estimate the R&D capital of a large sample of public companies and find these estimates to be statistically reliable and economically meaningful. We then adjust the reported earnings and book values of sample firms for the R&D capitalization and find that such adjustments are value-relevant to investors."
+
+
+
 
