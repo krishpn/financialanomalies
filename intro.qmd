@@ -169,5 +169,28 @@ method"
 
 @brennan1998alternative: Regardless of the method used to risk-adjust returns, we find a strong negative relation between average returns and trading volume, which is consistent with a liquidity premium in asset prices. In addition, the size and book-to-market ratio effects are strong in the CK method of risk-adjustment, while the FF factors attenuate both the magnitude and significance of these effects.
 
+@dichev1998risk: " Several studies suggest that a firm distress risk factor could be behind the size and the book-to-market effects. A natural proxy for firm distress is bankruptcy risk. If bankruptcy risk is systematic, one would expect a positive association between bankruptcy risk and subsequent realized returns. However, resullts demonstrate that bankruptcy risk is not rewarded by higher returns. Thus, a distress factor is unlikely to account for the size and book-to-market effects. Surprisingly, firms with high bankruptcy risk earn lower than average returns since 1980. A risk-based explanation cannot fully explain the anomalous evidence."
+
+- Z risk (bankruptcy risk, @altman1968financial) comprised of 
+  - Working capital/Total assets
+  -  Retained Earnings/Total assets
+  -  Earnings before interest and taxes/Total assets
+  -  Market value equity/Book value of total debt
+  -  Sales/Total assets
+- O risk
+  - SIZE = log(total assets/GNP price-level index).
+  - - TLTA = Total liabilities divided by total assets.
+  - WCTA Working capital divided by total assets.
+  - CLCA Current liabilities divided by current assets.
+  - OENEG = One if total liabilities exceeds total assets, zero otherwise.
+  - NITA Net income divided by total assets.
+  - FUTL = Funds provided by operations divided by total liabilities.
+  - INTWO = One if net income was negative for the last two years, zero otherwise.
+  - CHIN = $({NI}_t-{NI}_{t-1})/(|{NI}_t| + |{NI}_{t-1}|)$ where ${NI}_t$ is net
+income for the most recent period. 
+
+
+
+
 
 
