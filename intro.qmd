@@ -192,4 +192,11 @@ method"
 income for the most recent period. 
 
 
-@datar1998liquidity: turnover rate of every stock = monthly trading volume (the average number of shares traded during the previous three months, i.e., during months t- 3, t-2 and t-1) and divide it by the number of shares outstanding of that firm
+@datar1998liquidity:  "In this paper, we provide an alternative test of A&M’s model using the turnover rate as a proxy for liquidity and found strong support for A&M’s model. In particular, we find that the stock returns are strongly negatively related to their turnover rates confirming the notion that illiquid stocks provide
+higher average returns."
+- Monthly Returns
+- turnover rate of every stock = monthly trading volume (the average number of shares traded during the previous three months, i.e., during months t- 3, t-2 and t-1) and divide it by the number of shares outstanding of that firm
+- turnover rate of every stock 
+  -  book-to-market ratio, 
+  -  firm size
+  -  firm beta

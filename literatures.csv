@@ -142,7 +142,9 @@ RET4-6- Natural Logarithm of the cumulative return over the three months ending 
 RET7-12- the natural logarithm of the cumulative return over the six months ending 6 months previously",OLS,Monthly,1966-95,https://www.sciencedirect.com/science/article/abs/pii/S0304405X98000282,The Journal of Financial Economics
 1998,dichev1998risk,"Dichev, Ilia D
 ","Is the risk of bankruptcy a systematic risk?
-","- MV is log of fiscal-year-end price times number of shares outstanding
+","Bankruptcy Risk
+
+- MV is log of fiscal-year-end price times number of shares outstanding
 - BIM is common equity divided by fiscal-year-end price times number of shares outstandin
 - Z risk (bankruptcy risk) comprised of 
   - Working capital/Total assets
@@ -162,3 +164,10 @@ RET7-12- the natural logarithm of the cumulative return over the six months endi
   - CHIN = $({NI}_t-{NI}_{t-1})/(|{NI}_t| + |{NI}_{t-1}|)$ where ${NI}_t$ is net
 income for the most recent period. 
 ",MDA,Monthly,1981-95,https://www.jstor.org/stable/pdf/117389.pdf,The journal of finance
+1998,"datar1998liquidity
+","Datar, Vinay T and Naik, Narayan Y and Radcliffe, Robert",Liquidity and stock returns: An alternative test,"- Monthly Returns
+- turnover rate of every stock = monthly trading volume (the average number of shares traded during the previous three months, i.e., during months t- 3, t-2 and t-1) and divide it by the number of shares outstanding of that firm
+- turnover rate of every stock 
+  -  book-to-market ratio, 
+  -  firm size
+  -  firm beta",GLS,monthly,1962-91,https://www.sciencedirect.com/science/article/abs/pii/S1386418197000049,Journal of Financial Markets
