@@ -200,3 +200,4 @@ higher average returns."
   -  book-to-market ratio, 
   -  firm size
   -  firm beta
+  
