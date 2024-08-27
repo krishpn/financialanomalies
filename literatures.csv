@@ -102,7 +102,14 @@ Serial Correlation of Annual Returns (Long Terms)
 ","The new issues puzzle
 ","Seasoned Equity Offerings (Initial Public Offerings), Holding Period Returns, Firm Size, Book to Market Value",OLS,monthly,1970-90,https://www.jstor.org/stable/pdf/2329238.pdf,The Journal of finance
 1995,"michaely1995price
-","Michaely, Roni and Thaler, Richard H and Womack, Kent L",Price reactions to dividend initiations and omissions: Overreaction or drift?,"Cash Dividend
+","Michaely, Roni and Thaler, Richard H and Womack, Kent L",Price reactions to dividend initiations and omissions: Overreaction or drift?,"Initiation and Omission of Cash Dividend
 Prices
 Volume
-Changes in Clientele",,,1964-88,https://www.nber.org/system/files/working_papers/w4778/w4778.pdf,The Journal of Finance
+Changes in Clientele",OLS,quarterly,1964-88,https://www.nber.org/system/files/working_papers/w4778/w4778.pdf,The Journal of Finance
+"1996
+",la1996expectations,"La Porta, Rafael
+",Expectations and the cross-section of stock returns,"Analyst Forecasting
+book-to-market
+- earnings-to-price
+- cash-flow-to-price ratios",,,,https://www.jstor.org/stable/pdf/2329535.pdf,"The Journal of Finance
+"
