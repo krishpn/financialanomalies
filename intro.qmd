@@ -163,5 +163,11 @@ The percentage bid-ask spread (= dollar spread divided by the stock price)
 
 @womack1996brokerage: " An analysis of new buy and sell recommendations of stocks by security analysts at major U.S. brokerage firms shows significant, systematic discrepancies between prerecommendation prices and eventual values. The initial return at the time of the recommendations is large, even though few recommendations coincide with new public news or provide previously unavailable facts. However, these initial price reactions are incomplete. For buy recommendations, the mean postevent drift is modest (+2.4%) and short-lived, but for sell recommendations, the drift is larger (-9.1%) and extends for six months. Analysts appear to have market timing and stock picking abilities"
 
+@brennan1998alternative: "We examine the relation between stock returns, measures of risk, and several non-risk security characteristics, including the book-to-market ratio, firm size, the stock price, the
+dividend yield, and lagged returns. Our primary objective is to determine whether non-risk characteristics have marginal explanatory power relative to the arbitrage pricing theory benchmark, with factors determined using, in turn, the Connor and Korajczyk (CK; 1988) and the Fama and French (FF; 1993b) approaches. Fama—MacBeth-type regressions using risk adjusted returns provide evidence of return momentum, size, and book-to-market effects, together with a significant and negative relation between returns and trading volume, even after accounting for the CK factors. When the analysis is repeated using the FF factors, we find that the size and book-to-market effects are attenuated, while the momentum and trading volume effects persist. In addition, Nasdaq stocks show significant underperformance after adjusting for risk using either
+method"
+
+@brennan1998alternative: Regardless of the method used to risk-adjust returns, we find a strong negative relation between average returns and trading volume, which is consistent with a liquidity premium in asset prices. In addition, the size and book-to-market ratio effects are strong in the CK method of risk-adjustment, while the FF factors attenuate both the magnitude and significance of these effects.
+
 
 
