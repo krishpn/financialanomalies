@@ -132,9 +132,9 @@ Depreciation and amortization expenses",OLS,monthly,1962-191,https://www.jstor.o
 1996,"womack1996brokerage
 ","Womack, Kent L
 ",Do brokerage analysts' recommendations have investment value?,Brokerage recommendations: postearnings drift and postrecommendation drift,OLS,Monthly,1989-91,https://www.jstor.org/stable/pdf/2329305,The journal of finance
-1998,brennan1998alternative,"Brennan, Michael J and Chordia, Tarun and Subrahmanyam, Avanidhar","Alternative factor specifications, security characteristics, and the cross-section of expected stock returns","Size- natural logarithm of the market value of the equity of the firm as of the end of the second to last month
-BM - natural logarithm of the ratio of the book to equity plus deferred taxes to the market value of the equity, using the end of the previous year market and book values
-DVOL- Natural logarithm of dollar volume to trading in the security in the second to the last month
+1998,brennan1998alternative,"Brennan, Michael J and Chordia, Tarun and Subrahmanyam, Avanidhar","Alternative factor specifications, security characteristics, and the cross-section of expected stock returns","Firm Size- natural logarithm of the market value of the equity of the firm as of the end of the second to last month
+Book to Market Value - natural logarithm of the ratio of the book to equity plus deferred taxes to the market value of the equity, using the end of the previous year market and book values
+Dollar Trading Volume (DVOL)- Natural logarithm of dollar volume to trading in the security in the second to the last month
 PRICE- Natural Logarithm of the reciprocal of the share price as reported at the end of the second to the last month
 YLD- the dividend yield as measured ivy the sum of all dividends paid over the previous 12 months, divided by the share price at the end of the second to the last month
 RET2-3- Natural logarithm of the cumulative return over the two months ending at the bringing of the previous month
