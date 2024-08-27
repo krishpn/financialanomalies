@@ -158,6 +158,10 @@ The percentage bid-ask spread (= dollar spread divided by the stock price)
 
 @lev1996capitalization: "To address these concerns, we estimate the R&D capital of a large sample of public companies and find these estimates to be statistically reliable and economically meaningful. We then adjust the reported earnings and book values of sample firms for the R&D capitalization and find that such adjustments are value-relevant to investors."
 
+@sloan1996stock: "This paper investigates whether stock prices reflect information about future earnings contained in the accrual and cash flow components of current earnings. The persistence of earnings performance is shown to depend on the relative magnitudes of the cash and accrual components of earnings. However, stock prices act as if investors fail to identify correctly the different properties of these two components of earnings"
+
+
+@womack1996brokerage: " An analysis of new buy and sell recommendations of stocks by security analysts at major U.S. brokerage firms shows significant, systematic discrepancies between prerecommendation prices and eventual values. The initial return at the time of the recommendations is large, even though few recommendations coincide with new public news or provide previously unavailable facts. However, these initial price reactions are incomplete. For buy recommendations, the mean postevent drift is modest (+2.4%) and short-lived, but for sell recommendations, the drift is larger (-9.1%) and extends for six months. Analysts appear to have market timing and stock picking abilities"
 
 
 
