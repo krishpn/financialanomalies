@@ -171,6 +171,8 @@ method"
 
 @dichev1998risk: " Several studies suggest that a firm distress risk factor could be behind the size and the book-to-market effects. A natural proxy for firm distress is bankruptcy risk. If bankruptcy risk is systematic, one would expect a positive association between bankruptcy risk and subsequent realized returns. However, resullts demonstrate that bankruptcy risk is not rewarded by higher returns. Thus, a distress factor is unlikely to account for the size and book-to-market effects. Surprisingly, firms with high bankruptcy risk earn lower than average returns since 1980. A risk-based explanation cannot fully explain the anomalous evidence."
 
+- MV is log of fiscal-year-end price times number of shares outstanding
+- BIM is common equity divided by fiscal-year-end price times number of shares outstandin
 - Z risk (bankruptcy risk, @altman1968financial) comprised of 
   - Working capital/Total assets
   -  Retained Earnings/Total assets
@@ -190,7 +192,4 @@ method"
 income for the most recent period. 
 
 
-
-
-
-
+@datar1998liquidity: turnover rate of every stock = monthly trading volume (the average number of shares traded during the previous three months, i.e., during months t- 3, t-2 and t-1) and divide it by the number of shares outstanding of that firm
