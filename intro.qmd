@@ -154,6 +154,6 @@ The percentage bid-ask spread (= dollar spread divided by the stock price)
 
 @michaely1995price: "Market reaction to the dividend initiations. "
 
-@la1996expectations: 
+@la1996expectations: " Contrarian strategies that use analysts' expectations to form portfolios yield high returns. Specifically, when stocks are sorted by the expected growth rate in earnings, low E{g} stocks beat high E{g} stocks by twenty percentage points.. Finally, event study evidence suggests that the market was overly pessimistic about the earnings of the low E{g} portfolio and excessively optimistic about the earnings of the high E{g} portfolio"
 
 
