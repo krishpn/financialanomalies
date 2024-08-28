@@ -243,4 +243,13 @@ and the book-to-market effect is largest in small firms with low analyst coverag
 
 @chen2002breadth: " In this paper, we bring new evidence to bear on an asset-pricing hypothesis which has been around for a long while, but which has thus far not recieved much empirical support. The idea, which dates back to Miller, has to do with the combined effects of short-sales constraints and differences of opinion on stock prices. We develop a model of stock prices in which there are both differences of opinion among investors as well as short-sales constraints. The key insights that emerge in that breadth of ownerwhip is a valuation indicator. When the breadth is low- when investors have long positions in the stock- this signals that hte short-sales constrarint in binding tightly, implying that prices are high relative to fundamentls and that expected reutrns are therefore low."
 
-@gompers2003corporate: 
+@gompers2003corporate: "Shareholder rights vary across firms. Using the incidence of 24 governance rules, we construct a “Governance Index” to proxy for the level of shareholder
+rights at about 1500 large firms during the 1990s. An investment strategy that
+bought firms in the lowest decile of the index (strongest rights) and sold firms in
+the highest decile of the index (weakest rights) would have earned abnormal
+returns of 8.5 percent per year during the sample period. We find that firms with
+stronger shareholder rights had higher firm value, higher profits, higher sales
+growth, lower capital expenditures, and made fewer corporate acquisitions."
+
+@doyle2003predictive: "We investigate the informational properties of pro forma earnings.  This increasingly popular measure of earnings excludes certain expenses that the company deems non-recurring, non-cash, or otherwise unimportant for understanding the future value of the firm. We find, however, that these expenses are far from unimportant. Higher levels of exclusions lead to predictably lower future cash flows. We also find that investors do not fully appreciate the lower cash flow implications at the time of the
+earnings announcement. A trading strategy based on the excluded expenses yields a large positive abnormal return in the years following the announcement, and persists after controlling for various risk factors and other anomalies."
