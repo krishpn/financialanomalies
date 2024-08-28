@@ -218,3 +218,54 @@ RET2-3: the cumulative return over the two months ending at the beginning of the
 RET4-6: the cumulative return over the three months ending three months previously. 
 RET7-12: the cumulative return over the 6 months ending 6 months previously.
 ",OLS,monthly,1966-95,https://www.sciencedirect.com/science/article/abs/pii/S0304405X00000805,Journal of financial Economics
+"2001
+","lamont2001financial
+","Lamont, Owen and Polk, Christopher and Saa-Requejo, Jesus
+",Financial constraints and stock returns,"KZ index calculated as:
+cash flow to total capital (negative), 
+the market to book ratio (positive), 
+debt to total capital (positive), 
+dividends to total capital (negative),
+cash holdings to capital (negative)",OLS,monthly,"1968–97
+",https://academic.oup.com/rfs/article-abstract/14/2/529/1602143,"The review of financial studies
+"
+,"elgers2001delayed
+",,Delayed security price adjustments to financial analysts' forecasts of annual earnings,"E : Actual Earnings Per Share 
+FAF: Median Consensus Forecast of the Year
+SAR: Size-Adjusted Security Return, measured as the realized security return from COMPUSTAT, cumulated over 12 months
+FE: Analysts Forecast Error
+E: Changes in Earnings",,,,,
+,"gompers2001institutional
+","Gompers, Paul A and Metrick, Andrew
+",Institutional investors and equity prices,"Institutional Ownerships (IO):
+Size (market capitalization)
+Log of size, squared, [log(size)]^2
+Book-to-market: book value for the fiscal year ended before the most recent June 30, divided by the size of the December 
+Volatility: The Variance of monthly returns over the previous two years
+Momentum: Past 11 month return, lagged one month
+Age: Number of months since the first return appears in CRSP file
+S &P 500: dummy variable equal to one if the firm is included in the S&P500 otherwise zero
+Turnover: Volume divided byt he shares outstanding, measured for the month prior to the beginning of the the quarter
+Price per share
+Yield: Cash Dividends for the fiscal year ended before the most recent June 30, divided by size",OLS,monthly,1980-96,,
+,griffin2002book,"Griffin, John M and Lemmon, Michael L","Book-to-market equity, distress risk, and stock returns","Total Assets
+Total Liabilities
+Working Capital
+Current Liabilities
+Net Income
+Funds from Operations",OLS,monthly,1965-96,,
+,"diether2002differences
+","Diether, Karl B and Malloy, Christopher J and Scherbina, Anna","Differences of opinion and the cross section of stock returns
+","Number of Firms
+Mean Size
+Analyst Forecast",,,,,
+,"chen2002breadth
+","Chen, Joseph and Hong, Harrison and Stein, Jeremy C
+","Breadth of ownership and stock returns
+","Breadth
+Hold
+Log Size
+Book to market value
+Earnings per Share
+Turnover
+Number of Observations",,quarterly,1979-98,,

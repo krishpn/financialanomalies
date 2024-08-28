@@ -109,8 +109,7 @@ during the previous six months, and calculate the portfolio a's or excess return
 @basu1983relationship: The empirical findings reported in this paper indicate that, at least during the 1963-80 time period, the returns on the common stock of NYSE firms appear to have been related to earnings’ yield and firm size. 
 
 @de1985does: "This study of market efficiency investigates whether such behavior affects stock prices. The empirical
-evidence, based on CRSP monthly return data, is consistent with the overreaction hypothesis. Substantial weak form market inefficiencies are discovered. The results also shed new light on the January returns earned by prior "winners" and "losers." Portfolios of losers experience exceptionally large January returns as late as five years after
-portfolio formation. To repeat, our goal is to test whether the overreaction hypothesis is predictive. Specifically, two hypotheses are suggested: (1) Extreme movements in stock prices will be followed by subsequent price movements in the opposite direction. (2) The more extreme the initial price movement, the greater will be the subsequent adjustment. Both hypotheses imply a violation of weak-form market efficiency."
+evidence, based on CRSP monthly return data, is consistent with the overreaction hypothesis. Substantial weak form market inefficiencies are discovered. The results also shed new light on the January returns earned by prior "winners" and "losers." Portfolios of losers experience exceptionally large January returns as late as five years after portfolio formation. To repeat, our goal is to test whether the overreaction hypothesis is predictive. Specifically, two hypotheses are suggested: (1) Extreme movements in stock prices will be followed by subsequent price movements in the opposite direction. (2) The more extreme the initial price movement, the greater will be the subsequent adjustment. Both hypotheses imply a violation of weak-form market efficiency."
 
 @bhandari1988debt: "The expected returns on common stocks are positively related to the debt/equity ratio (DER), controlling for the beta and firm size, both including and excluding January. This relationship is not sensitive to variations in the market proxy, estimation technique, etc. The evidence suggests that the "premium" associated with the debt/equity ratio is not likely to be just some kind of "risk premium""
 
@@ -124,6 +123,14 @@ portfolio formation. To repeat, our goal is to test whether the overreaction hyp
 \end{align}
 \label{Equation:bhandari1988debtEquation1}
 ```
+
+@amihud1986asset: "llliquidity can be measured by the cost of immediate execution. An investor willing to transact faces a tradeoff: He may either wait to transact at a favorable price or insist on immediate execution at the current bid or ask
+price. The quoted ask (offer) price includes a premium for immediate buying,
+and the bid price similarly reflects a concession required for immediate sale.
+Thus. a natural measure of illiquidity is the spread between the bid and ask prices, which is the sum of the buying premium and the selling concession.’
+Indeed. the relative spread on stocks has been found to be negatively correlated with liquidity characteristics such as the trading volume, the number of
+shareholders. the number of market makers trading the stock and the stock
+price continuity."
 
 @amihud1989effects: 
 
@@ -211,3 +218,29 @@ measures are obtained by breaking these explanatory variables into two industry-
 @piotroski2000value: 
 
 @chordia2001trading: "A body of literature starting with @amihud1986asset has found that investors demand a premium for less liquid stocks, so that expected returns. should be negatively related to the level of liquidity. In this paper, we document negative and signi"cant cross-sectional relationship between average stock returns and the level as well as the second moment of measures of trading activity such as dollar volume and share turnover. Given the evidence that the level of liquidity affects asset returns, a reasonable hypothesis is that the second moment of liquidity should be positively related to asset returns, provided agents care about the risk associated with fluctuations in liquidity. Motivated by this observation, we analyze the relation between expected equity returns and the level as well as the volatility of trading activity, a proxy for liquidity. We document a result contrary to our initial hypothesis, namely, a negative and surprisingly strong cross-sectional relationship between stock returns and the variability of dollar trading volume and share turnover, after controlling for size, book-to-market ratio, momentum, and the level of dollar volume or share turnover. This e!ect survives a number of robustness checks, and is statistically and economically signi"cant. Our analysis demonstrates the importance of trading activity-related variables in the crosssection of expected stock returns."
+
+@lamont2001financial: "We test whether the impact of financial constraints on firm value is observable in stock returns. We form portfolios of firms based on observable characteristics related to financial constraints and test for common variation in stock returns. Financially constrained firms’ stock returns move together over time, suggesting that constrained firms are subject to common shocks. Constrained firms have low average stock returns in our 1968–1997
+sample of growing manufacturing firms. We find no evidence that the relative performance of constrained firms reflects monetary policy, credit conditions, or business cycles. We construct various zero-cost portfolios that are long financially constrained firms and short less constrained firms and find three results. First, these portfolios capture common variation in stock returns not captured by other sources of return comovements. Thus we conclude that there is a financial constraints factor, an identifiable independent common source of economic
+shocks to firm value. The evidence suggests that financial constraints do
+affect firm value and that the severity of constraints varies over time. Second,
+our investigation of the role of financial constraints in asset pricing reveals
+the surprising result that constrained firms earn lower returns than unconstrained firms, a result not explainable using existing asset-pricing models.
+Third, financially constrained firms do not have returns that are significantly
+more cyclical than average. Thus, the source of the common economic shocks
+to financially constrained firms remains an open question.The proxies are constructed based on @kaplan1995financing"
+
+@elgers2001delayed: "The paper documents that the weighthing of analysts annual earnings forecasts implicit in security prices is lower than the historical relation between the financial analysts forecasts and realized earnings. Our evidence that analysts the beginging of the year annual earnings forecasts are associated with abnormal security returns subsequently accumulated over the earnings year is consistent with the delayed price reaction to the value-relevant information in the posistions in the securityies in the bottom (top) deciles of the corss-sectional distribution of the analysts earnings forecasts early in the earnings year, generates statistically siginificant trading profits in the year after porfolio formation for firms with relatively low analysts coverage."
+
+@gompers2001institutional: "We analyze the investors preferences for the stock and the implications that these preferences have for stock-market prices and returns. We find that large institutional investors- a category including all managers with greater than $100 million under discretional control --have nearly doubled their share of the common staock from 1980 to 1996, with most of this increase driven by the growth in the holdings of the largest one hundred institutions."
+
+@griffin2002book: "This paper examines the relationship between book-to-market equity, distress risk, and stock returns. Among firms with the highest distress risk as proxied by @ohlson1980financial 0-score, the difference in returns between high and low book-tomarket securities is more than twice as large as that in other firms. This large
+return differential cannot be explained by the three-factor model or by differences
+in economic fundamentals. Consistent with mispricing arguments, firms with high
+distress risk exhibit the largest return reversals around earnings announcements,
+and the book-to-market effect is largest in small firms with low analyst coverage. "
+
+@diether2002differences: "We provide evidence that stocks with higher dispersion in analysts' earnings fore-casts earn lower future returns than otherwise similar stocks. This effect is mostpronounced in small stocks and stocks that have performed poorly over the pastyear. Interpreting dispersion in analysts' forecasts as a proxy for differences inopinion about a stock, we show that this evidence is consistent with the hypothesisthat prices will reflect the optimistic view whenever investors with the lowestvaluations do not trade. By contrast, our evidence is inconsistent with a view thatdispersion in analysts' forecasts proxies for risk."
+
+@chen2002breadth: " In this paper, we bring new evidence to bear on an asset-pricing hypothesis which has been around for a long while, but which has thus far not recieved much empirical support. The idea, which dates back to Miller, has to do with the combined effects of short-sales constraints and differences of opinion on stock prices. We develop a model of stock prices in which there are both differences of opinion among investors as well as short-sales constraints. The key insights that emerge in that breadth of ownerwhip is a valuation indicator. When the breadth is low- when investors have long positions in the stock- this signals that hte short-sales constrarint in binding tightly, implying that prices are high relative to fundamentls and that expected reutrns are therefore low."
+
+@gompers2003corporate: 
