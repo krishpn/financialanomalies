@@ -191,13 +191,30 @@ percent change in employees over the most recent year",OLS,monthly,1963-98,https
 2000,"piotroski2000value
 ","Piotroski, Joseph D
 ","Value investing: The use of historical financial statement information to separate winners from losers
-","-MVE
-- ASSETS
-BM
-ROA
-MARGIN
-CFO
-LIQUID
-LEVER
-TURN
-ACCRUAL",,,,https://www.jstor.org/stable/pdf/2672906.pdf,Journal of Accounting Research
+","- MVE: market value of equity at the end of the year
+- ASSETS: total assets 
+BM: Book Value of Equity at the end of the fiscal year, scaled by MVE
+ROA: net income before extraordinary items for the fiscal year preceding portfolio formation scaled by total attest at the beginning of the year
+MARGIN: gross margin (net sales less cost of good sold)
+CFO: Cash flow from operations scaled by total assets at the beginning of year
+LIQUID: Change in the firm’s current ratio between the end of the year t and year t-1
+LEVER: Change in the firm’s debt (including the portion of long-term debt classified as current) scaled by average total assets
+TURN: change in the firm’s asset turnover ratio between the end of the year t and year t-1. The asset turnover ratio is defined as net sales scaled by average total assets for the year
+ACCRUAL: net income before extraordinary items less cash flow from operations, scaled by total assets at the beginning of the year t",OLS,monthly,,https://www.jstor.org/stable/pdf/2672906.pdf,Journal of Accounting Research
+2001,"chordia2001trading
+","Chordia, Tarun and Subrahmanyam, Avanidhar and Anshuman, V Ravi
+","Trading activity and expected stock returns
+","Size: the natural logarithm of market value of the equity of the firm as of the end of the second to last month
+BM: the natural logarithm of the ratio of the book value of the equity plus deferred taxes to the makers value of the equity, using the end of the previous year market and book values.
+DVOL: the natural logarithm of the dollar volume of trading in the security in the second to the last month
+STDVOL: Standard Deviation the dollar volume calculated over the past 36 months beginning in the second to the last month
+CVVOL: the natural logarithm of the coefficients of variations of dollar volume calculated over the past 36 months beginning in the second to the last months
+TURN: the natural logarithm of the share turnover measured by the number of shares traded divided by the number of shares outstanding in the second to last month.
+STDTURN: the natural logarithm of the standard deviation of turnover calculated over the past 36 months beginning in the second to last month. 
+CVTURN: the natural logarithm of the coe$cient of variation of turnover calculated over the past 36 months beginning in the second to last month. 
+PRICE: the natural logarithm of the reciprocal of the share price as reported at the end of the second to last month.
+YLD: the dividend yield as measured by the sum of all dividends paid over the previous 12 months, divided by the share price at the end of the second to last month.
+RET2-3: the cumulative return over the two months ending at the beginning of the previous month. 
+RET4-6: the cumulative return over the three months ending three months previously. 
+RET7-12: the cumulative return over the 6 months ending 6 months previously.
+",OLS,monthly,1966-95,https://www.sciencedirect.com/science/article/abs/pii/S0304405X00000805,Journal of financial Economics
