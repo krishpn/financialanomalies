@@ -201,3 +201,7 @@ higher average returns."
   -  firm size
   -  firm beta
   
+@moskowitz1999industries: " This paper documents a strong and prevalent momentum effect in ind ponents of stock returns which accounts for much of the individual sto tum anomaly. Specifically, momentum investment strategies, which buy p stocks and sell past losing stocks, are significantly less profitable once for industry momentum. By contrast, industry momentum investmen which buy stocks from past winning industries and sell stocks from p industries, appear highly profitable, even after controlling for size, book equity, individual stock momentum, the cross-sectional dispersion in m and potential microstructur"
+
+@lee2000price: "This study shows that past trading volume provides an important link between "momentum" and "value" strategies. Specifically, we find that firms with high (low) past turnover ratios exhibit many glamour (value) characteristics, earn lower (higher) future returns, and have consistently more negative (positive) earnings surprises over the next eight quarters. Past trading volume also predicts both the magnitude and persistence of price momentum. Specifically, price momentum effects reverse over the next five years, and high (low) volume winners (losers) experience faster reversals. Collectively, our findings show that past volume helps to reconcile intermediate-horizon "underreaction" and long-horizon "overreaction" effects"
+
