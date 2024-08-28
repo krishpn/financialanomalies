@@ -270,9 +270,7 @@ Earnings per Share
 Turnover
 Number of Observations",,quarterly,1979-98,,
 ,"gompers2003corporate
-","Corporate governance and equity prices
-","Gompers, Paul and Ishii, Joy and Metrick, Andrew
-","Governance Index
+","Gompers, Paul and Ishii, Joy and Metrick, Andrew",Corporate governance and equity prices,"Governance Index
 Blank Check
 Classification Board
 Special Meeting
@@ -305,9 +303,36 @@ Q
 Yield
 SP500
 Growth",,,1990-98,,
-,doyle2003predictive,"The predictive value of expenses excluded from pro forma earnings
-","Doyle, Jeffrey T and Lundholm, Russell J and Soliman, Mark T","- Free Cash Flow
+,doyle2003predictive,"Doyle, Jeffrey T and Lundholm, Russell J and Soliman, Mark T
+",The predictive value of expenses excluded from pro forma earnings,"- Free Cash Flow
 Pro Forma Earnings
 Total Exclusions
 Sales Growth
 Accruals",,,,,
+,fairfield2003accrued,"Fairfield, Patricia M and Whisenant, J Scott and Yohn, Teri Lombardi","Accrued earnings and growth: Implications for future profitability and market mispricing
+","ROA: OPINC: Operating Income after depreciation and amortization 
+TA: Total Assets
+ACC: Accruals
+Growth (net change) in operating working capital accounts
+DEPAMORT: Depreciation and amortization expense
+INV: Change in inventories
+OtherCA: Change in current assets
+AP: Change in account payable
+OTHERCL: Other current liabilities
+CFO: Cash flows from Operations
+GrNOA: Growth in net operating assets",OLS,Quarterly,1964-93,,
+,watkins2003riding,"Watkins, Boyce",Riding the wave of sentiment: An analysis of return consistency as a predictor of future returns,"positive: positive returns for six consecutive months
+Negative: negative returns for six consecutive months
+",OLS,monthly,1927-99,,
+,"eberhart2004examination
+","Eberhart, Allan C and Maxwell, William F and Siddique, Akhtar R
+","An examination of long-term abnormal stock returns and operating performance following R&D increases
+","Abnormal Stock Returns
+Abnormal Operating Performance measures
+R&D/Sales
+R&D/Assets
+Sales
+Total Assets
+Market Capitalization",,Not consistent,1951-2001,,
+,george200452,"George, Thomas J and Hwang, Chuan-Yang",The 52-week high and momentum investing,"Momentum Strategies from @jegadeesh1993returns
+Momentum Strategies from @moskowitz1999industries",,,1963-01,,
