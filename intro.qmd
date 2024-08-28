@@ -205,3 +205,7 @@ higher average returns."
 
 @lee2000price: "This study shows that past trading volume provides an important link between "momentum" and "value" strategies. Specifically, we find that firms with high (low) past turnover ratios exhibit many glamour (value) characteristics, earn lower (higher) future returns, and have consistently more negative (positive) earnings surprises over the next eight quarters. Past trading volume also predicts both the magnitude and persistence of price momentum. Specifically, price momentum effects reverse over the next five years, and high (low) volume winners (losers) experience faster reversals. Collectively, our findings show that past volume helps to reconcile intermediate-horizon "underreaction" and long-horizon "overreaction" effects"
 
+@asness2000predicting: "Better proxies for the information about future returns contained in firm characteristics such as size, book-to-market equity, cash flow-to-price, percent change in employees, and various past return
+measures are obtained by breaking these explanatory variables into two industry-related components. "
+
+@piotroski2000value: 

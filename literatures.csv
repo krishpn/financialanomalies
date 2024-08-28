@@ -171,3 +171,33 @@ income for the most recent period.
   -  book-to-market ratio, 
   -  firm size
   -  firm beta",GLS,monthly,1962-91,https://www.sciencedirect.com/science/article/abs/pii/S1386418197000049,Journal of Financial Markets
+1999,"moskowitz1999industries
+","Moskowitz, Tobias J and Grinblatt, Mark",Do industries explain momentum?,"Momentum Effect: 
+the average percentage of total market capitalization, 
+the average return in excess of the three-month Treasury bill rate, the return standard deviation, t
+he average abnormal return in excess of size and BE/ME m",OLS,monthly,1963-95,https://www.jstor.org/stable/pdf/798005.pdf,The journal of finance
+2000,lee2000price,"Lee, Charles MC and Swaminathan, Bhaskaran
+","Price momentum and trading volume
+","- Return
+- Volume
+- Size Rank
+- Price",OLS,monthly,1965-95,https://www.jstor.org/stable/pdf/222483.pdf,The journal of finance
+2000,asness2000predicting,"Asness, Clifford S and Porter, R Burt and Stevens, Ross L
+","Predicting stock returns using industry-relative firm characteristics
+","Market Equity
+Book to Market Ration (BE/ME)
+Cash Flow to PRICE (C/P)
+percent change in employees over the most recent year",OLS,monthly,1963-98,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=213872,SSRN
+2000,"piotroski2000value
+","Piotroski, Joseph D
+","Value investing: The use of historical financial statement information to separate winners from losers
+","-MVE
+- ASSETS
+BM
+ROA
+MARGIN
+CFO
+LIQUID
+LEVER
+TURN
+ACCRUAL",,,,https://www.jstor.org/stable/pdf/2672906.pdf,Journal of Accounting Research
