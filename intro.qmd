@@ -274,7 +274,6 @@ Measure of Illiquidity  (based on Amihud, 2002):
 ```{=tex}
 \begin{align}
 &ILLIQ_t^t=\frac{1}{Days}_i^t \sum_{d=1}^{Days}_i^t \frac{|R_{td}^i|}{V_{td}^i}
-    
 \end{align}
 \label{Equation:acharya2005assetEquation11}
 ```
