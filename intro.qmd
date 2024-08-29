@@ -260,3 +260,21 @@ earnings announcement. A trading strategy based on the excluded expenses yields 
 
 @eberhart2004examination: "We examine a sample of 8,313 cases, between 1951 and 2001, where firms unex edly increase their research and development (R&D) expenditures by a signif amount. We find consistent evidence of a misreaction, as manifested in the si cantly positive abnormal stock returns that our sample firms' shareholders expe following these increases. We also find consistent evidence that our sample firm perience significantly positive long-term abnormal operating performance follow their R&D increases. Our findings suggest that R&D increases are beneficial in ments, and that the market is slow to recognize the extent of this benefit (cons with investor underreaction). "
 @george200452: "When coupled with a stock's current price, a readily available piece of information 52-week high price-explains a large portion of the profits from momentum investi Nearness to the 52-week high dominates and improves upon the forecasting power past returns (both individual and industry returns) for future returns. Future retu forecast using the 52-week high do not reverse in the long run. These results indi that short-term momentum and long-term reversals are largely separate phenome which presents a challenge to current theory that models these aspects of secur returns as integrated components of the market's resp"
+
+@jegadeesh2004analyzing
+
+@titman2004capital
+
+@cremers2005governance
+
+@acharya2005asset:
+
+Measure of Illiquidity  (based on Amihud, 2002):
+
+```{=tex}
+\begin{align}
+&ILLIQ_t^t=\frac{1}{Days}_i^t \sum_{d=1}^{Days}_i^t \frac{|R_{td}^i|}{V_{td}^i}
+    
+\end{align}
+\label{Equation:acharya2005assetEquation11}
+```

@@ -1,32 +1,24 @@
 year,google_Scholar_citation_key,authors,title,variables,method,data_frequency,data_coverage, link,journal
-1973,"fama1973risk
-",Eugene F. Fama and James D. MacBeth,Risk Return and Equilibrium: Empirical Tests,risk and return,OLS,monthly,1943-68,https://www.jstor.org/stable/pdf/1831028.pdf,Journal of Political Economy
-1975,"gupta1975investors
-",Aharon R. Ofer,"Investors' Expectations of Earnings Growth, Their Accuracy and Effects on the Structure of Realized Rates of Return","Price Earnings Ratio : Risk and Earnings Growth Expectation. 
+1973,fama1973risk,Eugene F. Fama and James D. MacBeth,Risk Return and Equilibrium: Empirical Tests,risk and return,OLS,monthly,1943-68,https://www.jstor.org/stable/pdf/1831028.pdf,Journal of Political Economy
+1975,gupta1975investors,Aharon R. Ofer,"Investors' Expectations of Earnings Growth, Their Accuracy and Effects on the Structure of Realized Rates of Return","Price Earnings Ratio : Risk and Earnings Growth Expectation. 
 Risk measured by beta coefficient, dividend payout ratio, firm asset size (natural log of total asset), leverage, earnings variability",OLS,monthly,1948-68,https://www.jstor.org/stable/pdf/2978730.pdf,Journal of Finance
-"1977
-","basu1977investment
-","Basu, Sanjoy
+1977,basu1977investment,"Basu, Sanjoy
 ",Investment performance of common stocks in relation to their price-earnings ratios: a test of the efficient market hypothesis,"Price Earnings Ratio:
 Numerator - market prices times the number of shares outstanding
 Denominator - Annual Earnings ",OLS,monthly,1956-69,https://www.jstor.org/stable/pdf/2326304.pdf,Journal of Finance
-1979,"litzenberger1979effect
-","Litzenberger, Robert H and Ramaswamy, Krishna
+1979,litzenberger1979effect,"Litzenberger, Robert H and Ramaswamy, Krishna
 ",The effect of personal taxes and dividends on capital asset prices: Theory and empirical evidence,Dividend Yield:  the dollar dividend divided by the current price,OLS,monthly,1931-51,https://www.sciencedirect.com/science/article/abs/pii/0304405X79900126,Journal of Financial Economics
-1981,"banz1981relationship
-","Banz, Rolf W
+1981,banz1981relationship,"Banz, Rolf W
 ","The relationship between return and market value of common stocks
 ","Total Market Value and its Return : Price, Return and Number of Outstanding Shares: Market Index, CRSP value weighted index, CRSP equal weighted index, Government bon index, Corporate Bond index",OLS,monthly,1936-75,https://www.sciencedirect.com/science/article/abs/pii/0304405X81900180,Journal of Financial Economics
-1981,"figlewski1981informational
-","Figlewski, Stephen","The informational effects of restrictions on short sales: Some empirical evidence
+1981,figlewski1981informational,"Figlewski, Stephen","The informational effects of restrictions on short sales: Some empirical evidence
 ",Short Interest to calculate Excess Returns,OLS,monthly,1973-79,https://www.jstor.org/stable/2330366,Journal of Financial and Quantitative Analysis
 1983,basu1983relationship,"Basu, Sanjoy
 ","The relationship between earnings' yield, market value and return for NYSE common stocks: Further evidence
 ","Earning Yield (E/P) : 12-month moving earnings per share, excluding extraordinary items and discontinued operations,
 Market Value: market price times the number of shares outstanding,
 Returns and Firm Size",OLS,monthly,1962-78,https://www.sciencedirect.com/science/article/abs/pii/0304405X83900314,Journal of Financial Economics
-1985,"de1985does
-","De Bondt, Werner FM and Thaler, Richard
+1985,de1985does,"De Bondt, Werner FM and Thaler, Richard
 ","Does the stock market overreact?
 ",Overreaction Effects: Returns reversals based on P/E ,OLS,monthly,1926-1982,https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1540-6261.1985.tb05004.x,"The Journal of finance
 "
@@ -101,20 +93,17 @@ Serial Correlation of Annual Returns (Long Terms)
 1995,loughran1995new,"Loughran, Tim and Ritter, Jay R
 ","The new issues puzzle
 ","Seasoned Equity Offerings (Initial Public Offerings), Holding Period Returns, Firm Size, Book to Market Value",OLS,monthly,1970-90,https://www.jstor.org/stable/pdf/2329238.pdf,The Journal of finance
-1995,"michaely1995price
-","Michaely, Roni and Thaler, Richard H and Womack, Kent L",Price reactions to dividend initiations and omissions: Overreaction or drift?,"Initiation and Omission of Cash Dividend
+1995,michaely1995price,"Michaely, Roni and Thaler, Richard H and Womack, Kent L",Price reactions to dividend initiations and omissions: Overreaction or drift?,"Initiation and Omission of Cash Dividend
 Prices
 Volume
 Changes in Clientele",OLS,quarterly,1964-88,https://www.nber.org/system/files/working_papers/w4778/w4778.pdf,The Journal of Finance
-"1996
-",la1996expectations,"La Porta, Rafael
+1996,la1996expectations,"La Porta, Rafael
 ",Expectations and the cross-section of stock returns,"Analyst Forecasting
 book-to-market
 - earnings-to-price
 - cash-flow-to-price ratios",,,,https://www.jstor.org/stable/pdf/2329535.pdf,"The Journal of Finance
 "
-1996,"lev1996capitalization
-","Lev, Baruch and Sougiannis, Theodore
+1996,lev1996capitalization,"Lev, Baruch and Sougiannis, Theodore
 ","The capitalization, amortization, and value-relevance of R&D
 ","R&D capital
 Book values
@@ -129,8 +118,7 @@ Change in Current Liabilities
 Change in Debt included in the current liabilities
 Change in income taxes payable
 Depreciation and amortization expenses",OLS,monthly,1962-191,https://www.jstor.org/stable/248290,Accounting review
-1996,"womack1996brokerage
-","Womack, Kent L
+1996,womack1996brokerage,"Womack, Kent L
 ",Do brokerage analysts' recommendations have investment value?,Brokerage recommendations: postearnings drift and postrecommendation drift,OLS,Monthly,1989-91,https://www.jstor.org/stable/pdf/2329305,The journal of finance
 1998,brennan1998alternative,"Brennan, Michael J and Chordia, Tarun and Subrahmanyam, Avanidhar","Alternative factor specifications, security characteristics, and the cross-section of expected stock returns","Firm Size- natural logarithm of the market value of the equity of the firm as of the end of the second to last month
 Book to Market Value - natural logarithm of the ratio of the book to equity plus deferred taxes to the market value of the equity, using the end of the previous year market and book values
@@ -162,17 +150,14 @@ RET7-12- the natural logarithm of the cumulative return over the six months endi
   - FUTL = Funds provided by operations divided by total liabilities.
   - INTWO = One if net income was negative for the last two years, zero otherwise.
   - CHIN = $({NI}_t-{NI}_{t-1})/(|{NI}_t| + |{NI}_{t-1}|)$ where ${NI}_t$ is net
-income for the most recent period. 
-",MDA,Monthly,1981-95,https://www.jstor.org/stable/pdf/117389.pdf,The journal of finance
-1998,"datar1998liquidity
-","Datar, Vinay T and Naik, Narayan Y and Radcliffe, Robert",Liquidity and stock returns: An alternative test,"- Monthly Returns
+income for the most recent period.",MDA,Monthly,1981-95,https://www.jstor.org/stable/pdf/117389.pdf,The journal of finance
+1998,datar1998liquidity,"Datar, Vinay T and Naik, Narayan Y and Radcliffe, Robert",Liquidity and stock returns: An alternative test,"- Monthly Returns
 - turnover rate of every stock = monthly trading volume (the average number of shares traded during the previous three months, i.e., during months t- 3, t-2 and t-1) and divide it by the number of shares outstanding of that firm
 - turnover rate of every stock 
   -  book-to-market ratio, 
   -  firm size
   -  firm beta",GLS,monthly,1962-91,https://www.sciencedirect.com/science/article/abs/pii/S1386418197000049,Journal of Financial Markets
-1999,"moskowitz1999industries
-","Moskowitz, Tobias J and Grinblatt, Mark",Do industries explain momentum?,"Momentum Effect: 
+1999,moskowitz1999industries,"Moskowitz, Tobias J and Grinblatt, Mark",Do industries explain momentum?,"Momentum Effect: 
 the average percentage of total market capitalization, 
 the average return in excess of the three-month Treasury bill rate, the return standard deviation, t
 he average abnormal return in excess of size and BE/ME m",OLS,monthly,1963-95,https://www.jstor.org/stable/pdf/798005.pdf,The journal of finance
@@ -188,8 +173,7 @@ he average abnormal return in excess of size and BE/ME m",OLS,monthly,1963-95,ht
 Book to Market Ration (BE/ME)
 Cash Flow to PRICE (C/P)
 percent change in employees over the most recent year",OLS,monthly,1963-98,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=213872,SSRN
-2000,"piotroski2000value
-","Piotroski, Joseph D
+2000,piotroski2000value,"Piotroski, Joseph D
 ","Value investing: The use of historical financial statement information to separate winners from losers
 ","- MVE: market value of equity at the end of the year
 - ASSETS: total assets 
@@ -201,8 +185,7 @@ LIQUID: Change in the firm’s current ratio between the end of the year t and y
 LEVER: Change in the firm’s debt (including the portion of long-term debt classified as current) scaled by average total assets
 TURN: change in the firm’s asset turnover ratio between the end of the year t and year t-1. The asset turnover ratio is defined as net sales scaled by average total assets for the year
 ACCRUAL: net income before extraordinary items less cash flow from operations, scaled by total assets at the beginning of the year t",OLS,monthly,,https://www.jstor.org/stable/pdf/2672906.pdf,Journal of Accounting Research
-2001,"chordia2001trading
-","Chordia, Tarun and Subrahmanyam, Avanidhar and Anshuman, V Ravi
+2001,chordia2001trading,"Chordia, Tarun and Subrahmanyam, Avanidhar and Anshuman, V Ravi
 ","Trading activity and expected stock returns
 ","Size: the natural logarithm of market value of the equity of the firm as of the end of the second to last month
 BM: the natural logarithm of the ratio of the book value of the equity plus deferred taxes to the makers value of the equity, using the end of the previous year market and book values.
@@ -216,27 +199,21 @@ PRICE: the natural logarithm of the reciprocal of the share price as reported at
 YLD: the dividend yield as measured by the sum of all dividends paid over the previous 12 months, divided by the share price at the end of the second to last month.
 RET2-3: the cumulative return over the two months ending at the beginning of the previous month. 
 RET4-6: the cumulative return over the three months ending three months previously. 
-RET7-12: the cumulative return over the 6 months ending 6 months previously.
-",OLS,monthly,1966-95,https://www.sciencedirect.com/science/article/abs/pii/S0304405X00000805,Journal of financial Economics
-"2001
-","lamont2001financial
-","Lamont, Owen and Polk, Christopher and Saa-Requejo, Jesus
+RET7-12: the cumulative return over the 6 months ending 6 months previously.",OLS,monthly,1966-95,https://www.sciencedirect.com/science/article/abs/pii/S0304405X00000805,Journal of financial Economics
+2001,lamont2001financial,"Lamont, Owen and Polk, Christopher and Saa-Requejo, Jesus
 ",Financial constraints and stock returns,"KZ index calculated as:
 cash flow to total capital (negative), 
 the market to book ratio (positive), 
 debt to total capital (positive), 
 dividends to total capital (negative),
-cash holdings to capital (negative)",OLS,monthly,"1968–97
-",https://academic.oup.com/rfs/article-abstract/14/2/529/1602143,"The review of financial studies
+cash holdings to capital (negative)",OLS,monthly,1968–97,https://academic.oup.com/rfs/article-abstract/14/2/529/1602143,"The review of financial studies
 "
-,"elgers2001delayed
-",,Delayed security price adjustments to financial analysts' forecasts of annual earnings,"E : Actual Earnings Per Share 
+,elgers2001delayed,,Delayed security price adjustments to financial analysts' forecasts of annual earnings,"E : Actual Earnings Per Share 
 FAF: Median Consensus Forecast of the Year
 SAR: Size-Adjusted Security Return, measured as the realized security return from COMPUSTAT, cumulated over 12 months
 FE: Analysts Forecast Error
 E: Changes in Earnings",,,,,
-,"gompers2001institutional
-","Gompers, Paul A and Metrick, Andrew
+,gompers2001institutional,"Gompers, Paul A and Metrick, Andrew
 ",Institutional investors and equity prices,"Institutional Ownerships (IO):
 Size (market capitalization)
 Log of size, squared, [log(size)]^2
@@ -254,13 +231,11 @@ Working Capital
 Current Liabilities
 Net Income
 Funds from Operations",OLS,monthly,1965-96,,
-,"diether2002differences
-","Diether, Karl B and Malloy, Christopher J and Scherbina, Anna","Differences of opinion and the cross section of stock returns
+,diether2002differences,"Diether, Karl B and Malloy, Christopher J and Scherbina, Anna","Differences of opinion and the cross section of stock returns
 ","Number of Firms
 Mean Size
 Analyst Forecast",,,,,
-,"chen2002breadth
-","Chen, Joseph and Hong, Harrison and Stein, Jeremy C
+,chen2002breadth,"Chen, Joseph and Hong, Harrison and Stein, Jeremy C
 ","Breadth of ownership and stock returns
 ","Breadth
 Hold
@@ -269,8 +244,7 @@ Book to market value
 Earnings per Share
 Turnover
 Number of Observations",,quarterly,1979-98,,
-,"gompers2003corporate
-","Gompers, Paul and Ishii, Joy and Metrick, Andrew",Corporate governance and equity prices,"Governance Index
+,gompers2003corporate,"Gompers, Paul and Ishii, Joy and Metrick, Andrew",Corporate governance and equity prices,"Governance Index
 Blank Check
 Classification Board
 Special Meeting
@@ -324,8 +298,7 @@ GrNOA: Growth in net operating assets",OLS,Quarterly,1964-93,,
 ,watkins2003riding,"Watkins, Boyce",Riding the wave of sentiment: An analysis of return consistency as a predictor of future returns,"positive: positive returns for six consecutive months
 Negative: negative returns for six consecutive months
 ",OLS,monthly,1927-99,,
-,"eberhart2004examination
-","Eberhart, Allan C and Maxwell, William F and Siddique, Akhtar R
+,eberhart2004examination,"Eberhart, Allan C and Maxwell, William F and Siddique, Akhtar R
 ","An examination of long-term abnormal stock returns and operating performance following R&D increases
 ","Abnormal Stock Returns
 Abnormal Operating Performance measures
@@ -336,3 +309,8 @@ Total Assets
 Market Capitalization",,Not consistent,1951-2001,,
 ,george200452,"George, Thomas J and Hwang, Chuan-Yang",The 52-week high and momentum investing,"Momentum Strategies from @jegadeesh1993returns
 Momentum Strategies from @moskowitz1999industries",,,1963-01,,
+,titman2004capital,Capital investments and stock returns,,"market equity
+market size
+capital investment
+Capital expenditure
+",,,1969-95,,
