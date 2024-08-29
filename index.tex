@@ -179,7 +179,7 @@
 
 \begin{document}
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, enhanced, boxrule=0pt, frame hidden, breakable, interior hidden, borderline west={3pt}{0pt}{shadecolor}]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, interior hidden, breakable, frame hidden, boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}, enhanced]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -774,7 +774,6 @@ Measure of Illiquidity (based on Amihud, 2002):
 
 \begin{align}
 &ILLIQ_t^t=\frac{1}{Days}_i^t \sum_{d=1}^{Days}_i^t \frac{|R_{td}^i|}{V_{td}^i}
-    
 \end{align}
 \label{Equation:acharya2005assetEquation11}
 

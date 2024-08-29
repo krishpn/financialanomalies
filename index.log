@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.23)  29 AUG 2024 06:55
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.23)  29 AUG 2024 06:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1378,13 +1378,11 @@ LaTeX Warning: Reference `Equation:banz1981Equation3' on page 6 undefined on in
 put line 312.
 
 [6] [7] [8] [9] [10] [11] [12] [13]
-Runaway argument?
- &ILLIQ_t^t=\frac {1}{Days}_i^t \sum _{d=1}^{Days}_i^t \frac {|R_{td}\ETC.
-! Paragraph ended before \align was complete.
-<to be read again> 
-                   \par 
-l.777 
-       
+! Double subscript.
+<argument> ...ac {1}{Days}_i^t \sum _{d=1}^{Days}_
+                                                  i^t \frac {|R_{td}^i|}{V_{...
+l.777 \end{align}
+                  
 Here is how much of TeX's memory you used:
  36980 strings out of 476683
  772534 string characters out of 5804046
