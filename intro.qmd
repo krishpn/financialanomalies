@@ -278,3 +278,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 \label{Equation:acharya2005assetEquation11}
 ```
 @hou2005market 
+@nagel2005short
