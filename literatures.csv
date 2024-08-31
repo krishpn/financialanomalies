@@ -393,4 +393,25 @@ Fame Four Factor",OLS,,1981-04,,
 ","Net Income to Market-valued Total Assets
 Net Income to Total Assets
 Cash and short-term assets to the market value of its assets
-market-to-book",,,1963-03,,
+market-to-book",OLS,,1963-03,,
+,"garlappi2008default
+",,"Default risk, shareholder advantage, and stock returns
+","Expected Default Frequencies
+- Shareholder Advantage defined as the combination of shareholders' bargaining power and the efficiency gained through bargaining - in the determination of equity returns",OLS,,1963-03,,
+,cooper2008asset,,"Asset growth and the cross-section of stock returns
+","Annual firm Asset Growth Rate
+Book to Market Ratio
+Return to Assets
+Accruals
+Earnings-to-prices
+Market Value",,,1963-03,,
+,pontiff2008share,,"Share issuance and cross-sectional returns
+","Book to Market value
+MoM Market Equity",,,,,
+,"cohen2008economic
+",,"Economic links and predictable returns
+","Book Equity 
+Market Equity
+Number of Firms in the sample year
+Number of customers in the sample per year
+",,,,,

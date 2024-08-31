@@ -295,3 +295,7 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @guo2008average
 @campbell2008search
 @garlappi2008default
+@cooper2008asset
+@pontiff2008share
+@cohen2008economic
+@fabozzi2008sin
