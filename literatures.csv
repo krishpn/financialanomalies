@@ -360,3 +360,29 @@ market equity",OLS,1963-01,,,
 ",,"Market reactions to tangible and intangible information
 ","- Book-to-market
 - Returns",OLS,,,,
+,"fama2006profitability
+",,"Profitability, investment and average return","Book-to-market
+Expected Profitability",OLS,1963-2003,,,
+,"bradshaw2006relation
+",,"The relation between corporate financing activities, analysts’ forecasts and stock returns
+","net amount of cash flow received from external financing:  equity + debt
+Equity: Net Cash Received from the sale and/or purchase of common and preferred stock less cash dividend paid
+Debt: Net cash received from the issuance and/or reduction of debt",,1971-00,,,
+,"franzoni2006pension
+",,"Pension plan funding and stock market efficiency
+","- Fair Value of Plan Assets (FVPA)
+The Projected Benefit Obligation (PBO)
+Funding Ratio (FR)
+Size
+B/M",,1980-02,,,
+,"narayanamoorthy2006conservatism
+",,"Conservatism and cross-sectional variation in the post--earnings announcement drift
+",standardized unexpected earnings,,1980-04,,,
+,"avramov2007momentum
+",,"Momentum and credit rating
+","Return
+Alpha
+Beta ",,1985-03,,,
+,kumar2008estimation,,"Estimation risk, information, and the conditional CAPM: Theory and evidence
+","Fama Three Factor 
+Fame Four Factor",,1981-04,,,

@@ -285,3 +285,10 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @ang2006cross
 @anderson2006empirical
 @daniel2006market
+
+@fama2006profitability
+@bradshaw2006relation
+@franzoni2006pension
+@narayanamoorthy2006conservatism
+@avramov2007momentum
+@kumar2008estimation
