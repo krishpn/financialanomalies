@@ -314,15 +314,13 @@ market size
 capital investment
 Capital expenditure",,"Monthly
 ",1969-95,,
-,"cremers2005governance
-",Governance mechanisms and equity prices,Governance mechanisms and equity prices,"firm-specific internal governance proxies:
+,cremers2005governance,Governance mechanisms and equity prices,Governance mechanisms and equity prices,"firm-specific internal governance proxies:
 use the percentage of shares held in each firm by the firm largest institutional block (BLOCK)
 use the percent of shares held by the 18 largest public pension funds
 firm-specific external governance proxies
 - Equity Prices
 data used to compute abnormal ret",OLS,,1990-01,,
-,"acharya2005asset
-",,Asset pricing with liquidity risk,Illiquidity Measure based on Amihud 2002,,,1962-99,,
+,acharya2005asset,,Asset pricing with liquidity risk,Illiquidity Measure based on Amihud 2002,,,1962-99,,
 ,hou2005market,,"Market frictions, price delay, and the cross-section of expected returns
 ","- Book Value - Share holder’s equity plus balance sheet deferred taxes and investment tax credits minus the book value of preferred stock
 - Price Delay ",,Weekly,1963-01,,
@@ -341,3 +339,15 @@ turnover (TURN)
 Returns
 Shares owned by Institutions
 Log Firm Size","OLS, LOGIT",Quarter,,,
+,"hou2006industry
+",,,,,,,,
+,"anderson2006empirical
+",,,,,,,,
+,"ang2006cross
+",,,,,,,,
+,"whited2006financial
+",,,,,,,,
+,"mohanram2005separating
+",,,,,,,,
+,"asquith2005short
+",,,,,,,,
