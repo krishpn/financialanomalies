@@ -292,3 +292,6 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @narayanamoorthy2006conservatism
 @avramov2007momentum
 @kumar2008estimation
+@guo2008average
+@campbell2008search
+@garlappi2008default
