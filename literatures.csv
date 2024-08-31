@@ -340,7 +340,12 @@ Returns
 Shares owned by Institutions
 Log Firm Size","OLS, LOGIT",Quarter,,,
 ,"hou2006industry
-",,,,,,,,
+",,"Industry concentration and average stock returns
+","Herfindahl index
+earnings
+sales
+book equity
+market equity",OLS,1963-01,,,
 ,"anderson2006empirical
 ",,,,,,,,
 ,"ang2006cross
@@ -351,3 +356,7 @@ Log Firm Size","OLS, LOGIT",Quarter,,,
 ",,,,,,,,
 ,"asquith2005short
 ",,,,,,,,
+,"daniel2006market
+",,"Market reactions to tangible and intangible information
+","- Book-to-market
+- Returns",OLS,,,,

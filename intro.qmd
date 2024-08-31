@@ -284,4 +284,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @whited2006financial
 @ang2006cross
 @anderson2006empirical
-
+@daniel2006market
