@@ -302,3 +302,5 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @avramov2009dispersion
 @hahn2005financial
 @rozeff1988market
+@lebedeva2012trading
+@fishman1995mandatory
