@@ -305,3 +305,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @lebedeva2012trading
 @fishman1995mandatory
 @cao2004does
+@pagano1996transparency
