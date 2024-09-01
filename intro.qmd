@@ -304,3 +304,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @rozeff1988market
 @lebedeva2012trading
 @fishman1995mandatory
+@cao2004does
