@@ -301,3 +301,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @fabozzi2008sin
 @soliman2008use
 @avramov2009dispersion
+@hahn2005financial
