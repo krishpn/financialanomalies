@@ -308,3 +308,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @pagano1996transparency
 @chemmanur2019advertising
 @gow2009earnings
+@dechow1997returns
