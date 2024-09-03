@@ -320,3 +320,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @hafzalla2011percent
 @landsman2011investors
 @li2011well
+@thomas2011tax
