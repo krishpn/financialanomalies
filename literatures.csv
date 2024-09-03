@@ -442,3 +442,42 @@ Operating Income before interest, tax, depreciation and amortization
 Assets
 Turnover
 Illiquidity Ratio",,,,,
+,"gow2009earnings
+",,"Earnings volatility and the cross-section of returns
+","Earnings Volatility (EVOL): the variance of a residuals from a rolling ten-year AR(1) model of earnings per share
+Size: is year-end market value (in millions).
+BM: BM is the ratio of book value (data #60) to end of year market value
+EP: EP is the ratio of net income before extraordinary items (data #18) to end of year market value. 
+Earnings: Earnings is the change in net income before extraordinary items scaled by end of year market value
+Accruals: ACC is total accruals, calculated as in Sloan (1996)
+AQ: AQ is accruals quality calculated as in Francis et al. (2005)
+IdVol is computed as the variance of residuals from a regression of excess returns on the Fama-French factors estimated using daily returns over the twelve months prior to portfolio formation. 
+R&D is calculated as the ratio of research and development expense to sales (data #46 / data #12).
+Analysts is the total number of analysts with one year ahead earnings forecasts on I/B/E/S.
+Invest is the annual change in gross plant property and equipmentt (data #7) plus annual change in inventories (data #3) scaled by lagged total assets (data #6).
+AGrowth is the percentage change in total assets. 
+Mom is the six-month buy-and-hold return prior to portfolio formation.
+ ",,,1970-06,,
+,dechow1997returns,,"Returns to contrarian investment strategies: Tests of naive expectations hypotheses
+",,,,,,
+,tuzel2010corporate,,"Corporate real estate holdings and the cross-section of stock returns
+","Trend Growth Rate
+Capital Share
+Discount Factor 
+Equipment Depreciation Rate
+Structure Depreciation Rate
+Share of equipment
+Share of structures
+Persistence ",,,,,
+,"xing2010does
+",,"What does the individual option volatility smirk tell us about future equity returns?
+","Smirk Measure for firm 
+Volatility",,,1996-05,,
+,"xing2010does
+",,"What does the individual option volatility smirk tell us about future equity returns?
+","Real sales growth
+Research and Development Assets
+Research and Development Capital Expenditure
+Research and Development Sales
+Research and Development Number of Employees
+Research and Development Year End Market Equity",,,,,
