@@ -598,3 +598,13 @@ Percent of sales per industry segment",,,1977-09,,
 ,hirshleifer2013innovative,,"Innovative efficiency and stock returns
 ","Patents granted scaled by R&D capital
 Adjusted Patent Citations scaled by R&D expenses",,,1976-06,,
+,prakash2013deferred,,Deferred revenues and the matching of revenues and expenses,"DRC/S: current deferred revenue, scaled by sales (Compustat variable DRC/SALE)
+DRT/S: total deferred revenue, scaled by sales ((DRC+DRLT)/SALE)
+DRC: annual change in current deferred revenue scaled by av. assets
+SALE: sales (in millions of dollars)
+PM: year-ahead profit margin, calculated operating income/assets
+LEADSAR: year ahead size adjusted returns
+PDCOST: Period Operating Costs as proportion of total operating costs, averaged over three years
+Q-Score: Change in conservatism score 
+ACCR: Accruals, calculated as income before extraordinary items less operating cash flows minus cash from extraordinary items and discontinued operations, adjusted for deferred revenues
+NOA: Annual Percentage change in net operating assets, scaled by average assets",,,2002-07,,
