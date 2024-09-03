@@ -334,3 +334,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @da2009cashflow
 @hou2011factors
 @barber2001can
+@harvey2000conditional
