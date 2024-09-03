@@ -313,3 +313,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @menzly2010market
 @xing2010does
 @bali2011maxing
+@yan2011jump
