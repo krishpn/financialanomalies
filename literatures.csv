@@ -554,3 +554,23 @@ RDS: Real Dirty Surplus, measured as the change in the book value of common equi
 ,li2011well,,How well do investors understand loss persistence?,"ATQ: positive total assets (ATQ)
 SALESQ: positive sales (SALEQ),
 PRCCQ*CSHOQ: positive market value of equity at the end of the fiscal quarter",,,1984-06,,
+,thomas2011tax,,Tax expense momentum,"Tax Expense Surprise : Tax Expense per share in quarter
+Assets per share
+Earnings surprise
+Sales surprise
+Cost of goods surprise
+Selling, general and administrative Surprise
+Pre Tax income per share
+Total Assets per share
+Ratio of Cash Flow From Operations to Asset 
+Market Value
+Book to Market Ratio
+Return ",,,1977-06,,
+,"johnson2012option
+",,"The option to stock volume ratio and future returns
+","OS: ratio of option volume of firm 
+Size: log of market capitalization 
+LBM: log of book-to-market ratio
+VLC: total call contract volume traded in a given month
+VLP: total put contract volume traded in a given month
+EQVOL: total equity volume traded",,,1996-2008,,

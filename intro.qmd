@@ -322,3 +322,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @li2011well
 @thomas2011tax
 @johnson2012option
+@palazzo2012cash
