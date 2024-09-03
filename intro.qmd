@@ -325,3 +325,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @palazzo2012cash
 @bazdrech2009labor
 @cohen2012complicated
+@hirshleifer2013innovative

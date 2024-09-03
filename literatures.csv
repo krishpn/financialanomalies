@@ -588,3 +588,10 @@ SIZE: the price times shares outstanding at the end of June of year t, from CRSP
 Lev: leverage, book liabilities (total assets (6) minus book value of equity) in year t divides market value of firm (size plus total assets (6) minus book value of equity).
 AG: Asset growth, the natural log of the ratio of assets per split-adjusted share at the fiscal yearend in t-1 divided by assets per split-adjusted share at the fiscal yearend in t-1. This is equivalent to the natural log of the ratio of gross assets at t-1 (6) divided by gross assets at t-1 minus net stock issues from t-1 to t.
 YB: Profitability, equity income (income before extraordinary (18), minus dividends on preferred (19), if available, plus income statement deferred taxes (50), if available) in t divided by book equity for t.",,,1965-06,,
+,cohen2012complicated,,Complicated firms,"Number of conglm firms in the sample per year
+Number of standalones in the sample per year 
+Conglm firm market-cap percentile
+Standalone market-cap percentile
+Conglm firm book-to-market percentile
+Standalone book-to-market percentile
+Percent of sales per industry segment",,,1977-09,,
