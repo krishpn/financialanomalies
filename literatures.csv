@@ -516,3 +516,31 @@ Traday is the number of days the stock is traded in a given year
 BSM is the probability of default from the Merton 1974 option pricing model
 CBreadth is the change of breadth from year t ) 1 to year t scaled by breadth in year t )1. 
 Breadth is the annual average of quarterly breadth which is the ratio of the number of mutual funds that hold a long position in the stock to the total number of mutual funds in the quarter.",,,1981-06,,
+,drake2011should,,Should investors follow the prophets or the bears? Evidence on the use of public information by analysts and short sellers,"Rec: Consensus analyst recommendations in the last month of the calendar year
+ChgRec: Change in the consensus analyst recommendations from previous quarter
+SIratio: Number of Shares sold short as reported for the last month of the calendar quarter divided by the number of shares outstanding of the same date
+Areto: Six Month Abnormal return (ajusted for firm size, book-to-market ratio)
+SUE: Seasonally adjusted earnings scaled by the price for the fiscal quarter
+TACCR: Total Accruals scaled by the average assets measured at the end of quarter
+CAPEX: Rolling sum of the preceding four quarters of capital expenditures ending at fiscal quarter 
+MVE: Market Value of equity at the end of quarter
+EP: Ratio of rolling sum of earnings over the preceding four quarters to price
+BTM: Ratio of the book value to market value of equity 
+TURN: average daily volume per share over the processing six months
+SG: Rolling sum of sales growth over the preceding four fiscal quarters
+LTG: consensus long term earnings growth forecast
+FREV: rolling sum of preceding six months earnings forecast revisions scaled by price
+MOM: price momentum",,,1993-10,,
+,"hafzalla2011percent
+",,Percent accruals,"Percent Operating Accruals
+Traditional Operating Accruals
+Return on Assets
+Cash Return on Assets
+Total Cash Flow Return on Assets
+Market Value of Equity
+Book Value/Market Value
+Price Per Share
+Three Year Sales Growth
+Proportion of firms with losses
+Per of firms with Special Item
+Arbitrage Risk",,,1989-08,,

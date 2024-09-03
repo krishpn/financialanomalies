@@ -318,3 +318,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @callen2013accounting
 @drake2011should
 @hafzalla2011percent
+@landsman2011investors
