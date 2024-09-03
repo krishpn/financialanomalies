@@ -316,3 +316,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @yan2011jump
 @eisfeldt2013organization
 @callen2013accounting
+@drake2011should

@@ -481,4 +481,38 @@ Research and Development Capital Expenditure
 Research and Development Sales
 Research and Development Number of Employees
 Research and Development Year End Market Equity",,,1975-07,,
-,bali2011maxing,,Maxing out: Stocks as lotteries and the cross-section of expected returns,,,,,,
+,bali2011maxing,,Maxing out: Stocks as lotteries and the cross-section of expected returns,- Daily Returns,,,1926-05,,
+,yan2011jump,,"Jump risk, stock returns, and slope of implied volatility smile
+","Implied volatility
+Book-to-market value
+Leverage Ratio
+Stock’s beta",,,1996-05,,
+,"eisfeldt2013organization
+",,"Organization capital and the cross-section of expected returns
+","Organization Capital to Book Assets
+Market Capitalization 
+Tobin’s Q
+Sales to Book Assets
+Solow Residual
+Investment to Capital (organization)
+Investment to capital (physical)
+Executive Compensation to book assets
+IT expenditure to book assets
+Labor expense per employee
+Capital to labor
+Physical capital to labor
+R and D expenditure to book assets
+Advertising expenditures to book assets
+Debt to book assets
+Organization to capital assets",,,1970-08,,
+,callen2013accounting,,"Accounting quality, stock price delay, and future stock returns","Delay is the average delay with which information is impounded into stock price
+ES is the absolute value of annual earnings surprise scaled by the standard deviation of annual earnings surprises over the last five years
+AQ is accrual quality, measured as the standard deviation of the residuals from the Dechow-Dichev model over the last five years
+SI is special items
+Loss is the relative frequency of annual losses in past three years (number of loss years divided by three).
+Analyst is log of 1 + the number of analysts. InstOwn is log of 1 + annual institutional ownership, where ownership is number of shares held scaled by shares outstanding
+Empl is log of 1 + the number of employees. Adv is log of 1 + advertising expense.
+Traday is the number of days the stock is traded in a given year
+BSM is the probability of default from the Merton 1974 option pricing model
+CBreadth is the change of breadth from year t ) 1 to year t scaled by breadth in year t )1. 
+Breadth is the annual average of quarterly breadth which is the ratio of the number of mutual funds that hold a long position in the stock to the total number of mutual funds in the quarter.",,,1981-06,,
