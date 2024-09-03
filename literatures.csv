@@ -574,3 +574,17 @@ LBM: log of book-to-market ratio
 VLC: total call contract volume traded in a given month
 VLP: total put contract volume traded in a given month
 EQVOL: total equity volume traded",,,1996-2008,,
+,palazzo2012cash,,"Cash holdings, risk, and expected returns","CH: Cash-to-asset. Ratio
+CF: Cash-flows-to-assets
+BM: Book-to-market
+SEQ: Shareholder equity
+TXDITC: Deferred taxes and investment tax credit
+PSTKL: Book value of preferred stock
+Par Value of preferred stock",,,,,
+,bazdrech2009labor,,"Labor hiring, investment and stock return predictability in the cross section
+","LK: Labor-to-capital ratio, employees (31) in year t divides property, plant & equipment (8) in year t
+BM: Book-to-market equity, the ratio of the book value of equity to the market value of equity. Market equity is price times shares outstanding at the end of December of t, from CRSP.
+SIZE: the price times shares outstanding at the end of June of year t, from CRSP.
+Lev: leverage, book liabilities (total assets (6) minus book value of equity) in year t divides market value of firm (size plus total assets (6) minus book value of equity).
+AG: Asset growth, the natural log of the ratio of assets per split-adjusted share at the fiscal yearend in t-1 divided by assets per split-adjusted share at the fiscal yearend in t-1. This is equivalent to the natural log of the ratio of gross assets at t-1 (6) divided by gross assets at t-1 minus net stock issues from t-1 to t.
+YB: Profitability, equity income (income before extraordinary (18), minus dividends on preferred (19), if available, plus income statement deferred taxes (50), if available) in t divided by book equity for t.",,,1965-06,,
