@@ -623,3 +623,8 @@ Foreign Exchange
 US Treasury Bonds
 Credit Indices
 Commodities",,,1926-12,,
+,valta2016strategic,,"Strategic default, debt structure, and stock returns","log (Number of institutional shareholders)/log(market equity)
+Herfindahl-Hirschman Index computed using the percentage of ownership by each institutional investor
+Secured debt divided by total debt 
+Convertible debt divided by the total debt
+Proportion of total debt maturing within 3 years",,,1985-2012,,

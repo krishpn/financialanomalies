@@ -331,3 +331,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @novy2013other
 @frazzini2014betting
 @valta2016strategic
+@da2009cashflow
