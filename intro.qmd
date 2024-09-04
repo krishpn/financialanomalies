@@ -335,3 +335,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @hou2011factors
 @barber2001can
 @harvey2000conditional
+@spiess1999long
