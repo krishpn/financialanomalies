@@ -343,3 +343,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @adrian2014financial
 @frankel1998accounting
 @abarbanell1998abnormal
+@ali2003arbitrage

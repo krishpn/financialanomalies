@@ -655,3 +655,10 @@ ROE is the return on equity for year
 P is the stock price
 ROA is the return on the total assets
 inverse of the equally-weighted average B/P ratio for each year",,,1975-93,,
+,abarbanell1998abnormal,,Abnormal returns to a fundamental analysis strategy,"BHAR: buy-and-hold abnormal return of f
+RSIGNAL : = scaled decile rank of fundamental
+RBETA: the scaled decile rank of beta for f
+RCEPS: the scaled decile rank of the change in earnings between",,,1974-88,,
+,ali2003arbitrage,,Arbitrage risk and the book-to-market anomaly,"Book-to-market
+Market Value of Equity
+",,,1976-97,,
