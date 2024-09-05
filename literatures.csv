@@ -666,3 +666,11 @@ Market Value of Equity
 a delta-hedged gains
 a volatility contract",,,1993-00,,
 ,vanden2004options,,Options trading and the CAPM,,,,,,
+,"chan1985exploratory
+",,An exploratory investigation of the firm size effect,"EWNY: Equally weighted NYSE stock index.
+IPISA: Growth rate of industrial production from month r to I + 1 (seasonally adjusted).
+UITB: Unanticipated inflation, defined as CPI - expected inflation.
+DEI: Change in expected inflation.
+UTS: Difference in return of long-term government bond portfolio and the one-month T-Bill
+BUSF: Growth rate of the Net Business Formation series from r to r + 1. The data, obtained from the Bureau of Economics Analysis, were seasonally adjusted.
+PREM: Difference in return of ‘under BAA’ (rated by Moody) bond portfolio and long-term government bond portfolio. The government bond data were taken from Ibbotson and Sinquetield (1982). The non-convertible bond data were obtained from R.G. Ibbotson & Co., Chicago.",,,1953-77,,
