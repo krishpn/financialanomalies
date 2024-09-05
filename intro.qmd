@@ -346,3 +346,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @ali2003arbitrage
 @vanden2006option
 @vanden2004options
+@chan1985exploratory
