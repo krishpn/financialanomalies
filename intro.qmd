@@ -350,3 +350,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @arbel1983giraffes
 @campbell1996understanding
 @dittmar2002nonlinear
+@liu2006liquidity
