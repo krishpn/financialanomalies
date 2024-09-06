@@ -682,3 +682,14 @@ Excess Return
 ,"campbell1996understanding
 ",,Understanding risk and return,,,,"1952-90, 1871-90",,
 ,dittmar2002nonlinear,,"Nonlinear pricing kernels, kurtosis preference, and evidence from the cross section of equity returns",,,,,,
+,liu2006liquidity,,A liquidity-augmented capital asset pricing model,"MV: Market Capitalization measured in millions of dollars
+B/M: Book-to-market-value
+Liquidity Measurement 
+TO12: Average Daily turnover over the prior 12 months
+BA12:  Average daily relative bid-ask spread over the prior 12 months",,,1960-03,,
+,pastor2003liquidity,,Liquidity risk and expected stock returns,,,,,,
+,hirshleifer2010financing,,A financing-based misvaluation factor and the cross-section of expected returns," Market Factor
+Size Factor 
+Momentum Factor
+Investment Factor
+Leverage Factor",,,1970-08,,
