@@ -354,3 +354,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @pastor2003liquidity
 @hirshleifer2010financing
 @black1972capital
+@carhart1997persistence
