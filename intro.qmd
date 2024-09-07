@@ -376,3 +376,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @foster1984earnings
 @spiess1995underperformance
 @daniel1997evidence
+@fama1993common
