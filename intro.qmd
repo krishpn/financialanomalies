@@ -356,3 +356,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @black1972capital
 @carhart1997persistence
 @black1972capital
+@kraus1976skewness
