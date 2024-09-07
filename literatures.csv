@@ -732,3 +732,12 @@ REALTB: 1 month TB less monthly information rate",,,,,
 ,easley2010factoring,,"Factoring information into returns
 ",,,,1983-01,,
 ,chopra1992measuring,,Measuring abnormal performance: do stocks overreact?,,,,,,
+,chen2011alternative,,An alternative three-factor model,"IVOL: the standard deviation of the residuals from regressing the stock’s returns on the FamaFrench three factors
+SUE: earnings surprises as Standardized Unexpected Earnings
+Distress: 
+Net Stock Issues
+Asset Growth
+Book to Market
+Industries, CAPM Betas, and Market Equity
+Hansen-Jagannathan Distance
+Short-Term Prior Returns",,,,,
