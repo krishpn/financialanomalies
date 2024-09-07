@@ -361,3 +361,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @sharpe1964capital
 @heckerman1972portfolio
 @heckerman1972portfolio
+@fama1973risk
