@@ -366,3 +366,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @jagannathan1996conditional
 @ferson1991variation
 @fogler1981three
+@boudoukh2007importance
