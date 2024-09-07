@@ -358,3 +358,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @black1972capital
 @kraus1976skewness
 @lintner1965security
+@sharpe1964capital
