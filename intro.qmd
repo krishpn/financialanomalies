@@ -368,3 +368,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @fogler1981three
 @boudoukh2007importance
 @hou2015digesting
+@holthausen1992prediction
