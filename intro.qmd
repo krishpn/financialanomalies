@@ -364,3 +364,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @fama1973risk
 @mossin1966equilibrium
 @jagannathan1996conditional
+@ferson1991variation
