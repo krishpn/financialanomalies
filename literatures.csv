@@ -748,3 +748,16 @@ Short-Term Prior Returns",,,,,
 ",,Evidence on the characteristics of cross sectional variation in stock returns,- Book to Market Value,,,,,
 ,fama1992cross,,"The cross-section of expected stock returns
 ",- ME: Market Size,,,1962-89,,
+,"lo2006tading
+",,"Trading volume: Implications of an intertemporal capital asset pricing model
+",,,,1962-96,,
+,mayshar1981transaction,,Transaction costs and the pricing of assets,,,,,,
+,"brennan1996market
+",,"Market microstructure and asset pricing: On the compensation for illiquidity in stock returns
+",,,,,,
+,jiang2005information,,"Information uncertainty and expected returns
+","information uncertainty (IU) proxies:
+Firm Age is defined as the number of months between event month t and the first month that a stock appears in CRSP
+Return volatility (Volatility) is defined as the standard deviation of daily returns of past 25 trading days
+Trading volume (Volume) is defined as the average daily turnover in percentage over the past six months, where daily turnover is the ratio of the number of shares traded each day to the number of shares outstanding at the end of the day
+Duration is a measure of implied equity duration derived from financial statement data and the current stock price",,,1965-01,,
