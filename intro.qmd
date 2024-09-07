@@ -372,3 +372,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @easley2010factoring
 @chopra1992measuring
 @kelly2021understanding
+@chen2011alternative
