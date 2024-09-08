@@ -392,3 +392,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @huang2012extreme
 @balachandran2012using
 @conrad2013ex
+@conrad2013ex
