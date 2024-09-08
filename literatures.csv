@@ -761,3 +761,14 @@ Firm Age is defined as the number of months between event month t and the first 
 Return volatility (Volatility) is defined as the standard deviation of daily returns of past 25 trading days
 Trading volume (Volume) is defined as the average daily turnover in percentage over the past six months, where daily turnover is the ratio of the number of shares traded each day to the number of shares outstanding at the end of the day
 Duration is a measure of implied equity duration derived from financial statement data and the current stock price",,,1965-01,,
+,lev2005r,,"R&D reporting biases and their consequences
+","Sales
+Earnings
+Book Value
+R&D Percent of Book Value
+Number of Firms",,,1975-95,,
+,bali2009volatility,,Volatility spreads and expected stock returns,"monthly returns
+Jensen’s alpha
+Market share - average share of quintile portfolio stocks in the market value of all stocks
+Size: Market Capitalization 
+B/M: Book Market ratio for firms",monthly,,1996-04,,
