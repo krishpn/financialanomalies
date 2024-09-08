@@ -395,3 +395,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @conrad2013ex
 @burlacu2012risk
 @durnev2009corporate
+@vassalou2004default
