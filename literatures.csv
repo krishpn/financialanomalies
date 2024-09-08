@@ -843,3 +843,24 @@ Spread
 EMKT value weighted excess return 
 SML
 HML",,,1971-99,,
+,adrian2008stock,,Stock returns and volatility: Pricing the short-run and long-run components of market risk,"market excess return
+Market Volatility
+Short run components
+Long run components",,,1962-05,,
+,wahlen2011can,,Can financial statement analysis beat consensus analysts’ recommendations?,"earnings increase score
+measure holding period returns
+",,,1994-05,,
+,penman2002modeling,,Modeling sustainable earnings and P/E ratios with financial statement analysis,"RNOA: Return on net operating assets.
+NCP: Dummy 1 if RNOA is negative, zero otherwise
+SNCP: squared of change in RNOA
+PM : Profit Margin
+ATO: Asset Turnover",,,,,
+,lev2016informational,,On the informational usefulness of R\&D capitalization and amortization,"Industry of R&D intensity 
+Industry of R&D expense
+P: market Value of common equity
+A: Total Assets
+D: Dummy Variables 
+B: Pro-forma Book value and Earnings
+DNE: Dummy variable equals one when pre-R&D earnings are negative
+Required
+Number of Observations",,,1983-1998,,

@@ -400,3 +400,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @wahlen2011can
 @penman2002modeling
 @lev2016informational
+@cen2006forecasted
