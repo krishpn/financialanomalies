@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.23)  8 SEP 2024 15:37
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.23)  8 SEP 2024 15:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1385,7 +1385,7 @@ chapter 2.
 
 ] [18] [19] [20] [21] [22] [23]
 ! Text line contains an invalid character.
-l.1520 P'astor, L'ubo^^K
+l.1525 P'astor, L'ubo^^K
                         s, and Robert F Stambaugh. 2003. {``Liquidity Risk and 
 Here is how much of TeX's memory you used:
  36990 strings out of 476683
