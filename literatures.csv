@@ -788,3 +788,12 @@ Total Research and Development Expenditures Divided by Sales (RND-NS): Total Res
 ,hameed2015industries,,Industries and stock return reversals,"excess return on the value market index over the 1-month T-bill return 
 Small minus big return premium 
 High book to market minus low book to market return premium",,,1968-10,,
+,simutin2010excess,,Excess cash and stock returns,"Log of the ratio of cash to total assets less cash
+Market-to-book ratio measured as book value of assets, less the book value of the equity plus the market value of equity divided by assets
+Size is log of real (adjusted by CPI) assets
+CPX is the ratio of capital expenditures to assets
+WC is the ratio of net working capital calculated without cash to assets
+LTD is the ratio of the long term debt to assets
+RD is the research and development expenses to the sales
+CF is the ratio of cash flow to total assets
+Industry sigma",,,,,
