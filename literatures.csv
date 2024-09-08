@@ -875,3 +875,7 @@ Analyst: Number of analysts following a stock in the previous month from I/B/E/S
 FE/P: Forecasted earnings-to-price ratio, which is equal to FEPS in the previous month divided by the stock price on the corresponding date of I/B/E/S statistical period
 BPS: Book value of stockholders’ equity per share in the previous month, which is equal to the Compustat Item #60 at the recent announced fiscal-year-end as of the previous month divided by the number of shares outstanding on the corresponding date of I/B/E/S statistical period
 FROE: Forecasted return-on-equity in the previous month, which is equal to FEPS divided by BPS",,,1983-04,,
+,baik2007changes,,Changes in Order Backlog and Future Returns,"FERR1 is the forecast error defined as actual earnings less the median forecast (at the fiscal period end of year t + 1) divided by the absolute value of actual eps. 
+FERR2 is the forecast error defined as actual earnings less the median forecast (at the fiscal period end of year t + 1) divided by price.
+A is the actual EPS for firm 
+Price: Stock Price for firm I",,,1971-99,,
