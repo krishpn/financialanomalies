@@ -389,3 +389,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @hameed2015industries
 @simutin2010excess
 @opler1999determinants
+@huang2012extreme
