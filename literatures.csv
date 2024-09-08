@@ -879,3 +879,15 @@ FROE: Forecasted return-on-equity in the previous month, which is equal to FEPS 
 FERR2 is the forecast error defined as actual earnings less the median forecast (at the fiscal period end of year t + 1) divided by price.
 A is the actual EPS for firm 
 Price: Stock Price for firm I",,,1971-99,,
+,HuangAlanGuoming2009Tcso,,"The cross section of cashflow volatility and expected stock returns
+","CF: cashflow from operation
+ME: market value of equity (in million $)
+BEME: book to market equity, measured as book equity of last quarter to market equity at the beginning of the month
+PMOM: price momentum, measured as the past 12-month return
+SUE: standardized unexpected earnings
+ILLIQ: the illiquidity measure in Amihud (2002)
+EY: earnings yield, measured as earnings of last quarter divided by beginning-of-the-month market equity
+IRV: idiosyncratic volatility of the previous month's daily returns relative to the Fama–French three factors
+CFSALES: standard deviation of cashflow to sales over the past 16 quarters
+CFBE: standard deviation of the industryadjusted cashflow to book equity over the past 16 quarters
+RET: monthly stock return. ",,,1973-04,,
