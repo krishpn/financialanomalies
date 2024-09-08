@@ -404,4 +404,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @baik2007changes
 @gu2009information
 @huangalanguoming2009tcso
-@huangalanguoming2009tcso
+@papanastasopoulosgeorgios2010tior
