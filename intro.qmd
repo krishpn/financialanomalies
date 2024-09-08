@@ -386,3 +386,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @bali2009volatility
 @boyer2010expected
 @an2010warranted
+@hameed2015industries

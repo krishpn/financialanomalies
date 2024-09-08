@@ -774,3 +774,14 @@ Size: Market Capitalization
 B/M: Book Market ratio for firms",monthly,,1996-04,,
 ,boyer2010expected,,Expected idiosyncratic skewness,"Momentum
 Turnover",,,1983-00,,
+,an2010warranted,,Warranted multiples and future returns,"The harmonic mean of the enterprise-value-to-sales, 
+The harmonic mean of the price-to-book, 
+The harmonic mean of the price-earnings, 
+The harmonic mean of the price-to-2-year-ahead earnings multiples
+The profit margin is defined as the percentage of the fi’s operating income divided by its sales
+This variable is computed as PM multiplied by Dum
+The growth forecast as the percentage increase of two-year-ahead forecasted earnings over that of the one-year-ahead forecasted earnings
+Book Leverage (LEV): This variable is computed as the percentage of the total long-term debt divided by the book value of common equity
+Return on Assets (ROA): This variable is a firm’s net income scaled by its total assets, in percentage terms
+Return on Equity (ROE): This variable is net income scaled by the end-ofperiod common equity, in percentage terms
+Total Research and Development Expenditures Divided by Sales (RND-NS): Total Research and Development (R&D) expenditures is computed using the figures from the trailing four quarters",,,1977-06,,
