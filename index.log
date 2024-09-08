@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.23)  8 SEP 2024 11:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.23)  8 SEP 2024 11:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -980,22 +980,22 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 32150 strings out of 476025
- 646216 string characters out of 5790016
+ 32151 strings out of 476025
+ 646233 string characters out of 5790016
  1865388 words of memory out of 5000000
  51691 multiletter control sequences out of 15000+600000
  574175 words of font info for 166 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,11n,106p,10669b,503s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on index.pdf (25 pages, 293169 bytes).
+Output written on index.pdf (25 pages, 293352 bytes).
 PDF statistics:
- 444 PDF objects out of 1000 (max. 8388607)
- 383 compressed objects within 4 object streams
- 213 named destinations out of 1000 (max. 500000)
+ 445 PDF objects out of 1000 (max. 8388607)
+ 384 compressed objects within 4 object streams
+ 214 named destinations out of 1000 (max. 500000)
  32813 words of extra memory for PDF output out of 35830 (max. 10000000)
 
-2.7375pt\relax \fontdimen 19\font =2.19pt\relax
+5pt\relax \fontdimen 19\font =2.19pt\relax
 (fontspec)             \fontdimen 22\font =2.7375pt\relax \fontdimen 20\font
 (fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
@@ -1268,8 +1268,8 @@ chapter 2.
 l.1503 P'astor, L'ubo^^K
                         s, and Robert F Stambaugh. 2003. {``Liquidity Risk and 
 Here is how much of TeX's memory you used:
- 36990 strings out of 476683
- 772690 string characters out of 5804046
+ 36992 strings out of 476683
+ 772710 string characters out of 5804046
  1865018 words of memory out of 5000000
  56693 multiletter control sequences out of 15000+600000
  518710 words of font info for 81 fonts, out of 8000000 for 9000
