@@ -864,3 +864,14 @@ B: Pro-forma Book value and Earnings
 DNE: Dummy variable equals one when pre-R&D earnings are negative
 Required
 Number of Observations",,,1983-1998,,
+,cen2006forecasted,,"Forecasted earnings per share and the cross section of expected stock returns
+","FEPS: Forecasted Earnings Per Share - Mean of forecasted one-year-ahead earnings per share in the previous month from I/B/E/S unadjusted summary historical file
+EPS: Earnings Per Share - 
+Size: Market value of equity at the end of the previous month computed from CRSP
+B/M: The Fama and French (1993) book-to-market ratio, where the value for July of year y to June of year y+1 is computed using the book value of equity for the fiscal-year-end in calendar year y-1 from Compustat and the market value of equity at the end of December of year t-1 from CRSP
+Price: Stock price at the end of the previous month from CRSP
+Ret : Cumulative (buy-and-hold) return over the past six months as of the previous month computed from CRSP
+Analyst: Number of analysts following a stock in the previous month from I/B/E/S
+FE/P: Forecasted earnings-to-price ratio, which is equal to FEPS in the previous month divided by the stock price on the corresponding date of I/B/E/S statistical period
+BPS: Book value of stockholders’ equity per share in the previous month, which is equal to the Compustat Item #60 at the recent announced fiscal-year-end as of the previous month divided by the number of shares outstanding on the corresponding date of I/B/E/S statistical period
+FROE: Forecasted return-on-equity in the previous month, which is equal to FEPS divided by BPS",,,1983-04,,
