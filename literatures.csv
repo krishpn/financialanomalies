@@ -891,3 +891,16 @@ CAGE: firm age of identifiable customers;
 CSG: annual percentage sales growth of the firm's identifiable customers; 
 INTRA: an indicator variable equal to 1 if the firm operates in the same four-digit SIC industry as at least one of its identifiable customers; 
 LINKAGE: duration of the link between the firm and its identifiable customers",,,1977-06,,
+,mclean2016doesacademic,,Does academic research destroy stock return predictability?," Predictors portfolios with t-statistics
+Mean publication year
+Median publication year
+Predictors from finance journals
+Predictors from economics journals
+Mean portfolio in-sample
+Standard Deviation of mean in-sample portfolio return
+Standard deviation of mean in-sample portfolio return
+Mean observations in sample
+Standard deviation of mean out-of-samples portfolio return 
+Mean portfolio return post-publication
+Standard deviation of mean post-publication portfolio return
+Mean observations post-publication",,,2013,,
