@@ -409,4 +409,5 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @PatatoukasPanosN.2012CCIf
 @mclean2016does
 @baltussen2012unknown
-@an2014the
+@an2014joint
+@li2010Real

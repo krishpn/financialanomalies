@@ -936,3 +936,14 @@ Change in VIX
 Change in the slope of implied volatility skew
 OTM put return on S&P opinions
 ",,,1996-09,,
+,an2014joint,,The joint cross section of stocks and options,"CVOL : call volatilities 
+PVOL : put volatiles
+RVOL : Realized Volatility
+ILLIQ: Illiquidity
+REV: Short-term reversal
+Implied volatility innovations
+Call Volume
+Put Volume
+Cull Open Interest
+Put Open Interest
+",,,1996-2011,,
