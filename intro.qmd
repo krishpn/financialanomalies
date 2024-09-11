@@ -413,3 +413,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @li2010Real
 @so2013new
 @beneish2013Earnings
+@brennan2013Informed
