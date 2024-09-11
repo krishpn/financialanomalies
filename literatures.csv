@@ -947,3 +947,22 @@ Put Volume
 Cull Open Interest
 Put Open Interest
 ",,,1996-2011,,
+,li2010real,,Real earnings management and subsequent stock returns,"Abnormal Operating Cash Flows
+Abnormal Production Costs
+Discretionary Accruals
+Market Capitalization
+Book-to-Market
+Prior Year Return",,,,,
+,so2013new,,A new approach to predicting analyst forecast errors: Do investors overweight analyst forecasts?=,"ACC: Accruals scaled by total assets
+LTG: Mean consensus long-term growth forecast
+Sales Growth: five year percentage growth in sales
+PPE: Annual Change of property plant and equipment
+OLA: other long-term assets
+PEAD: most recent analyst based quarterly earnings surprise
+RET: Market-adjusted stock returns over the past 12 months
+REV: historical revisions of analysts two year forecasts in the past three months
+Book-to-price: book equity per share scaled by price
+Sales Growth: five-year percentage growth in sales
+LTG:  Mean consensus long-term growth forecast
+OP: Edwards-Bell-Ohlson fundamental value estimate derived from analysts forecasts. Using a constant discount rate of 10 percent
+",,,,,
