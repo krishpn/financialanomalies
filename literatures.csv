@@ -332,6 +332,9 @@ Size
 Book-to-market
 Momentum Factors (SMB, HML, UMD)
 Market Returns",,Monthly,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
 ,nagel2005short,,"Short sales, institutional investors and the cross-section of stock returns","- market-to-book (M/B)
 - analyst forecast dispersion (ADISP)
 - firm-level volatility (VOL)
@@ -1026,3 +1029,4 @@ AAERs relating to financial institutions
 AAERs relating to auditing action against independent CPAs
 AAERs relating to 10-O violations
 AAERs relating to firms without data on COMPUSTAT, S & P Corporate Text or 10-K microfiche ",,,1987-93,,
+,amihud1986asset,,Asset pricing and the bid-ask spread,,,,,,
