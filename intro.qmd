@@ -420,4 +420,5 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @cremers2010search
 @cremers2009Takeovers
 @beneish1997Detecting
-@beneish1997Detecting
+
+@amihud1986Asset
