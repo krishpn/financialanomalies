@@ -1011,3 +1011,12 @@ S: the year-end log ratio of the value-weighted average market-to-book ratios",,
 ,cremers2010search,,In search of aggregate jump and volatility risk in the cross-section of stock returns,"MN:  Market-neutral at-the-money straddle returns
 CNMN: crash-neutral, market neutral at-the-money straddle returns
 VIX: Changes in the CBOE",,,1983-07,,
+,"cremers2009takeovers
+",,Takeovers and the cross-section of returns,"Q: Ratio of market-to-book value of assets where market assets are defined as the total assets plus market value of common stock minus book common equity and differed taxes
+PPE: property, plant and equipment to asset ratio
+Industry is equal to 1 if, based on Fama French 48-industry classification, there was a takeover in firms industry in the prior year
+ROA is the return on the assets
+Leverage is the book debt to the asset ratio
+Cash is the cash and short-term investments to assets ratio
+Firm Size is proxied by ln(MktCap), natural log of market equity
+G is governance index",,,1981-04,,
