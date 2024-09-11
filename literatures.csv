@@ -1000,5 +1000,11 @@ M0M4: The compounded holding-period return over the three months from month t - 
 Amihud: The illiquidity measure of Amihud (2002). We estimate this measure each month as the average of DDVOL, where r is the daily stock return and DDVOL is the daily dollar volume in thousand
 RolLGibbs: The market risk-adjusted effective bid-ask spread of Roll (1984), estimated at an annual frequency using the Gibbs sampler. This measure was obtained from Joel Hasbrouck's website
 DVOL: The average of daily dollar volume (in thousand dollars) within each month for each stock.
-TURN: The average of daily share turnover values within each month for each stock.
-",,,,,
+TURN: The average of daily share turnover values within each month for each stock.",,,,,
+,,,,,,,,,
+,,,,,,,,,
+,baker2006investor,,Investor sentiment and the cross-section of stock returns,"CEFD: value weighted average discount on closed-end mutual funds
+TURN: retreaded log turnover
+NIPO: Initial Public Offerings
+RIPO: Annual First-day returns of Initial Public Offerings
+S: the year-end log ratio of the value-weighted average market-to-book ratios",,,1963-01,,
