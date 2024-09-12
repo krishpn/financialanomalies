@@ -1052,3 +1052,10 @@ RHO: Absolute Returns and Volume
 ILLIQ: Amihud’s liquidity measure
 TRNOVDY: Daily number of shares traded is dived by the number of shares outstanding, then over a year
 DIVYLD: Dividend paid in a year divided by year end price",,,,,
+,korniotis2009geography,,The Geography of Return Predictability,"N: firms in each state
+AvgRet: Average Monthly Returns
+RFFR: Four Factor Model, SMB, HML, UMD
+Size
+Dividend yield in percent
+Firm Size based industry concentration or Herfindahl index multiplied by hundred
+ANCOV: Analyst Converage",,,1963-2005,,

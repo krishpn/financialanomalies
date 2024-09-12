@@ -426,3 +426,4 @@ Measure of Illiquidity  (based on Amihud, 2002):
 @gu2005Innovation
 @gokcen2009Information
 @korniotis2009Geography
+@douglas1967Risk
