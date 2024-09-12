@@ -1042,3 +1042,13 @@ M/B: Market to book ratio
 RD: Research and Development
 LN(MV): Natural Log of Firm’s Market Value
 NI: Net income before extraordinary items",,,1975-99,,
+,gokcen2009information,,Information revelation and expected stock returns,"BETA: systematic risk
+RMSEDAY: unsystematic risk
+LNSIZE :  log of market capitalization of the stock 
+LNBTM: Log of book-to-market ratio
+ABSRET: Absolute value of monthly market-adjusted return
+VOLD: Firm Specific dollar volume
+RHO: Absolute Returns and Volume
+ILLIQ: Amihud’s liquidity measure
+TRNOVDY: Daily number of shares traded is dived by the number of shares outstanding, then over a year
+DIVYLD: Dividend paid in a year divided by year end price",,,,,
