@@ -304,3 +304,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @chan1996money
 @chapman1997Approximating
 @cochrane1996cross
+@bossaerts1994Tax
