@@ -1,6 +1,64 @@
 # Introduction
 
-@fama1973risk show two-parameter regression model estimates average risk-return relationships based on efficient market porfolio ($m$), that is, the market prices fully reflect the available information. The asset are  constructed based on Equation \ref{Equation:BlackScholes1972} for an asset ($i$) proposed by @@black1972capital. 
+`START`
+
+Extreme Gradient Boosting (XGBoost) is a highly scalable, powerful and leading decision tree algorithm proposed by Chen and Guestrin (2016). Designed to handle the large datasets, XGBoost implements distributed gradient tree boosting learning strategy to train the model. That is, it sequentially learns from multiple weak classifiers (base learners or decision trees) and iteratively updates their weights (Friedman et al. (2000), Littlestone and Warmuth (1989)). Each combination of the update of the "weak learners" creates the powerful ensemble of "stronger learners". The sequential ordering means tree generated in the later steps will consider the prediction results of the preceding steps. In other words, the strategy is to gradually instruct weak learners to correct the fault from the preceding step. It also accounts for the deviations when comparing between the former and later decision trees of each iteration. In summary, XGBoost trains model in stages as follows:
+
+1.  Initialize model with a single decision tree.
+
+2.  Calculate the residuals of the model for each iteration. Residuals also known as errors are the differences between the actual and predicted values.
+
+3.  Construct and fit a new decision tree (weak learners) to predict the residuals.
+
+4.  Add the decision tree to the ensemble model in a way that minimizes the loss function.
+
+5.  Update the predictions, then added to preceding predictions to effectively updating model's approximation.
+
+6.  Calculate the new residuals based on the updated predictions.
+
+7.  Build a new tree and update the residuals repeated for predefined number of times.
+
+8.  Combine all predictions to give final predictions of the ensemble
+
+Formally, in a given training dataset $\mathbb{D} = (X_i, y_i)$, where $\mathbb{D}$ is organized in $n$ rows and $m$ columns, $X_i$ denotes vector of covariates and $y_i$ represents labels (if lawful = $1$, else $0$), and $|D| =n, x_i \in \mathbb{R}^m$ and $y_i \in \mathbb{R}$. The predicted value of $\hat{y}$ for the $i^{th}$ sample can be represented by a model comprising $k$ decision trees, expressed as in Equation \ref{Equation:xgboostequationone}.
+
+```{=tex}
+\begin{align}
+    &\hat{y_i} = \sum_{i=1}^K f_k(x_i), f_k \in \mathbfcal{F},
+\end{align}
+where $f_k$ represents the $k^{th}$ decision tree, $K$ is the number of trees and $\mathbfcal{F}$ is the functional space denoting the collection of all possible decision trees.
+\label{Equation:xgboostequationone}
+```
+In order to predict the tree in subsequent step, the algorithm computes the loss function given by \ref{Equation:xgboostequationtwo}.
+
+```{=tex}
+\begin{align}
+    &L = \sum_{i=1}^n \ell(y_i, \hat{y_i}),
+\end{align}
+where $L$ is the loss function, and respectively $y_i$ and $\hat{y}_i$ are the real and  predicted value of sample $i$. 
+\label{Equation:xgboostequationtwo}
+```
+In addition to the loss function , the salient feature of the XGBoost is also to estimate the regularization term. Together loss function and regularization term results into the objective function (see Equation \ref{Equation:xgboostequationtthree}). The model estimates and find the best fitting parameters ($\theta$) of the objective function during training.
+
+```{=tex}
+\begin{align}
+    &Obj(\theta) = \sum_{i=1}^n \ell(y_i, \hat{y_i}) + \sum_{k=1}^K \Omega(f_k),
+\end{align}
+where $\theta$ are the parameters to be estimated, $\ell$ is the loss function, respectively $y_i$ and $\hat{y}_i$are the real and  predicted value of sample $i$, and $\Omega$ is the regularization term. 
+\label{Equation:xgboostequationtthree}
+```
+The loss function $\ell$ can be different type, for example, mean squared error, log loss, etc. The regularization $\Omega(f_k)$ component represents the penalty term for $k^{th}$ tree estimated according to Equation \ref{Equation:xgboostequationtfour}
+
+```{=tex}
+\begin{align}
+    \Omega(f_k) = \gamma T_k + \frac{1}{2} \lambda \sum_{j=1}^{T_k} w_{k,j}^2,
+\end{align}
+where $w_{k,j}^2$ is the weight of the $j^{th}$ leaf in the $k^{th}$ tree, $T$ is the number of leaf nodes, $\gamma$ and $\lambda$ are respectively minimum loss requires  shrinkage (learning) parameters. 
+\label{Equation:xgboostequationtfour}
+```
+`END`
+
+@fama1973risk show two-parameter regression model estimates average risk-return relationships based on efficient market porfolio ($m$), that is, the market prices fully reflect the available information. The asset are constructed based on Equation \ref{Equation:BlackScholes1972} for an asset ($i$) proposed by \@@black1972capital.
 
 ```{=tex}
 \begin{align}
@@ -9,9 +67,7 @@
 \end{align}
 \label{Equation:BlackScholes1972}
 ```
-
 Excepted return of a security ($i$) is $E(\tilde{R_0})$, the expected return on a security that is riskless in the portfolio $m$, plus a risk premium that is $\beta_i$ times the difference between expected return of the portfolio ($E(\tilde{R_m})$ ) and riskless portfolio ($E(\tilde{R_0})$). is calculated by Equation \ref{Equation:ExpectedReturnFama1953}, $\beta_i$ is the risk of the asset $i$ of the portfolio $m$, measured relative to $\sigma^{2}(\tilde{R}_m)$
-
 
 ```{=tex}
 \begin{align}
@@ -24,8 +80,7 @@ Excepted return of a security ($i$) is $E(\tilde{R_0})$, the expected return on 
 \end{align}
 \label{Equation:ExpectedReturnFama1953}
 ```
-
-For each period of $t$, the cross sectional regression is given by 
+For each period of $t$, the cross sectional regression is given by
 
 ```{=tex}
 \begin{align}
@@ -34,16 +89,9 @@ For each period of $t$, the cross sectional regression is given by
 \end{align}
 \label{Equation:ExpectedReturnFama1953EquationTen}
 ```
-
 Equation \ref{Equation:ExpectedReturnFama1953EquationTen} the indepenent variable $\tilde{\beta}_{p,t-1}$ is the average of the $\tilde{\beta}_i$ for securities in portfolio $p$, $\tilde{\beta}_{p,t-1}^2$ is the average of the squared values of these $\tilde{\beta}_i$, $\bar{s}_{p, t-1} \tilde{\epsilon}_{i}$ is the average of $s\tilde{\epsilon}_i$ for portfolio $p_i$
 
-
-@gupta1975investors examines investors growth expectations reflected in the stock prices. A change in the expectation is reflected in the price movement. The study defines the earnings price ratio is a function of risk characteristics of the security and the expected growth in the earnings in Equation \ref{Equation:OferEquation1975EquationOne}. The risk component are measured by:
-- the beta coefficient
-- the firm asset size (natural logarithm of total asset)
-- dividend payout ratio
-- leverage ratio of liabilties and preferred stocks to the common stock outstanding
-- earnings variablity (standard deviation of earnings to price ratio calcuated over period of seven years)
+@gupta1975investors examines investors growth expectations reflected in the stock prices. A change in the expectation is reflected in the price movement. The study defines the earnings price ratio is a function of risk characteristics of the security and the expected growth in the earnings in Equation \ref{Equation:OferEquation1975EquationOne}. The risk component are measured by: - the beta coefficient - the firm asset size (natural logarithm of total asset) - dividend payout ratio - leverage ratio of liabilties and preferred stocks to the common stock outstanding - earnings variablity (standard deviation of earnings to price ratio calcuated over period of seven years)
 
 ```{=tex}
 \begin{align}
@@ -55,8 +103,6 @@ Equation \ref{Equation:ExpectedReturnFama1953EquationTen} the indepenent variabl
 \end{align}
 \label{Equation:OferEquation1975EquationOne}
 ```
-
-
 ```{=tex}
 \begin{align}
     & \Delta P_{i}^{t} = \frac{P_{it}-P_{it-1}}{P_{it-1}} \times 100 \\
@@ -70,10 +116,9 @@ Equation \ref{Equation:ExpectedReturnFama1953EquationTen} the indepenent variabl
 \end{align}
 \label{Equation:OferEquation1975}
 ```
+@basu1977investment: to determine empirically whether the investment performance of the common stocks is related to the $P/E$ ratios. $P/E$ is the ratio of market value of the common stock (market price times the number of shares outstanding) as of December 31 to reporting annual earnings (before extraordinary items) available for common stockholders. According to the paper, due the exaggerated investor expectations, $P/E$ ratio may be the indicator of future investment peroformance. The paper shows that $P/E$ is not fully reflected in security prices in as rapid a manner as postulated by the semi-strong form of the efficient market hypothesis. Instead, it seems that disequilibrium persisted in the capital market during the period studied. The results suggests that market efficiency does not exist due to lags and frictions in the price adjustmnet process.
 
-@basu1977investment: to determine empirically whether the investment performance of the common stocks is related to the $P/E$ ratios. $P/E$ is the ratio of market value of the common stock (market price times the number of shares outstanding) as of December 31 to reporting annual earnings (before extraordinary items) available for common stockholders. According to the paper, due the exaggerated investor expectations, $P/E$ ratio may be the indicator of future investment peroformance. The paper shows that $P/E$ is not fully reflected in security prices in as rapid a manner as postulated by the semi-strong form of the efficient market hypothesis. Instead, it seems that disequilibrium persisted in the capital market during the period studied. The results suggests that market efficiency does not exist due to lags and frictions in the price adjustmnet process. 
-
-@litzenberger1979effect: 
+@litzenberger1979effect:
 
 ```{=tex}
 \begin{align}
@@ -85,8 +130,7 @@ Equation \ref{Equation:ExpectedReturnFama1953EquationTen} the indepenent variabl
 \end{align}
 \label{Equation:Litzenberger1979Eqn23}
 ```
-
-@banz1981relationship: studies "size effect" by using market indices - Market Index, CRSP value weighted, CRSP equal weighted indexes, US Bond Index, Corporate Bond Index to estimate the relationship between the return and market value based on Equation \ref{Equation:banz1981Equation3}. The study suggests the CAPM is misspecified. 
+@banz1981relationship: studies "size effect" by using market indices - Market Index, CRSP value weighted, CRSP equal weighted indexes, US Bond Index, Corporate Bond Index to estimate the relationship between the return and market value based on Equation \ref{Equation:banz1981Equation3}. The study suggests the CAPM is misspecified.
 
 ```{=tex}
 \begin{align}
@@ -101,15 +145,11 @@ Equation \ref{Equation:ExpectedReturnFama1953EquationTen} the indepenent variabl
 \end{align}
 \label{Equation:banz1981Equation3}
 ```
+@figlewski1981informational estimates "The test methodology we will use is a familiar one. We construct ten port? folios to which stocks are assigned according to their average short interest during the previous six months, and calculate the portfolio a's or excess returns."
 
-@figlewski1981informational estimates "The test methodology we will use is a familiar one. We construct ten port?
-folios to which stocks are assigned according to their average short interest
-during the previous six months, and calculate the portfolio a's or excess returns."
+@basu1983relationship: The empirical findings reported in this paper indicate that, at least during the 1963-80 time period, the returns on the common stock of NYSE firms appear to have been related to earnings’ yield and firm size.
 
-@basu1983relationship: The empirical findings reported in this paper indicate that, at least during the 1963-80 time period, the returns on the common stock of NYSE firms appear to have been related to earnings’ yield and firm size. 
-
-@de1985does: "This study of market efficiency investigates whether such behavior affects stock prices. The empirical
-evidence, based on CRSP monthly return data, is consistent with the overreaction hypothesis. Substantial weak form market inefficiencies are discovered. The results also shed new light on the January returns earned by prior "winners" and "losers." Portfolios of losers experience exceptionally large January returns as late as five years after portfolio formation. To repeat, our goal is to test whether the overreaction hypothesis is predictive. Specifically, two hypotheses are suggested: (1) Extreme movements in stock prices will be followed by subsequent price movements in the opposite direction. (2) The more extreme the initial price movement, the greater will be the subsequent adjustment. Both hypotheses imply a violation of weak-form market efficiency."
+@de1985does: "This study of market efficiency investigates whether such behavior affects stock prices. The empirical evidence, based on CRSP monthly return data, is consistent with the overreaction hypothesis. Substantial weak form market inefficiencies are discovered. The results also shed new light on the January returns earned by prior "winners" and "losers." Portfolios of losers experience exceptionally large January returns as late as five years after portfolio formation. To repeat, our goal is to test whether the overreaction hypothesis is predictive. Specifically, two hypotheses are suggested: (1) Extreme movements in stock prices will be followed by subsequent price movements in the opposite direction. (2) The more extreme the initial price movement, the greater will be the subsequent adjustment. Both hypotheses imply a violation of weak-form market efficiency."
 
 @bhandari1988debt: "The expected returns on common stocks are positively related to the debt/equity ratio (DER), controlling for the beta and firm size, both including and excluding January. This relationship is not sensitive to variations in the market proxy, estimation technique, etc. The evidence suggests that the "premium" associated with the debt/equity ratio is not likely to be just some kind of "risk premium""
 
@@ -123,16 +163,9 @@ evidence, based on CRSP monthly return data, is consistent with the overreaction
 \end{align}
 \label{Equation:bhandari1988debtEquation1}
 ```
+@amihud1986asset: "llliquidity can be measured by the cost of immediate execution. An investor willing to transact faces a tradeoff: He may either wait to transact at a favorable price or insist on immediate execution at the current bid or ask price. The quoted ask (offer) price includes a premium for immediate buying, and the bid price similarly reflects a concession required for immediate sale. Thus. a natural measure of illiquidity is the spread between the bid and ask prices, which is the sum of the buying premium and the selling concession.’ Indeed. the relative spread on stocks has been found to be negatively correlated with liquidity characteristics such as the trading volume, the number of shareholders. the number of market makers trading the stock and the stock price continuity."
 
-@amihud1986asset: "llliquidity can be measured by the cost of immediate execution. An investor willing to transact faces a tradeoff: He may either wait to transact at a favorable price or insist on immediate execution at the current bid or ask
-price. The quoted ask (offer) price includes a premium for immediate buying,
-and the bid price similarly reflects a concession required for immediate sale.
-Thus. a natural measure of illiquidity is the spread between the bid and ask prices, which is the sum of the buying premium and the selling concession.’
-Indeed. the relative spread on stocks has been found to be negatively correlated with liquidity characteristics such as the trading volume, the number of
-shareholders. the number of market makers trading the stock and the stock
-price continuity."
-
-@amihud1989effects: 
+@amihud1989effects:
 
 The percentage bid-ask spread (= dollar spread divided by the stock price)
 
@@ -148,16 +181,13 @@ The percentage bid-ask spread (= dollar spread divided by the stock price)
 \end{align}
 \label{Equation:amihud1989effectsEquation2}
 ```
-
 @ou1989financial: "Implements multivariate LOGIT analysis in financial statements. Fundamental analysis extracts value measures from financial statements and compares them to prices to identify mispriced stocks. The evidence here suggests that financial statements capture fundamentals that are not reflected in prices."
-
 
 @jegadeesh1990evidence: "This paper documents strong evidence of predictable behavior of security returns. The results here show that the monthly returns on individual stocks exhibit. significantly negative first-order serial correlation and significantly positive higher-order serial correlation. The pattern of serial correlation exhibits seasonality, with the pattern in January significantly different from that in the other months."
 
-@jegadeesh1993returns: 
+@jegadeesh1993returns:
 
 @loughran1995new : "Investing in firms issuing stock is hazardous to your wealth. Firms issuing stock during 1970 to 1990, whether an IPO or an SEO, have been poor long-run investments for investors. s. The average annual return during the five years after issuing is only 5 percent for firms conducting IPOs, and only 7 percent for firms conducting SEOs. Investing an equal amount at the same time in a nonissuing firm with approximately the same market capitalization, and holding it for an identical period, would have produced an average compound return of 12 percent per year for IPOs and 15 percent for SEOs. The magnitude of the underperformance is large: it implies that 44 percent more money would need to be invested in the issuers than in the nonissuers to be left with the same wealth five years later."
-
 
 @michaely1995price: "Market reaction to the dividend initiations. "
 
@@ -167,99 +197,67 @@ The percentage bid-ask spread (= dollar spread divided by the stock price)
 
 @sloan1996stock: "This paper investigates whether stock prices reflect information about future earnings contained in the accrual and cash flow components of current earnings. The persistence of earnings performance is shown to depend on the relative magnitudes of the cash and accrual components of earnings. However, stock prices act as if investors fail to identify correctly the different properties of these two components of earnings"
 
-
 @womack1996brokerage: " An analysis of new buy and sell recommendations of stocks by security analysts at major U.S. brokerage firms shows significant, systematic discrepancies between prerecommendation prices and eventual values. The initial return at the time of the recommendations is large, even though few recommendations coincide with new public news or provide previously unavailable facts. However, these initial price reactions are incomplete. For buy recommendations, the mean postevent drift is modest (+2.4%) and short-lived, but for sell recommendations, the drift is larger (-9.1%) and extends for six months. Analysts appear to have market timing and stock picking abilities"
 
-@brennan1998alternative: "We examine the relation between stock returns, measures of risk, and several non-risk security characteristics, including the book-to-market ratio, firm size, the stock price, the
-dividend yield, and lagged returns. Our primary objective is to determine whether non-risk characteristics have marginal explanatory power relative to the arbitrage pricing theory benchmark, with factors determined using, in turn, the Connor and Korajczyk (CK; 1988) and the Fama and French (FF; 1993b) approaches. Fama—MacBeth-type regressions using risk adjusted returns provide evidence of return momentum, size, and book-to-market effects, together with a significant and negative relation between returns and trading volume, even after accounting for the CK factors. When the analysis is repeated using the FF factors, we find that the size and book-to-market effects are attenuated, while the momentum and trading volume effects persist. In addition, Nasdaq stocks show significant underperformance after adjusting for risk using either
-method"
+@brennan1998alternative: "We examine the relation between stock returns, measures of risk, and several non-risk security characteristics, including the book-to-market ratio, firm size, the stock price, the dividend yield, and lagged returns. Our primary objective is to determine whether non-risk characteristics have marginal explanatory power relative to the arbitrage pricing theory benchmark, with factors determined using, in turn, the Connor and Korajczyk (CK; 1988) and the Fama and French (FF; 1993b) approaches. Fama—MacBeth-type regressions using risk adjusted returns provide evidence of return momentum, size, and book-to-market effects, together with a significant and negative relation between returns and trading volume, even after accounting for the CK factors. When the analysis is repeated using the FF factors, we find that the size and book-to-market effects are attenuated, while the momentum and trading volume effects persist. In addition, Nasdaq stocks show significant underperformance after adjusting for risk using either method"
 
 @brennan1998alternative: Regardless of the method used to risk-adjust returns, we find a strong negative relation between average returns and trading volume, which is consistent with a liquidity premium in asset prices. In addition, the size and book-to-market ratio effects are strong in the CK method of risk-adjustment, while the FF factors attenuate both the magnitude and significance of these effects.
 
 @dichev1998risk: " Several studies suggest that a firm distress risk factor could be behind the size and the book-to-market effects. A natural proxy for firm distress is bankruptcy risk. If bankruptcy risk is systematic, one would expect a positive association between bankruptcy risk and subsequent realized returns. However, resullts demonstrate that bankruptcy risk is not rewarded by higher returns. Thus, a distress factor is unlikely to account for the size and book-to-market effects. Surprisingly, firms with high bankruptcy risk earn lower than average returns since 1980. A risk-based explanation cannot fully explain the anomalous evidence."
 
-- MV is log of fiscal-year-end price times number of shares outstanding
-- BIM is common equity divided by fiscal-year-end price times number of shares outstandin
-- Z risk (bankruptcy risk, @altman1968financial) comprised of 
-  - Working capital/Total assets
-  -  Retained Earnings/Total assets
-  -  Earnings before interest and taxes/Total assets
-  -  Market value equity/Book value of total debt
-  -  Sales/Total assets
-- O risk
-  - SIZE = log(total assets/GNP price-level index).
-  - - TLTA = Total liabilities divided by total assets.
-  - WCTA Working capital divided by total assets.
-  - CLCA Current liabilities divided by current assets.
-  - OENEG = One if total liabilities exceeds total assets, zero otherwise.
-  - NITA Net income divided by total assets.
-  - FUTL = Funds provided by operations divided by total liabilities.
-  - INTWO = One if net income was negative for the last two years, zero otherwise.
-  - CHIN = $({NI}_t-{NI}_{t-1})/(|{NI}_t| + |{NI}_{t-1}|)$ where ${NI}_t$ is net
-income for the most recent period. 
+-   MV is log of fiscal-year-end price times number of shares outstanding
+-   BIM is common equity divided by fiscal-year-end price times number of shares outstandin
+-   Z risk (bankruptcy risk, @altman1968financial) comprised of
+    -   Working capital/Total assets
+    -   Retained Earnings/Total assets
+    -   Earnings before interest and taxes/Total assets
+    -   Market value equity/Book value of total debt
+    -   Sales/Total assets
+-   O risk
+    -   SIZE = log(total assets/GNP price-level index).
+    -   
+        -   TLTA = Total liabilities divided by total assets.
+    -   WCTA Working capital divided by total assets.
+    -   CLCA Current liabilities divided by current assets.
+    -   OENEG = One if total liabilities exceeds total assets, zero otherwise.
+    -   NITA Net income divided by total assets.
+    -   FUTL = Funds provided by operations divided by total liabilities.
+    -   INTWO = One if net income was negative for the last two years, zero otherwise.
+    -   CHIN = $({NI}_t-{NI}_{t-1})/(|{NI}_t| + |{NI}_{t-1}|)$ where ${NI}_t$ is net income for the most recent period.
 
+@datar1998liquidity: "In this paper, we provide an alternative test of A&M’s model using the turnover rate as a proxy for liquidity and found strong support for A&M’s model. In particular, we find that the stock returns are strongly negatively related to their turnover rates confirming the notion that illiquid stocks provide higher average returns." - Monthly Returns - turnover rate of every stock = monthly trading volume (the average number of shares traded during the previous three months, i.e., during months t- 3, t-2 and t-1) and divide it by the number of shares outstanding of that firm - turnover rate of every stock - book-to-market ratio, - firm size - firm beta
 
-@datar1998liquidity:  "In this paper, we provide an alternative test of A&M’s model using the turnover rate as a proxy for liquidity and found strong support for A&M’s model. In particular, we find that the stock returns are strongly negatively related to their turnover rates confirming the notion that illiquid stocks provide
-higher average returns."
-- Monthly Returns
-- turnover rate of every stock = monthly trading volume (the average number of shares traded during the previous three months, i.e., during months t- 3, t-2 and t-1) and divide it by the number of shares outstanding of that firm
-- turnover rate of every stock 
-  -  book-to-market ratio, 
-  -  firm size
-  -  firm beta
-  
 @moskowitz1999industries: " This paper documents a strong and prevalent momentum effect in ind ponents of stock returns which accounts for much of the individual sto tum anomaly. Specifically, momentum investment strategies, which buy p stocks and sell past losing stocks, are significantly less profitable once for industry momentum. By contrast, industry momentum investmen which buy stocks from past winning industries and sell stocks from p industries, appear highly profitable, even after controlling for size, book equity, individual stock momentum, the cross-sectional dispersion in m and potential microstructur"
 
 @lee2000price: "This study shows that past trading volume provides an important link between "momentum" and "value" strategies. Specifically, we find that firms with high (low) past turnover ratios exhibit many glamour (value) characteristics, earn lower (higher) future returns, and have consistently more negative (positive) earnings surprises over the next eight quarters. Past trading volume also predicts both the magnitude and persistence of price momentum. Specifically, price momentum effects reverse over the next five years, and high (low) volume winners (losers) experience faster reversals. Collectively, our findings show that past volume helps to reconcile intermediate-horizon "underreaction" and long-horizon "overreaction" effects"
 
-@asness2000predicting: "Better proxies for the information about future returns contained in firm characteristics such as size, book-to-market equity, cash flow-to-price, percent change in employees, and various past return
-measures are obtained by breaking these explanatory variables into two industry-related components. "
+@asness2000predicting: "Better proxies for the information about future returns contained in firm characteristics such as size, book-to-market equity, cash flow-to-price, percent change in employees, and various past return measures are obtained by breaking these explanatory variables into two industry-related components. "
 
-@piotroski2000value: 
+@piotroski2000value:
 
 @chordia2001trading: "A body of literature starting with @amihud1986asset has found that investors demand a premium for less liquid stocks, so that expected returns. should be negatively related to the level of liquidity. In this paper, we document negative and signi"cant cross-sectional relationship between average stock returns and the level as well as the second moment of measures of trading activity such as dollar volume and share turnover. Given the evidence that the level of liquidity affects asset returns, a reasonable hypothesis is that the second moment of liquidity should be positively related to asset returns, provided agents care about the risk associated with fluctuations in liquidity. Motivated by this observation, we analyze the relation between expected equity returns and the level as well as the volatility of trading activity, a proxy for liquidity. We document a result contrary to our initial hypothesis, namely, a negative and surprisingly strong cross-sectional relationship between stock returns and the variability of dollar trading volume and share turnover, after controlling for size, book-to-market ratio, momentum, and the level of dollar volume or share turnover. This e!ect survives a number of robustness checks, and is statistically and economically signi"cant. Our analysis demonstrates the importance of trading activity-related variables in the crosssection of expected stock returns."
 
-@lamont2001financial: "We test whether the impact of financial constraints on firm value is observable in stock returns. We form portfolios of firms based on observable characteristics related to financial constraints and test for common variation in stock returns. Financially constrained firms’ stock returns move together over time, suggesting that constrained firms are subject to common shocks. Constrained firms have low average stock returns in our 1968–1997
-sample of growing manufacturing firms. We find no evidence that the relative performance of constrained firms reflects monetary policy, credit conditions, or business cycles. We construct various zero-cost portfolios that are long financially constrained firms and short less constrained firms and find three results. First, these portfolios capture common variation in stock returns not captured by other sources of return comovements. Thus we conclude that there is a financial constraints factor, an identifiable independent common source of economic
-shocks to firm value. The evidence suggests that financial constraints do
-affect firm value and that the severity of constraints varies over time. Second,
-our investigation of the role of financial constraints in asset pricing reveals
-the surprising result that constrained firms earn lower returns than unconstrained firms, a result not explainable using existing asset-pricing models.
-Third, financially constrained firms do not have returns that are significantly
-more cyclical than average. Thus, the source of the common economic shocks
-to financially constrained firms remains an open question.The proxies are constructed based on @kaplan1995financing"
+@lamont2001financial: "We test whether the impact of financial constraints on firm value is observable in stock returns. We form portfolios of firms based on observable characteristics related to financial constraints and test for common variation in stock returns. Financially constrained firms’ stock returns move together over time, suggesting that constrained firms are subject to common shocks. Constrained firms have low average stock returns in our 1968–1997 sample of growing manufacturing firms. We find no evidence that the relative performance of constrained firms reflects monetary policy, credit conditions, or business cycles. We construct various zero-cost portfolios that are long financially constrained firms and short less constrained firms and find three results. First, these portfolios capture common variation in stock returns not captured by other sources of return comovements. Thus we conclude that there is a financial constraints factor, an identifiable independent common source of economic shocks to firm value. The evidence suggests that financial constraints do affect firm value and that the severity of constraints varies over time. Second, our investigation of the role of financial constraints in asset pricing reveals the surprising result that constrained firms earn lower returns than unconstrained firms, a result not explainable using existing asset-pricing models. Third, financially constrained firms do not have returns that are significantly more cyclical than average. Thus, the source of the common economic shocks to financially constrained firms remains an open question.The proxies are constructed based on @kaplan1995financing"
 
 @elgers2001delayed: "The paper documents that the weighthing of analysts annual earnings forecasts implicit in security prices is lower than the historical relation between the financial analysts forecasts and realized earnings. Our evidence that analysts the beginging of the year annual earnings forecasts are associated with abnormal security returns subsequently accumulated over the earnings year is consistent with the delayed price reaction to the value-relevant information in the posistions in the securityies in the bottom (top) deciles of the corss-sectional distribution of the analysts earnings forecasts early in the earnings year, generates statistically siginificant trading profits in the year after porfolio formation for firms with relatively low analysts coverage."
 
-@gompers2001institutional: "We analyze the investors preferences for the stock and the implications that these preferences have for stock-market prices and returns. We find that large institutional investors- a category including all managers with greater than $100 million under discretional control --have nearly doubled their share of the common staock from 1980 to 1996, with most of this increase driven by the growth in the holdings of the largest one hundred institutions."
+@gompers2001institutional: "We analyze the investors preferences for the stock and the implications that these preferences have for stock-market prices and returns. We find that large institutional investors- a category including all managers with greater than \$100 million under discretional control --have nearly doubled their share of the common staock from 1980 to 1996, with most of this increase driven by the growth in the holdings of the largest one hundred institutions."
 
-@griffin2002book: "This paper examines the relationship between book-to-market equity, distress risk, and stock returns. Among firms with the highest distress risk as proxied by @ohlson1980financial 0-score, the difference in returns between high and low book-tomarket securities is more than twice as large as that in other firms. This large
-return differential cannot be explained by the three-factor model or by differences
-in economic fundamentals. Consistent with mispricing arguments, firms with high
-distress risk exhibit the largest return reversals around earnings announcements,
-and the book-to-market effect is largest in small firms with low analyst coverage. "
+@griffin2002book: "This paper examines the relationship between book-to-market equity, distress risk, and stock returns. Among firms with the highest distress risk as proxied by @ohlson1980financial 0-score, the difference in returns between high and low book-tomarket securities is more than twice as large as that in other firms. This large return differential cannot be explained by the three-factor model or by differences in economic fundamentals. Consistent with mispricing arguments, firms with high distress risk exhibit the largest return reversals around earnings announcements, and the book-to-market effect is largest in small firms with low analyst coverage. "
 
 @diether2002differences: "We provide evidence that stocks with higher dispersion in analysts' earnings fore-casts earn lower future returns than otherwise similar stocks. This effect is mostpronounced in small stocks and stocks that have performed poorly over the pastyear. Interpreting dispersion in analysts' forecasts as a proxy for differences inopinion about a stock, we show that this evidence is consistent with the hypothesisthat prices will reflect the optimistic view whenever investors with the lowestvaluations do not trade. By contrast, our evidence is inconsistent with a view thatdispersion in analysts' forecasts proxies for risk."
 
 @chen2002breadth: " In this paper, we bring new evidence to bear on an asset-pricing hypothesis which has been around for a long while, but which has thus far not recieved much empirical support. The idea, which dates back to Miller, has to do with the combined effects of short-sales constraints and differences of opinion on stock prices. We develop a model of stock prices in which there are both differences of opinion among investors as well as short-sales constraints. The key insights that emerge in that breadth of ownerwhip is a valuation indicator. When the breadth is low- when investors have long positions in the stock- this signals that hte short-sales constrarint in binding tightly, implying that prices are high relative to fundamentls and that expected reutrns are therefore low."
 
-@gompers2003corporate: "Shareholder rights vary across firms. Using the incidence of 24 governance rules, we construct a “Governance Index” to proxy for the level of shareholder
-rights at about 1500 large firms during the 1990s. An investment strategy that
-bought firms in the lowest decile of the index (strongest rights) and sold firms in
-the highest decile of the index (weakest rights) would have earned abnormal
-returns of 8.5 percent per year during the sample period. We find that firms with
-stronger shareholder rights had higher firm value, higher profits, higher sales
-growth, lower capital expenditures, and made fewer corporate acquisitions."
+@gompers2003corporate: "Shareholder rights vary across firms. Using the incidence of 24 governance rules, we construct a “Governance Index” to proxy for the level of shareholder rights at about 1500 large firms during the 1990s. An investment strategy that bought firms in the lowest decile of the index (strongest rights) and sold firms in the highest decile of the index (weakest rights) would have earned abnormal returns of 8.5 percent per year during the sample period. We find that firms with stronger shareholder rights had higher firm value, higher profits, higher sales growth, lower capital expenditures, and made fewer corporate acquisitions."
 
-@doyle2003predictive: "We investigate the informational properties of pro forma earnings.  This increasingly popular measure of earnings excludes certain expenses that the company deems non-recurring, non-cash, or otherwise unimportant for understanding the future value of the firm. We find, however, that these expenses are far from unimportant. Higher levels of exclusions lead to predictably lower future cash flows. We also find that investors do not fully appreciate the lower cash flow implications at the time of the
-earnings announcement. A trading strategy based on the excluded expenses yields a large positive abnormal return in the years following the announcement, and persists after controlling for various risk factors and other anomalies."
+@doyle2003predictive: "We investigate the informational properties of pro forma earnings. This increasingly popular measure of earnings excludes certain expenses that the company deems non-recurring, non-cash, or otherwise unimportant for understanding the future value of the firm. We find, however, that these expenses are far from unimportant. Higher levels of exclusions lead to predictably lower future cash flows. We also find that investors do not fully appreciate the lower cash flow implications at the time of the earnings announcement. A trading strategy based on the excluded expenses yields a large positive abnormal return in the years following the announcement, and persists after controlling for various risk factors and other anomalies."
 
-@doyle2003predictive: 
+@doyle2003predictive:
 
 @watkins2003riding: "I analyze the degree to which return consistency in the past predicts future returns. It is discovered here that consistency is a strong predictive measure for future stock returns. In a portfolio context, positively consistent stocks exhibit positive future risk-adjusted returns, and negatively consistent stocks exhibit negative future risk-adjusted returns. The results are economically and statistically significant over multiple sub-periods. Also, odd return behavior persists for nearly two years after portfolio formation. Stocks that have been consistently positive (negative) for longer time horizons have higher(lower) risk-adjusted returns during the following month than those which have been consistent for shorter time periods. Finally, it is determined that high consistency enhances momentum when the two factors are allowed to interact. Thus, there appears to be strong path dependence in the momentum effect, and consistency in stock returns appears to be an important component of return predictability. "
 
-@eberhart2004examination: "We examine a sample of 8,313 cases, between 1951 and 2001, where firms unex edly increase their research and development (R&D) expenditures by a signif amount. We find consistent evidence of a misreaction, as manifested in the si cantly positive abnormal stock returns that our sample firms' shareholders expe following these increases. We also find consistent evidence that our sample firm perience significantly positive long-term abnormal operating performance follow their R&D increases. Our findings suggest that R&D increases are beneficial in ments, and that the market is slow to recognize the extent of this benefit (cons with investor underreaction). "
-@george200452: "When coupled with a stock's current price, a readily available piece of information 52-week high price-explains a large portion of the profits from momentum investi Nearness to the 52-week high dominates and improves upon the forecasting power past returns (both individual and industry returns) for future returns. Future retu forecast using the 52-week high do not reverse in the long run. These results indi that short-term momentum and long-term reversals are largely separate phenome which presents a challenge to current theory that models these aspects of secur returns as integrated components of the market's resp"
+@eberhart2004examination: "We examine a sample of 8,313 cases, between 1951 and 2001, where firms unex edly increase their research and development (R&D) expenditures by a signif amount. We find consistent evidence of a misreaction, as manifested in the si cantly positive abnormal stock returns that our sample firms' shareholders expe following these increases. We also find consistent evidence that our sample firm perience significantly positive long-term abnormal operating performance follow their R&D increases. Our findings suggest that R&D increases are beneficial in ments, and that the market is slow to recognize the extent of this benefit (cons with investor underreaction). " @george200452: "When coupled with a stock's current price, a readily available piece of information 52-week high price-explains a large portion of the profits from momentum investi Nearness to the 52-week high dominates and improves upon the forecasting power past returns (both individual and industry returns) for future returns. Future retu forecast using the 52-week high do not reverse in the long run. These results indi that short-term momentum and long-term reversals are largely separate phenome which presents a challenge to current theory that models these aspects of secur returns as integrated components of the market's resp"
 
 @jegadeesh2004analyzing
 
@@ -269,7 +267,7 @@ earnings announcement. A trading strategy based on the excluded expenses yields 
 
 @acharya2005asset:
 
-Measure of Illiquidity  (based on Amihud, 2002):
+Measure of Illiquidity (based on Amihud, 2002):
 
 ```{=tex}
 \begin{align}
@@ -277,156 +275,7 @@ Measure of Illiquidity  (based on Amihud, 2002):
 \end{align}
 \label{Equation:acharya2005assetEquation11}
 ```
-@hou2005market 
-@nagel2005short
-@asquith2005short
-@mohanram2005separating
-@whited2006financial
-@ang2006cross
-@anderson2006empirical
-@daniel2006market
-@fama2006profitability
-@bradshaw2006relation
-@franzoni2006pension
-@narayanamoorthy2006conservatism
-@avramov2007momentum
-@kumar2008estimation
-@guo2008average
-@campbell2008search
-@garlappi2008default
-@cooper2008asset
-@pontiff2008share
-@cohen2008economic
-@fabozzi2008sin
-@soliman2008use
-@avramov2009dispersion
-@hahn2005financial
-@rozeff1988market
-@lebedeva2012trading
-@fishman1995mandatory
-@cao2004does
-@pagano1996transparency
-@chemmanur2019advertising
-@gow2009earnings
-@dechow1997returns
-@tuzel2010corporate
-@menzly2010market
-@xing2010does
-@bali2011maxing
-@yan2011jump
-@eisfeldt2013organization
-@callen2013accounting
-@drake2011should
-@hafzalla2011percent
-@landsman2011investors
-@li2011well
-@thomas2011tax
-@johnson2012option
-@palazzo2012cash
-@bazdrech2009labor
-@cohen2012complicated
-@hirshleifer2013innovative
-@prakash2013deferred
-@cohen2013misvaluing
-@novy2013other
-@frazzini2014betting
-@valta2016strategic
-@da2009cashflow
-@hou2011factors
-@barber2001can
-@harvey2000conditional
-@spiess1999long
-@ang2006downside
-@chordia2006earnings
-@kishore2008earnings
-@hawkins1984earnings
-@adrian2014financial
-@frankel1998accounting
-@abarbanell1998abnormal
-@ali2003arbitrage
-@vanden2006option
-@vanden2004options
-@chan1985exploratory
-@arbel1983giraffes
-@campbell1996understanding
-@dittmar2002nonlinear
-@liu2006liquidity
-@pastor2003liquidity
-@hirshleifer2010financing
-@black1972capital
-@carhart1997persistence
-@black1972capital
-@kraus1976skewness
-@lintner1965security
-@sharpe1964capital
-@heckerman1972portfolio
-@heckerman1972portfolio
-@fama1973risk
-@mossin1966equilibrium
-@jagannathan1996conditional
-@ferson1991variation
-@fogler1981three
-@boudoukh2007importance
-@hou2015digesting
-@holthausen1992prediction
-@easley2010factoring
-@chopra1992measuring
-@kelly2021understanding
-@chen2011alternative
-@foster1984earnings
-@spiess1995underperformance
-@daniel1997evidence
-@fama1993common
-@fama1992cross
-@lo2006trading
-@mayshar1981transaction
-@brennan1996market
-@jiang2005information
-@lev2005r
-@bali2009volatility
-@boyer2010expected
-@an2010warranted
-@hameed2015industries
-@simutin2010excess
-@opler1999determinants
-@huang2012extreme
-@balachandran2012using
-@conrad2013ex
-@conrad2013ex
-@burlacu2012risk
-@durnev2009corporate
-@vassalou2004default
-@adrian2008stock
-@wahlen2011can
-@penman2002modeling
-@lev2016informational
-@cen2006forecasted
-@baik2007changes
-@gu2009information
-@huangalanguoming2009tcso
-@papanastasopoulosgeorgios2010tior
-@dazhi2011dsrr
-@PatatoukasPanosN.2012CCIf
-@mclean2016does
-@baltussen2012unknown
-@an2014joint
-@li2010Real
-@so2013new
-@beneish2013Earnings
-@brennan2013Informed
-@boguth2013Consumption
-@chordia2009Theory
-@baker2006Investor
-@cremers2010search
-@cremers2009Takeovers
-@beneish1997Detecting
+@hou2005market @nagel2005short @asquith2005short @mohanram2005separating @whited2006financial @ang2006cross @anderson2006empirical @daniel2006market @fama2006profitability @bradshaw2006relation @franzoni2006pension @narayanamoorthy2006conservatism @avramov2007momentum @kumar2008estimation @guo2008average @campbell2008search @garlappi2008default @cooper2008asset @pontiff2008share @cohen2008economic @fabozzi2008sin @soliman2008use @avramov2009dispersion @hahn2005financial @rozeff1988market @lebedeva2012trading @fishman1995mandatory @cao2004does @pagano1996transparency @chemmanur2019advertising @gow2009earnings @dechow1997returns @tuzel2010corporate @menzly2010market @xing2010does @bali2011maxing @yan2011jump @eisfeldt2013organization @callen2013accounting @drake2011should @hafzalla2011percent @landsman2011investors @li2011well @thomas2011tax @johnson2012option @palazzo2012cash @bazdrech2009labor @cohen2012complicated @hirshleifer2013innovative @prakash2013deferred @cohen2013misvaluing @novy2013other @frazzini2014betting @valta2016strategic @da2009cashflow @hou2011factors @barber2001can @harvey2000conditional @spiess1999long @ang2006downside @chordia2006earnings @kishore2008earnings @hawkins1984earnings @adrian2014financial @frankel1998accounting @abarbanell1998abnormal @ali2003arbitrage @vanden2006option @vanden2004options @chan1985exploratory @arbel1983giraffes @campbell1996understanding @dittmar2002nonlinear @liu2006liquidity @pastor2003liquidity @hirshleifer2010financing @black1972capital @carhart1997persistence @black1972capital @kraus1976skewness @lintner1965security @sharpe1964capital @heckerman1972portfolio @heckerman1972portfolio @fama1973risk @mossin1966equilibrium @jagannathan1996conditional @ferson1991variation @fogler1981three @boudoukh2007importance @hou2015digesting @holthausen1992prediction @easley2010factoring @chopra1992measuring @kelly2021understanding @chen2011alternative @foster1984earnings @spiess1995underperformance @daniel1997evidence @fama1993common @fama1992cross @lo2006trading @mayshar1981transaction @brennan1996market @jiang2005information @lev2005r @bali2009volatility @boyer2010expected @an2010warranted @hameed2015industries @simutin2010excess @opler1999determinants @huang2012extreme @balachandran2012using @conrad2013ex @conrad2013ex @burlacu2012risk @durnev2009corporate @vassalou2004default @adrian2008stock @wahlen2011can @penman2002modeling @lev2016informational @cen2006forecasted @baik2007changes @gu2009information @huangalanguoming2009tcso @papanastasopoulosgeorgios2010tior @dazhi2011dsrr @PatatoukasPanosN.2012CCIf @mclean2016does @baltussen2012unknown @an2014joint @li2010Real @so2013new @beneish2013Earnings @brennan2013Informed @boguth2013Consumption @chordia2009Theory @baker2006Investor @cremers2010search @cremers2009Takeovers @beneish1997Detecting
 
-@amihud1986Asset
-@chang2013Market
-@gu2005Innovation
-@gokcen2009Information
-@korniotis2009Geography
-@douglas1967Risk
-@shu2007Trader
-@head2009stock
+@amihud1986Asset @chang2013Market @gu2005Innovation @gokcen2009Information @korniotis2009Geography @douglas1967Risk @shu2007Trader @head2009stock @armstrong2011Information
 @armstrong2011Information

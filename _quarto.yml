@@ -17,9 +17,11 @@ bibliography: references.bib
 format:
   pdf:
     documentclass: scrreprt
+    linestretch: 1.5
     include-in-header:
       - text: |
           \usepackage{amsmath}
+
 
 
 
