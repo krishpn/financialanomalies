@@ -1071,4 +1071,37 @@ Mean Forecast Error ",,,1986-08,,
 ,brown2007productivity,,The productivity premium in equity returns,"Portfolio Excess Returns
 Market Value averages of differences ",,,1970-05,,
 ,ackert1997prior,,"Prior uncertainty, analyst bias, and subsequent abnormal returns",- Consensus Forecast,,,1980-91,,
-,ortiz2014real,,Real asset illiquidity and the cost of capital,,,,,,
+,ortiz2014real,,Real asset illiquidity and the cost of capital,"ICC: the implied cost of capital
+FFCC: factor model of cost of capital
+MNoPotBuy: is minus number of rival firms in the industry that have debt ratings 
+NLPotBuy: Average book leverage net of cash holdings of rival firms 
+MTotM&A: minus the value of all M&A activity in the industry scaled by the book of the assets
+MInM&A: minus the value of M&A activity in the industry involving acquirers that operate within the industry scaled by the book value of assets in the industry
+MOutM&A: minus the value of M&A activity in the industry in involving acquirers that operate outside the industry scaled by the book value of the assets
+WAIL1: Weighted Asset Liquidity - proportion of cash and equivalents to the firm’s lagged total assets.
+WAIL2: Weighted Asset Liquidity - proportion of cash and equivalents and non cash current assets to the lagged total assets
+WAIL3: Weighted Asset Liquidity - proportion of cash and equivalent and intangibles to lagged total assets
+MWAIL : market-weighted asset liquidity
+LogMap: Logarithm of market capitalization
+LogBM: Logarithm of Book-to-market
+DRP: distribution of default risk
+BLev: Book Leverage
+RoE: Return in Equity
+VolRoe: Standard Deviation of ROE over the past five years
+FA/TA: fixed assets scaled by total assets
+R&DExp: Research and Development Expenditure scaled by sales
+LogAge: Logarithm of 1 plus the number of years 
+DivPay: Dividend pay
+SalGrow: Annual change in logarithm of sales
+LogInvPrice: Logarithm of 1 divided by the stock price as the estimation of date of ICC
+RetPM: stock return over the past month 
+Ret12M: stock return over the past 12 months",,,1984-06,,
+,gopalan2012asset,,Asset liquidity and stock liquidity,"WAIL1: Weighted Asset Liquidity - proportion of cash and equivalents to the firm’s lagged total assets.
+WAIL2: Weighted Asset Liquidity - proportion of cash and equivalents and non cash current assets to the lagged total assets
+WAIL3: Weighted Asset Liquidity - proportion of cash and equivalent and intangibles to lagged total assets
+MWAIL : market-weighted asset liquidity
+Firm Size: natural log of market capitalization
+RoA: Return on Assets
+BHAR: Buy and Hold ratio
+Discretionary Accruals 
+Stock return volatility",,,1962-05,,
