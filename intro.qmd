@@ -294,3 +294,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @lettau2001Resurrecting
 @breeden1989Empirical
 @yogo2006consumption
+@savov2011Asset
