@@ -300,3 +300,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @bansal2005Consumption
 @parker2005Consumption
 @brennan2004Estimation
+@chan1996money
