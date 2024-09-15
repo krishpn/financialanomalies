@@ -289,3 +289,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @teo2004Style
 @gu2011Overpriced
 @chen2012idiosyncratic
+@da2009Cash
