@@ -281,3 +281,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @armstrong2011Information
 @hess2010Projected
 @brown2007productivity
+@ackert1997Prior
