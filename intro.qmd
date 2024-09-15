@@ -285,3 +285,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @ortiz2014Real
 @gopalan2012Asset
 @bauman1988Growth
+@balvers2007Productivity
