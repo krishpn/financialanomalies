@@ -1119,3 +1119,11 @@ PR1YR: Porfolio for one year return momentum",,,,,
 P/E: relative P/E
 DACC: Discretionary accruals
 NEQ: Equity Issuance",,,1990-06,,
+,chen2012does,,Does idiosyncratic volatility proxy for risk exposure?,"DIV: Dividend Yield
+TERM: Term Spread
+DEF: Default Spread
+RF: 30-day T-bill rate",,,1963-09,,
+,da2009cash,,"Cash flow, consumption risk, and the cross-section of stock returns","ME: Market Equity 
+BM: Book-to-Market
+PastReturn
+Return",,,1951-05,,
