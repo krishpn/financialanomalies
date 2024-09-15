@@ -967,8 +967,7 @@ REV: historical revisions of analysts two year forecasts in the past three month
 Book-to-price: book equity per share scaled by price
 Sales Growth: five-year percentage growth in sales
 LTG:  Mean consensus long-term growth forecast
-OP: Edwards-Bell-Ohlson fundamental value estimate derived from analysts forecasts. Using a constant discount rate of 10 percent
-",,,,,
+OP: Edwards-Bell-Ohlson fundamental value estimate derived from analysts forecasts. Using a constant discount rate of 10 percent",,,,,
 ,beneish2013earnings,,Earnings manipulation and expected returns,"BHSAR denotes annual buy-and-hold returns to an equal-weighted portfolio formed at the start of the first day of the fifth month following the end of the fiscal year less the returns to a portfolio of companies from the same NYSE
 DSR
 GMI
@@ -1014,8 +1013,7 @@ S: the year-end log ratio of the value-weighted average market-to-book ratios",,
 ,cremers2010search,,In search of aggregate jump and volatility risk in the cross-section of stock returns,"MN:  Market-neutral at-the-money straddle returns
 CNMN: crash-neutral, market neutral at-the-money straddle returns
 VIX: Changes in the CBOE",,,1983-07,,
-,"cremers2009takeovers
-",,Takeovers and the cross-section of returns,"Q: Ratio of market-to-book value of assets where market assets are defined as the total assets plus market value of common stock minus book common equity and differed taxes
+,cremers2009takeovers,,Takeovers and the cross-section of returns,"Q: Ratio of market-to-book value of assets where market assets are defined as the total assets plus market value of common stock minus book common equity and differed taxes
 PPE: property, plant and equipment to asset ratio
 Industry is equal to 1 if, based on Fama French 48-industry classification, there was a takeover in firms industry in the prior year
 ROA is the return on the assets
@@ -1028,14 +1026,13 @@ G is governance index",,,1981-04,,
 AAERs relating to financial institutions
 AAERs relating to auditing action against independent CPAs
 AAERs relating to 10-O violations
-AAERs relating to firms without data on COMPUSTAT, S & P Corporate Text or 10-K microfiche ",,,1987-93,,
+AAERs relating to firms without data on COMPUSTAT, S & P Corporate Text or 10-K microfiche",,,1987-93,,
 ,amihud1986asset,,Asset pricing and the bid-ask spread,,,,,,
 ,chang2013market,,Market skewness risk and the cross section of stock returns,"Volatility
 Skewness
 High Minus Low
 UMD",,,,,
-,"gu2005innovation
-",,"Innovation, future earnings, and market efficiency
+,gu2005innovation,,"Innovation, future earnings, and market efficiency
 ","PCI: the firm’s patent citation impact in a given year
 MV: firm’s market value at the fiscal year end
 M/B: Market to book ratio 
@@ -1068,3 +1065,10 @@ split of the number of traders.",,,,,
 HML
 Alpha
 UMD",,,1984-06,,
+,armstrong2011information,,Information quality and the cross-section of expected returns,"HLIQ : High-low information quality
+Idiosyncratic Volatility 
+Mean Forecast Error ",,,1986-08,,
+,brown2007productivity,,The productivity premium in equity returns,"Portfolio Excess Returns
+Market Value averages of differences ",,,1970-05,,
+,ackert1997prior,,"Prior uncertainty, analyst bias, and subsequent abnormal returns",- Consensus Forecast,,,1980-91,,
+,ortiz2014real,,Real asset illiquidity and the cost of capital,,,,,,
