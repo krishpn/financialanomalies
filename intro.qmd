@@ -351,3 +351,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 
 @bossaerts1994Tax
 @korniotis2008Habit
+@breeden1979intertemporal
