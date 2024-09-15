@@ -1127,3 +1127,7 @@ RF: 30-day T-bill rate",,,1963-09,,
 BM: Book-to-Market
 PastReturn
 Return",,,1951-05,,
+,campbell2004bad,,"Bad beta, good beta
+","Ty: Term Yield
+PE: log ratio of S&P500 to S&P500 ten-year moving average of earnings
+VS: Small-stock value spread",,,1928-01,,

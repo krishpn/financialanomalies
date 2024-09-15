@@ -291,3 +291,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @chen2012idiosyncratic
 @da2009Cash
 @campbell2004Bad
+@lettau2001Resurrecting
