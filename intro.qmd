@@ -378,3 +378,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @stulz1986asset
 @george2010resolution
 @livdan2009Financially
+@adler1983International
