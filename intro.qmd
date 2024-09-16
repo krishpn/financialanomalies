@@ -380,3 +380,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @livdan2009Financially
 @adler1983International
 @rubinstein1973fundamental
+@constantinides1982Intertemporal
