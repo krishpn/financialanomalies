@@ -386,3 +386,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @garleanu2012Displacement
 @cox2005theory
 @lucas1978Asset
+@garlappi2011Financial
