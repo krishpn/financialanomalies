@@ -382,3 +382,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @rubinstein1973fundamental
 @constantinides1982Intertemporal
 @rubinstein1974aggregation
+@sun2019Financing
