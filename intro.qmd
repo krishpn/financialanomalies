@@ -275,57 +275,79 @@ Measure of Illiquidity (based on Amihud, 2002):
 \end{align}
 \label{Equation:acharya2005assetEquation11}
 ```
-@hou2005market @nagel2005short @asquith2005short @mohanram2005separating @whited2006financial @ang2006cross @anderson2006empirical @daniel2006market @fama2006profitability @bradshaw2006relation @franzoni2006pension @narayanamoorthy2006conservatism @avramov2007momentum @kumar2008estimation @guo2008average @campbell2008search @garlappi2008default @cooper2008asset @pontiff2008share @cohen2008economic @fabozzi2008sin @soliman2008use @avramov2009dispersion @hahn2005financial @rozeff1988market @lebedeva2012trading @fishman1995mandatory @cao2004does @pagano1996transparency @chemmanur2019advertising @gow2009earnings @dechow1997returns @tuzel2010corporate @menzly2010market @xing2010does @bali2011maxing @yan2011jump @eisfeldt2013organization @callen2013accounting @drake2011should @hafzalla2011percent @landsman2011investors @li2011well @thomas2011tax @johnson2012option @palazzo2012cash @bazdrech2009labor @cohen2012complicated @hirshleifer2013innovative @prakash2013deferred @cohen2013misvaluing @novy2013other @frazzini2014betting @valta2016strategic @da2009cashflow @hou2011factors @barber2001can @harvey2000conditional @spiess1999long @ang2006downside @chordia2006earnings @kishore2008earnings @hawkins1984earnings @adrian2014financial @frankel1998accounting @abarbanell1998abnormal @ali2003arbitrage @vanden2006option @vanden2004options @chan1985exploratory @arbel1983giraffes @campbell1996understanding @dittmar2002nonlinear @liu2006liquidity @pastor2003liquidity @hirshleifer2010financing @black1972capital @carhart1997persistence @black1972capital @kraus1976skewness @lintner1965security @sharpe1964capital @heckerman1972portfolio @heckerman1972portfolio @fama1973risk @mossin1966equilibrium @jagannathan1996conditional @ferson1991variation @fogler1981three @boudoukh2007importance @hou2015digesting @holthausen1992prediction @easley2010factoring @chopra1992measuring @kelly2021understanding @chen2011alternative @foster1984earnings @spiess1995underperformance @daniel1997evidence @fama1993common @fama1992cross @lo2006trading @mayshar1981transaction @brennan1996market @jiang2005information @lev2005r @bali2009volatility @boyer2010expected @an2010warranted @hameed2015industries @simutin2010excess @opler1999determinants @huang2012extreme @balachandran2012using @conrad2013ex @conrad2013ex @burlacu2012risk @durnev2009corporate @vassalou2004default @adrian2008stock @wahlen2011can @penman2002modeling @lev2016informational @cen2006forecasted @baik2007changes @gu2009information @huangalanguoming2009tcso @papanastasopoulosgeorgios2010tior @dazhi2011dsrr @PatatoukasPanosN.2012CCIf @mclean2016does @baltussen2012unknown @an2014joint @li2010Real @so2013new @beneish2013Earnings @brennan2013Informed @boguth2013Consumption @chordia2009Theory @baker2006Investor @cremers2010search @cremers2009Takeovers
+@hou2005market @nagel2005short @asquith2005short @mohanram2005separating @whited2006financial @ang2006cross @anderson2006empirical @daniel2006market @fama2006profitability @bradshaw2006relation @franzoni2006pension @narayanamoorthy2006conservatism @avramov2007momentum @kumar2008estimation @guo2008average @campbell2008search @garlappi2008default @cooper2008asset @pontiff2008share @cohen2008economic @fabozzi2008sin @soliman2008use @avramov2009dispersion @hahn2005financial @rozeff1988market @lebedeva2012trading @fishman1995mandatory @cao2004does @pagano1996transparency @chemmanur2019advertising @gow2009earnings @dechow1997returns @tuzel2010corporate @menzly2010market @xing2010does @bali2011maxing @yan2011jump @eisfeldt2013organization @callen2013accounting @drake2011should @hafzalla2011percent @landsman2011investors @li2011well @thomas2011tax @johnson2012option @palazzo2012cash @bazdrech2009labor @cohen2012complicated @hirshleifer2013innovative @prakash2013deferred @cohen2013misvaluing @novy2013other @frazzini2014betting @valta2016strategic @da2009cashflow @hou2011factors @barber2001can @harvey2000conditional @spiess1999long @ang2006downside @chordia2006earnings @kishore2008earnings @hawkins1984earnings @adrian2014financial @frankel1998accounting @abarbanell1998abnormal @ali2003arbitrage @vanden2006option @vanden2004options @chan1985exploratory @arbel1983giraffes @campbell1996understanding @dittmar2002nonlinear @liu2006liquidity @pastor2003liquidity @hirshleifer2010financing @black1972capital @carhart1997persistence @black1972capital @kraus1976skewness @lintner1965security @sharpe1964capital @heckerman1972portfolio @heckerman1972portfolio @fama1973risk @mossin1966equilibrium @jagannathan1996conditional @ferson1991variation @fogler1981three @boudoukh2007importance @hou2015digesting @holthausen1992prediction @easley2010factoring @chopra1992measuring @kelly2021understanding @chen2011alternative @foster1984earnings @spiess1995underperformance @daniel1997evidence @fama1993common @fama1992cross @lo2006trading @mayshar1981transaction @brennan1996market @jiang2005information @lev2005r @bali2009volatility @boyer2010expected @an2010warranted @hameed2015industries @simutin2010excess @opler1999determinants @huang2012extreme @balachandran2012using @conrad2013ex @conrad2013ex @burlacu2012risk @durnev2009corporate @vassalou2004default @adrian2008stock @wahlen2011can @penman2002modeling @lev2016informational @cen2006forecasted @baik2007changes @gu2009information @huangalanguoming2009tcso @papanastasopoulosgeorgios2010tior @dazhi2011dsrr
 
-@beneish1997Detecting
+@PatatoukasPanosN.2012CCIf
 
-@amihud1986Asset
+@mclean2016does
 
-@chang2013Market
+@baltussen2012unknown
 
-@gu2005Innovation
+@an2014joint @li2010real
 
-@gokcen2009Information
+@so2013new
 
-@korniotis2009Geography
+@beneish2013earnings
 
-@douglas1967Risk
+@brennan2013informed
 
-@shu2007Trader
+@boguth2013consumption
+
+@chordia2009theory
+
+@baker2006investor
+
+@cremers2010search
+
+@cremers2009takeovers
+
+@beneish1997detecting
+
+@amihud1986asset
+
+@chang2013market
+
+@gu2005innovation
+
+@gokcen2009information
+
+@korniotis2009geography
+
+@douglas1967risk
+
+@shu2007trader
 
 @head2009stock
 
-@armstrong2011Information
+@armstrong2011information
 
-@armstrong2011Information
-
-@hess2010Projected
+@hess2010projected
 
 @brown2007productivity
 
-@ackert1997Prior
+@ackert1997prior
 
-@ortiz2014Real
+@ortiz2014real
 
-@gopalan2012Asset
+@gopalan2012asset
 
-@bauman1988Growth
+@bauman1988growth
 
-@balvers2007Productivity
+@balvers2007productivity
 
-@teo2004Style
+@teo2004style
 
 @gu2011Overpriced
 
 @chen2012idiosyncratic
 
-@da2009Cash
+@da2009cash
 
-@campbell2004Bad
+@campbell2004bad
 
-@lettau2001Resurrecting
+@lettau2001resurrecting
 
-@breeden1989Empirical
+@breeden1989empirical
 
 @yogo2006consumption
 
@@ -333,23 +355,25 @@ Measure of Illiquidity (based on Amihud, 2002):
 
 @bansal1993arbitrage
 
-@xing2008Interpreting
+@xing2008interpreting
 
-@bansal2005Consumption
+@bansal2005consumption
 
-@parker2005Consumption
+@parker2005consumption
 
-@brennan2004Estimation
+@brennan2004estimation
 
-@chan1996money
+@chan1996does
 
-@chan1996money
-
-@chapman1997Approximating
+@chapman1997approximating
 
 @cochrane1996cross
 
-@bossaerts1994Tax
-@korniotis2008Habit
+@bossaerts1994tax
+
+@korniotis2008habit
+
 @breeden1979intertemporal
-@stulz1986Asset
+
+@stulz1986asset
+@george2010resolution
