@@ -400,3 +400,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @vassalou2003News
 @jacobs2004Idiosyncratic
 @ozoguz2009Good
+@viale2012Safety
