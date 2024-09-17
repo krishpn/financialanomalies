@@ -1216,3 +1216,7 @@ RF: Monthly return on 3 month US treasury bills",,,,,
 SMB
 HML
 ",,,1954-03,,
+,vassalou2003news,,News related to future GDP growth as a risk factor in equity returns,"Size (MV)
+Book-to-Market(B/M)
+TERMY : the yield spread of long-term Treasury bonds minus the T-bill yield
+DEFY: the yield spread of long-term corporate bonds minus the yield on long-term government bonds",,,1953-98,,

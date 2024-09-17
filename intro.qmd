@@ -398,3 +398,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @doskov2016Tradable
 @jagannathan2007Lazy
 @vassalou2003News
+@jacobs2004Idiosyncratic
