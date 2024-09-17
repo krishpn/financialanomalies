@@ -1212,3 +1212,7 @@ DY: A factor portfolio for dividend yield (average on top three deciles by div y
 EP: A factor portfolio for earnings yield (average return on top of three by cash flow to price - average return on bottom 3 deciles)
 CFP: A factor portfolio for cash flow to price (Avg. return on top three by cash flow to price - avg. return on bottom three deciles)
 RF: Monthly return on 3 month US treasury bills",,,,,
+,jagannathan2007lazy,,"Lazy investors, discretionary consumption, and the cross-section of stock returns","Consumption Growth
+SMB
+HML
+",,,1954-03,,
