@@ -1191,3 +1191,24 @@ CAPM alpha",,,,,
 ,chordia2013trends,,Trends in capital market anomalies,,,,,,
 ,ferson2013out`,,The “out-of-sample” performance of long run risk models,,,,,,
 ,akbas2013time,,Time varying market efficiency in the cross-section of expected stock returns,,,,,,
+,doskov2016tradable,,Tradable aggregate risk factors and the cross-section of stock returns,"R_10YR: Excess return on the JP Morgan US Treasury Note Futures Tracker Index
+INFL Excess return on the Dow Jones Credit Suisse 10‐Year Inflation Breakeven Index
+DIV_LEVEL: Excess return on 1‐year S&P 500 dividend contract
+DIV_GROWTH: Excess return on 5‐year S&P 500 dividend contract ‐ return on 1‐ year S&P 500 dividend contract
+DIV_GROWTH2 Excess return on 2‐year S&P 500 dividend contract ‐ return on 1‐ year S&P 500 dividend contract
+DIV_GROWTH3 Excess return on 3‐year S&P 500 dividend contract ‐ return on 1‐ year S&P 500 dividend contract
+RISK_FUT: Excess return on the S&P 500 VIX short‐term futures index
+RISK_VIX: Percent change in the CBOE S&P 500 volatility index (VIX)
+CDS Excess return on the Markit CDX Credit Default Swap 5‐year return index
+BC_FIN_SPREAD Return of the Barclays Investment Grade Financials index ‐  Return of the Barclays Investment Grade Credit index
+FIX_TRANS Non‐tradable liquidity factor based on the fixed component of price impact. As constructed by Sadka (2006)
+VAR_PER Non‐tradable liquidity factor based on the variable component of price impact. As constructed by Sadka (2006)
+DIV_GR_IBES Consensus forecast of next twelve‐month dividend growth for the S&P 500 index
+CHG_DIV_GR_IBES Monthly change in DIV_GR_IBES
+MKT: Excess return on US equity market
+HML: Fama-French factor value (avg. return on two value portfolio average return on the growth portfolios)
+SMB: Fama-French Factor for firm size (averge return of three small portfolio minus average return of the three large portfolio)
+DY: A factor portfolio for dividend yield (average on top three deciles by div yield- average return on bottom three deciles)
+EP: A factor portfolio for earnings yield (average return on top of three by cash flow to price - average return on bottom 3 deciles)
+CFP: A factor portfolio for cash flow to price (Avg. return on top three by cash flow to price - avg. return on bottom three deciles)
+RF: Monthly return on 3 month US treasury bills",,,,,
