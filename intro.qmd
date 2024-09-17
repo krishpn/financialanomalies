@@ -395,3 +395,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @chordia2013Trends
 @ferson2013sample
 @akbas2013Time
+@doskov2016Tradable
