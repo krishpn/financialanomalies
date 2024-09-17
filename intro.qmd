@@ -401,3 +401,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @jacobs2004Idiosyncratic
 @ozoguz2009Good
 @viale2012Safety
+@malloy2009Long
