@@ -1236,5 +1236,6 @@ MKTRF",,,1927-92,,
 dTED: the change in the spread between the 90-day Eurodollar deposit rate and the 90-day U.S. Treasury-bill yiel
 G7RTB: a weighted average of short-term interest rates in the G-7 countries, using the shares of G-7 GDP as the weights, minus the G-7 inflation rate
 dOIL: the change in the monthly average U.S. dollar price per barrel of crude oil
-dG7IP: a weighted average of industrial production growth rates in the G-7 countries, where a measure of relative production shares is used as the weight
-",,,1970-89,,
+dG7IP: a weighted average of industrial production growth rates in the G-7 countries, where a measure of relative production shares is used as the weight",,,1970-89,,
+,ferson1994sources,,Sources of risk and expected returns in global equity markets,,,,,,
+,ferson1999conditioning,,Conditioning variables and the cross section of stock returns,,,,,,
