@@ -405,3 +405,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @sweeney1986pricing
 @kumar2006Retail
 @oldfield1981Treasury
+@kapadia2011Tracking
