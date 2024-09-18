@@ -414,3 +414,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @fung1997Empirical
 @korajczyk2008Pricing
 @binsbergen2016Good
+@chen2014Contingent

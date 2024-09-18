@@ -1,0 +1,1244 @@
+year,google_Scholar_citation_key,authors,title,variables,method,data_frequency,data_coverage, link,journal
+1973,fama1973risk,Eugene F. Fama and James D. MacBeth,Risk Return and Equilibrium: Empirical Tests,risk and return,OLS,monthly,1943-68,https://www.jstor.org/stable/pdf/1831028.pdf,Journal of Political Economy
+1975,gupta1975investors,Aharon R. Ofer,"Investors' Expectations of Earnings Growth, Their Accuracy and Effects on the Structure of Realized Rates of Return","Price Earnings Ratio : Risk and Earnings Growth Expectation. 
+Risk measured by beta coefficient, dividend payout ratio, firm asset size (natural log of total asset), leverage, earnings variability",OLS,monthly,1948-68,https://www.jstor.org/stable/pdf/2978730.pdf,Journal of Finance
+1977,basu1977investment,"Basu, Sanjoy
+",Investment performance of common stocks in relation to their price-earnings ratios: a test of the efficient market hypothesis,"Price Earnings Ratio:
+Numerator - market prices times the number of shares outstanding
+Denominator - Annual Earnings ",OLS,monthly,1956-69,https://www.jstor.org/stable/pdf/2326304.pdf,Journal of Finance
+1979,litzenberger1979effect,"Litzenberger, Robert H and Ramaswamy, Krishna
+",The effect of personal taxes and dividends on capital asset prices: Theory and empirical evidence,Dividend Yield:  the dollar dividend divided by the current price,OLS,monthly,1931-51,https://www.sciencedirect.com/science/article/abs/pii/0304405X79900126,Journal of Financial Economics
+1981,banz1981relationship,"Banz, Rolf W
+","The relationship between return and market value of common stocks
+","Total Market Value and its Return : Price, Return and Number of Outstanding Shares: Market Index, CRSP value weighted index, CRSP equal weighted index, Government bon index, Corporate Bond index",OLS,monthly,1936-75,https://www.sciencedirect.com/science/article/abs/pii/0304405X81900180,Journal of Financial Economics
+1981,figlewski1981informational,"Figlewski, Stephen","The informational effects of restrictions on short sales: Some empirical evidence
+",Short Interest to calculate Excess Returns,OLS,monthly,1973-79,https://www.jstor.org/stable/2330366,Journal of Financial and Quantitative Analysis
+1983,basu1983relationship,"Basu, Sanjoy
+","The relationship between earnings' yield, market value and return for NYSE common stocks: Further evidence
+","Earning Yield (E/P) : 12-month moving earnings per share, excluding extraordinary items and discontinued operations,
+Market Value: market price times the number of shares outstanding,
+Returns and Firm Size",OLS,monthly,1962-78,https://www.sciencedirect.com/science/article/abs/pii/0304405X83900314,Journal of Financial Economics
+1985,de1985does,"De Bondt, Werner FM and Thaler, Richard
+","Does the stock market overreact?
+",Overreaction Effects: Returns reversals based on P/E ,OLS,monthly,1926-1982,https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1540-6261.1985.tb05004.x,"The Journal of finance
+"
+1988,bhandari1988debt,"Bhandari, Laxmi Chand
+","Debt/equity ratio and expected common stock returns: Empirical evidence
+","Natural logarithm of total common equity - number of shares outstanding times (month-end) price per share;
+
+Debt to Equity Ratio (DER)= (book value of total assets -book value of common equity)/(market value of common equity);
+ BETA, the risk measure
+",OLS,monthly,1948-79,https://www.jstor.org/stable/pdf/2328473.pdf,"The journal of finance
+"
+1989,amihud1989effects,"Amihud, Yakov and Mendelson, Haim","The effects of beta, bid-ask spread, residual risk, and size on stock returns","The percentage bid-ask spread (= dollar spread divided by the stock price)
+Portfolio
+portfolio beta
+residual standard deviation
+the portfolio average spread
+average market value of the portfolio",OLS,annual,1960-79,https://www.jstor.org/stable/pdf/2328600.pdf,"The Journal of Finance
+"
+1989,ou1989financial,"Ou, Jane A and Penman, Stephen H",Financial statement analysis and the prediction of stock returns,"Current ratio & its percent change 
+Quick ratio & its percent change
+Days sales in Accounts Receivables and its percentage Change
+Inventory Turnover and its percentage Change
+Inventory / Total Asset Ratio and its percent Change
+Perecent Change in Inventory
+Percent Change in Sales
+Percent Change in Depreciation
+Depreciation / Plant Assets and its percent Change
+Return on Equity and its percent Change
+Percent Change in Capital Expenditure / Total Assets
+Debt-Equity Ratio
+Long Term Debt to Equity and Change in LT
+Equity to Fixed Asset and its Percent Change
+Times interest earned and its percent changes
+Sales / Total Assets
+Return on Total Assets
+Return on Closing Equity
+Gross Margin Ratio and its percent changes
+Operating Profit before depreciation to sales and its percent change
+Pretax income to sales and its percent change
+Net profit Margin and its percent change
+Sales to total Cash
+Sales to accounts receivables
+Sales to inventory and its percent change 
+Sales to working capital and its percent change
+Sales to fixed assets
+Percent Change in Production 
+Percent change in Research and Development
+Percent Change in R&D /Sales
+Percent Change in Advertising Expenses
+Percent Change in Advertising/Sales
+Percent change in Total Assets
+Cash Flow to Total Debt
+Working Capital / Total Assets and its percent change
+Operating Income / Total Assets and its percent change
+Percent change in total uses of funds
+Percent change in total sources of funds
+Repayment of LT debt and percent of total LT debt
+Issuance of LT debt as percent of the total debt
+Purchase of Treasury Stock as percent of the stock
+Percent change in Funds
+Percent Change in LT Debt
+Cash dividend as percent of cash flows
+Percent in working capital
+Net income over cash flows",LOGIT,monthly,1965-83,https://www.sciencedirect.com/science/article/abs/pii/0165410189900177,The Journal of Accounting and Economics
+1990,jegadeesh1990evidence,"Jegadeesh, Narasimhan
+","Evidence of predictable behavior of security returns
+","Serial Correlation of Monthly Returns (Short Terms)
+Serial Correlation of Annual Returns (Long Terms)
+",OLS,monthly,1934-87,https://www.jstor.org/stable/pdf/2328797.pdf,The Journal of Finance
+1993,jegadeesh1993returns,"Jegadeesh, Narasimhan and Titman, Sheridan
+",Returns to buying winners and selling losers: Implications for stock market efficiency,Holding Period Returns ,OLS,monthly,1965-89,https://www.jstor.org/stable/pdf/2328882.pdf,The Journal of Finance
+1995,loughran1995new,"Loughran, Tim and Ritter, Jay R
+","The new issues puzzle
+","Seasoned Equity Offerings (Initial Public Offerings), Holding Period Returns, Firm Size, Book to Market Value",OLS,monthly,1970-90,https://www.jstor.org/stable/pdf/2329238.pdf,The Journal of finance
+1995,michaely1995price,"Michaely, Roni and Thaler, Richard H and Womack, Kent L",Price reactions to dividend initiations and omissions: Overreaction or drift?,"Initiation and Omission of Cash Dividend
+Prices
+Volume
+Changes in Clientele",OLS,quarterly,1964-88,https://www.nber.org/system/files/working_papers/w4778/w4778.pdf,The Journal of Finance
+1996,la1996expectations,"La Porta, Rafael
+",Expectations and the cross-section of stock returns,"Analyst Forecasting
+book-to-market
+- earnings-to-price
+- cash-flow-to-price ratios",,,,https://www.jstor.org/stable/pdf/2329535.pdf,"The Journal of Finance
+"
+1996,lev1996capitalization,"Lev, Baruch and Sougiannis, Theodore
+","The capitalization, amortization, and value-relevance of R&D
+","R&D capital
+Book values
+Reported Earnings
+
+",OLS,monthly,,https://www.sciencedirect.com/getaccess/pii/0165410195004106/purchase,Journal of Accounting and Economics
+1996,sloan1996stock,"Sloan, Richard G
+",Do stock prices fully reflect information in accruals and cash flows about future earnings?,"Earnings, Accruals and Cash Flow Components:
+Change in Current Assets
+Change in Cash /Cash Equivalents
+Change in Current Liabilities
+Change in Debt included in the current liabilities
+Change in income taxes payable
+Depreciation and amortization expenses",OLS,monthly,1962-191,https://www.jstor.org/stable/248290,Accounting review
+1996,womack1996brokerage,"Womack, Kent L
+",Do brokerage analysts' recommendations have investment value?,Brokerage recommendations: postearnings drift and postrecommendation drift,OLS,Monthly,1989-91,https://www.jstor.org/stable/pdf/2329305,The journal of finance
+1998,brennan1998alternative,"Brennan, Michael J and Chordia, Tarun and Subrahmanyam, Avanidhar","Alternative factor specifications, security characteristics, and the cross-section of expected stock returns","Firm Size- natural logarithm of the market value of the equity of the firm as of the end of the second to last month
+Book to Market Value - natural logarithm of the ratio of the book to equity plus deferred taxes to the market value of the equity, using the end of the previous year market and book values
+Dollar Trading Volume (DVOL)- Natural logarithm of dollar volume to trading in the security in the second to the last month
+PRICE- Natural Logarithm of the reciprocal of the share price as reported at the end of the second to the last month
+YLD- the dividend yield as measured ivy the sum of all dividends paid over the previous 12 months, divided by the share price at the end of the second to the last month
+RET2-3- Natural logarithm of the cumulative return over the two months ending at the bringing of the previous month
+RET4-6- Natural Logarithm of the cumulative return over the three months ending three months previously
+RET7-12- the natural logarithm of the cumulative return over the six months ending 6 months previously",OLS,Monthly,1966-95,https://www.sciencedirect.com/science/article/abs/pii/S0304405X98000282,The Journal of Financial Economics
+1998,dichev1998risk,"Dichev, Ilia D
+","Is the risk of bankruptcy a systematic risk?
+","Bankruptcy Risk
+
+- MV is log of fiscal-year-end price times number of shares outstanding
+- BIM is common equity divided by fiscal-year-end price times number of shares outstandin
+- Z risk (bankruptcy risk) comprised of 
+  - Working capital/Total assets
+  -  Retained Earnings/Total assets
+  -  Earnings before interest and taxes/Total assets
+  -  Market value equity/Book value of total debt
+  -  Sales/Total assets
+- O risk
+  - SIZE = log(total assets/GNP price-level index).
+  - - TLTA = Total liabilities divided by total assets.
+  - WCTA Working capital divided by total assets.
+  - CLCA Current liabilities divided by current assets.
+  - OENEG = One if total liabilities exceeds total assets, zero otherwise.
+  - NITA Net income divided by total assets.
+  - FUTL = Funds provided by operations divided by total liabilities.
+  - INTWO = One if net income was negative for the last two years, zero otherwise.
+  - CHIN = $({NI}_t-{NI}_{t-1})/(|{NI}_t| + |{NI}_{t-1}|)$ where ${NI}_t$ is net
+income for the most recent period.",MDA,Monthly,1981-95,https://www.jstor.org/stable/pdf/117389.pdf,The journal of finance
+1998,datar1998liquidity,"Datar, Vinay T and Naik, Narayan Y and Radcliffe, Robert",Liquidity and stock returns: An alternative test,"- Monthly Returns
+- turnover rate of every stock = monthly trading volume (the average number of shares traded during the previous three months, i.e., during months t- 3, t-2 and t-1) and divide it by the number of shares outstanding of that firm
+- turnover rate of every stock 
+  -  book-to-market ratio, 
+  -  firm size
+  -  firm beta",GLS,monthly,1962-91,https://www.sciencedirect.com/science/article/abs/pii/S1386418197000049,Journal of Financial Markets
+1999,moskowitz1999industries,"Moskowitz, Tobias J and Grinblatt, Mark",Do industries explain momentum?,"Momentum Effect: 
+the average percentage of total market capitalization, 
+the average return in excess of the three-month Treasury bill rate, the return standard deviation, t
+he average abnormal return in excess of size and BE/ME m",OLS,monthly,1963-95,https://www.jstor.org/stable/pdf/798005.pdf,The journal of finance
+2000,lee2000price,"Lee, Charles MC and Swaminathan, Bhaskaran
+","Price momentum and trading volume
+","- Return
+- Volume
+- Size Rank
+- Price",OLS,monthly,1965-95,https://www.jstor.org/stable/pdf/222483.pdf,The journal of finance
+2000,asness2000predicting,"Asness, Clifford S and Porter, R Burt and Stevens, Ross L
+","Predicting stock returns using industry-relative firm characteristics
+","Market Equity
+Book to Market Ration (BE/ME)
+Cash Flow to PRICE (C/P)
+percent change in employees over the most recent year",OLS,monthly,1963-98,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=213872,SSRN
+2000,piotroski2000value,"Piotroski, Joseph D
+","Value investing: The use of historical financial statement information to separate winners from losers
+","- MVE: market value of equity at the end of the year
+- ASSETS: total assets 
+BM: Book Value of Equity at the end of the fiscal year, scaled by MVE
+ROA: net income before extraordinary items for the fiscal year preceding portfolio formation scaled by total attest at the beginning of the year
+MARGIN: gross margin (net sales less cost of good sold)
+CFO: Cash flow from operations scaled by total assets at the beginning of year
+LIQUID: Change in the firm’s current ratio between the end of the year t and year t-1
+LEVER: Change in the firm’s debt (including the portion of long-term debt classified as current) scaled by average total assets
+TURN: change in the firm’s asset turnover ratio between the end of the year t and year t-1. The asset turnover ratio is defined as net sales scaled by average total assets for the year
+ACCRUAL: net income before extraordinary items less cash flow from operations, scaled by total assets at the beginning of the year t",OLS,monthly,,https://www.jstor.org/stable/pdf/2672906.pdf,Journal of Accounting Research
+2001,chordia2001trading,"Chordia, Tarun and Subrahmanyam, Avanidhar and Anshuman, V Ravi
+","Trading activity and expected stock returns
+","Size: the natural logarithm of market value of the equity of the firm as of the end of the second to last month
+BM: the natural logarithm of the ratio of the book value of the equity plus deferred taxes to the makers value of the equity, using the end of the previous year market and book values.
+DVOL: the natural logarithm of the dollar volume of trading in the security in the second to the last month
+STDVOL: Standard Deviation the dollar volume calculated over the past 36 months beginning in the second to the last month
+CVVOL: the natural logarithm of the coefficients of variations of dollar volume calculated over the past 36 months beginning in the second to the last months
+TURN: the natural logarithm of the share turnover measured by the number of shares traded divided by the number of shares outstanding in the second to last month.
+STDTURN: the natural logarithm of the standard deviation of turnover calculated over the past 36 months beginning in the second to last month. 
+CVTURN: the natural logarithm of the coe$cient of variation of turnover calculated over the past 36 months beginning in the second to last month. 
+PRICE: the natural logarithm of the reciprocal of the share price as reported at the end of the second to last month.
+YLD: the dividend yield as measured by the sum of all dividends paid over the previous 12 months, divided by the share price at the end of the second to last month.
+RET2-3: the cumulative return over the two months ending at the beginning of the previous month. 
+RET4-6: the cumulative return over the three months ending three months previously. 
+RET7-12: the cumulative return over the 6 months ending 6 months previously.",OLS,monthly,1966-95,https://www.sciencedirect.com/science/article/abs/pii/S0304405X00000805,Journal of financial Economics
+2001,lamont2001financial,"Lamont, Owen and Polk, Christopher and Saa-Requejo, Jesus
+",Financial constraints and stock returns,"KZ index calculated as:
+cash flow to total capital (negative), 
+the market to book ratio (positive), 
+debt to total capital (positive), 
+dividends to total capital (negative),
+cash holdings to capital (negative)",OLS,monthly,1968–97,https://academic.oup.com/rfs/article-abstract/14/2/529/1602143,"The review of financial studies
+"
+,elgers2001delayed,,Delayed security price adjustments to financial analysts' forecasts of annual earnings,"E : Actual Earnings Per Share 
+FAF: Median Consensus Forecast of the Year
+SAR: Size-Adjusted Security Return, measured as the realized security return from COMPUSTAT, cumulated over 12 months
+FE: Analysts Forecast Error
+E: Changes in Earnings",,,,,
+,gompers2001institutional,"Gompers, Paul A and Metrick, Andrew
+",Institutional investors and equity prices,"Institutional Ownerships (IO):
+Size (market capitalization)
+Log of size, squared, [log(size)]^2
+Book-to-market: book value for the fiscal year ended before the most recent June 30, divided by the size of the December 
+Volatility: The Variance of monthly returns over the previous two years
+Momentum: Past 11 month return, lagged one month
+Age: Number of months since the first return appears in CRSP file
+S &P 500: dummy variable equal to one if the firm is included in the S&P500 otherwise zero
+Turnover: Volume divided byt he shares outstanding, measured for the month prior to the beginning of the the quarter
+Price per share
+Yield: Cash Dividends for the fiscal year ended before the most recent June 30, divided by size",OLS,monthly,1980-96,,
+,griffin2002book,"Griffin, John M and Lemmon, Michael L","Book-to-market equity, distress risk, and stock returns","Total Assets
+Total Liabilities
+Working Capital
+Current Liabilities
+Net Income
+Funds from Operations",OLS,monthly,1965-96,,
+,diether2002differences,"Diether, Karl B and Malloy, Christopher J and Scherbina, Anna","Differences of opinion and the cross section of stock returns
+","Number of Firms
+Mean Size
+Analyst Forecast",,,,,
+,chen2002breadth,"Chen, Joseph and Hong, Harrison and Stein, Jeremy C
+","Breadth of ownership and stock returns
+","Breadth
+Hold
+Log Size
+Book to market value
+Earnings per Share
+Turnover
+Number of Observations",,quarterly,1979-98,,
+,gompers2003corporate,"Gompers, Paul and Ishii, Joy and Metrick, Andrew",Corporate governance and equity prices,"Governance Index
+Blank Check
+Classification Board
+Special Meeting
+Written Consent
+Compensation Plans
+Contracts
+Golden Parachutes
+Indemnification
+Liability
+Severance
+Byclass
+Charter
+Cumulative Voting
+Secret Ballot
+Supermajority
+Unequal  Voting
+Antigreenmail
+Director’s duties
+Fair Price
+Pension Parachutes
+Poison Pill
+Silver Parachutes
+Cashout law
+Number of Firms
+Book-to-market
+Size
+Price
+Volume
+Q
+Yield
+SP500
+Growth",,,1990-98,,
+,doyle2003predictive,"Doyle, Jeffrey T and Lundholm, Russell J and Soliman, Mark T
+",The predictive value of expenses excluded from pro forma earnings,"- Free Cash Flow
+Pro Forma Earnings
+Total Exclusions
+Sales Growth
+Accruals",,,,,
+,fairfield2003accrued,"Fairfield, Patricia M and Whisenant, J Scott and Yohn, Teri Lombardi","Accrued earnings and growth: Implications for future profitability and market mispricing
+","ROA: OPINC: Operating Income after depreciation and amortization 
+TA: Total Assets
+ACC: Accruals
+Growth (net change) in operating working capital accounts
+DEPAMORT: Depreciation and amortization expense
+INV: Change in inventories
+OtherCA: Change in current assets
+AP: Change in account payable
+OTHERCL: Other current liabilities
+CFO: Cash flows from Operations
+GrNOA: Growth in net operating assets",OLS,Quarterly,1964-93,,
+,watkins2003riding,"Watkins, Boyce",Riding the wave of sentiment: An analysis of return consistency as a predictor of future returns,"positive: positive returns for six consecutive months
+Negative: negative returns for six consecutive months
+",OLS,monthly,1927-99,,
+,eberhart2004examination,"Eberhart, Allan C and Maxwell, William F and Siddique, Akhtar R
+","An examination of long-term abnormal stock returns and operating performance following R&D increases
+","Abnormal Stock Returns
+Abnormal Operating Performance measures
+R&D/Sales
+R&D/Assets
+Sales
+Total Assets
+Market Capitalization",,Not consistent,1951-2001,,
+,george200452,"George, Thomas J and Hwang, Chuan-Yang",The 52-week high and momentum investing,"Momentum Strategies from @jegadeesh1993returns
+Momentum Strategies from @moskowitz1999industries",,,1963-01,,
+,titman2004capital,,Capital investments and stock returns,"market equity
+market size
+capital investment
+Capital expenditure",,"Monthly
+",1969-95,,
+,cremers2005governance,Governance mechanisms and equity prices,Governance mechanisms and equity prices,"firm-specific internal governance proxies:
+use the percentage of shares held in each firm by the firm largest institutional block (BLOCK)
+use the percent of shares held by the 18 largest public pension funds
+firm-specific external governance proxies
+- Equity Prices
+data used to compute abnormal ret",OLS,,1990-01,,
+,acharya2005asset,,Asset pricing with liquidity risk,Illiquidity Measure based on Amihud 2002,,,1962-99,,
+,hou2005market,,"Market frictions, price delay, and the cross-section of expected returns
+","- Book Value - Share holder’s equity plus balance sheet deferred taxes and investment tax credits minus the book value of preferred stock
+- Price Delay ",,Weekly,1963-01,,
+,anderson2005heterogeneous,,Do heterogeneous beliefs matter for asset pricing?,"Returns
+Prices
+Shares outstanding
+Risk Free Rates
+Size
+Book-to-market
+Momentum Factors (SMB, HML, UMD)
+Market Returns",,Monthly,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,nagel2005short,,"Short sales, institutional investors and the cross-section of stock returns","- market-to-book (M/B)
+- analyst forecast dispersion (ADISP)
+- firm-level volatility (VOL)
+turnover (TURN)
+Returns
+Shares owned by Institutions
+Log Firm Size","OLS, LOGIT",Quarter,,,
+,hou2006industry,,"Industry concentration and average stock returns
+","Herfindahl index
+earnings
+sales
+book equity
+market equity",OLS,,1963-01,,
+,anderson2006empirical,,,,,,,,
+,ang2006cross,,,,,,,,
+,whited2006financial,,,,,,,,
+,mohanram2005separating,,,,,,,,
+,asquith2005short,,,,,,,,
+,daniel2006market,,"Market reactions to tangible and intangible information
+","- Book-to-market
+- Returns",OLS,,,,
+,fama2006profitability,,"Profitability, investment and average return","Book-to-market
+Expected Profitability",OLS,,1963-03,,
+,bradshaw2006relation,,"The relation between corporate financing activities, analysts’ forecasts and stock returns
+","net amount of cash flow received from external financing:  equity + debt
+Equity: Net Cash Received from the sale and/or purchase of common and preferred stock less cash dividend paid
+Debt: Net cash received from the issuance and/or reduction of debt",,,1971-00,,
+,franzoni2006pension,,"Pension plan funding and stock market efficiency
+","- Fair Value of Plan Assets (FVPA)
+The Projected Benefit Obligation (PBO)
+Funding Ratio (FR)
+Size
+B/M",,,1980-02,,
+,narayanamoorthy2006conservatism,,"Conservatism and cross-sectional variation in the post--earnings announcement drift
+",standardized unexpected earnings,,,1980-04,,
+,avramov2007momentum,,"Momentum and credit rating
+","Return
+Alpha
+Beta ",,,1985-03,,
+,kumar2008estimation,,"Estimation risk, information, and the conditional CAPM: Theory and evidence
+","Fama Three Factor 
+Fame Four Factor",OLS,,1981-04,,
+,guo2008average,,Average idiosyncratic volatility in G7 countries,"- Idiosyncratic volatility
+- Stock market volatility",,,1962-03,,
+,campbell2008search,,"In search of distress risk
+","Net Income to Market-valued Total Assets
+Net Income to Total Assets
+Cash and short-term assets to the market value of its assets
+market-to-book",OLS,,1963-03,,
+,garlappi2008default,,"Default risk, shareholder advantage, and stock returns
+","Expected Default Frequencies
+- Shareholder Advantage defined as the combination of shareholders' bargaining power and the efficiency gained through bargaining - in the determination of equity returns",OLS,,1963-03,,
+,cooper2008asset,,"Asset growth and the cross-section of stock returns
+","Annual firm Asset Growth Rate
+Book to Market Ratio
+Return to Assets
+Accruals
+Earnings-to-prices
+Market Value",,,1963-03,,
+,pontiff2008share,,"Share issuance and cross-sectional returns
+","Book to Market value
+MoM Market Equity",,,,,
+,cohen2008economic,,"Economic links and predictable returns
+","Book Equity 
+Market Equity
+Number of Firms in the sample year
+Number of customers in the sample per year
+",,,1980-04,,
+,fabozzi2008sin,,"Sin stock returns
+",,,,,,
+,soliman2008use,,"The use of DuPont analysis by market participants
+","Return on Net Operating Assets (RNOA)
+Profit Margin (PM)
+Asset Turnover (ATO)
+Annual Earnings Surprise 
+Working Capital",,,,,
+,avramov2009dispersion,,"Dispersion in analysts’ earnings forecasts and credit rating
+",,- Credit Rating Data,,1985-03,,
+,"hahn2005financial,",,,,,,,,
+,"pagano1996transparency,",,,,,,,,
+,"fishman1995mandatory,",,,,,,,,
+,"rozeff1988market,",,,,,,,,
+,chemmanur2019advertising,,"Advertising, attention, and stock returns","Advertising
+Sale
+Size
+Market Capitalization
+Profit
+Operating Income before interest, tax, depreciation and amortization
+Assets
+Turnover
+Illiquidity Ratio",,,,,
+,gow2009earnings,,"Earnings volatility and the cross-section of returns
+","Earnings Volatility (EVOL): the variance of a residuals from a rolling ten-year AR(1) model of earnings per share
+Size: is year-end market value (in millions).
+BM: BM is the ratio of book value (data #60) to end of year market value
+EP: EP is the ratio of net income before extraordinary items (data #18) to end of year market value. 
+Earnings: Earnings is the change in net income before extraordinary items scaled by end of year market value
+Accruals: ACC is total accruals, calculated as in Sloan (1996)
+AQ: AQ is accruals quality calculated as in Francis et al. (2005)
+IdVol is computed as the variance of residuals from a regression of excess returns on the Fama-French factors estimated using daily returns over the twelve months prior to portfolio formation. 
+R&D is calculated as the ratio of research and development expense to sales (data #46 / data #12).
+Analysts is the total number of analysts with one year ahead earnings forecasts on I/B/E/S.
+Invest is the annual change in gross plant property and equipmentt (data #7) plus annual change in inventories (data #3) scaled by lagged total assets (data #6).
+AGrowth is the percentage change in total assets. 
+Mom is the six-month buy-and-hold return prior to portfolio formation.",,,1970-06,,
+,dechow1997returns,,"Returns to contrarian investment strategies: Tests of naive expectations hypotheses
+",,,,,,
+,tuzel2010corporate,,"Corporate real estate holdings and the cross-section of stock returns
+","Trend Growth Rate
+Capital Share
+Discount Factor 
+Equipment Depreciation Rate
+Structure Depreciation Rate
+Share of equipment
+Share of structures
+Persistence ",,,,,
+,xing2010does,,"What does the individual option volatility smirk tell us about future equity returns?
+","Smirk Measure for firm 
+Volatility",,,1996-05,,
+,xing2010does,,"What does the individual option volatility smirk tell us about future equity returns?
+","Real sales growth
+Research and Development Assets
+Research and Development Capital Expenditure
+Research and Development Sales
+Research and Development Number of Employees
+Research and Development Year End Market Equity",,,1975-07,,
+,bali2011maxing,,Maxing out: Stocks as lotteries and the cross-section of expected returns,- Daily Returns,,,1926-05,,
+,yan2011jump,,"Jump risk, stock returns, and slope of implied volatility smile
+","Implied volatility
+Book-to-market value
+Leverage Ratio
+Stock’s beta",,,1996-05,,
+,eisfeldt2013organization,,"Organization capital and the cross-section of expected returns
+","Organization Capital to Book Assets
+Market Capitalization 
+Tobin’s Q
+Sales to Book Assets
+Solow Residual
+Investment to Capital (organization)
+Investment to capital (physical)
+Executive Compensation to book assets
+IT expenditure to book assets
+Labor expense per employee
+Capital to labor
+Physical capital to labor
+R and D expenditure to book assets
+Advertising expenditures to book assets
+Debt to book assets
+Organization to capital assets",,,1970-08,,
+,callen2013accounting,,"Accounting quality, stock price delay, and future stock returns","Delay is the average delay with which information is impounded into stock price
+ES is the absolute value of annual earnings surprise scaled by the standard deviation of annual earnings surprises over the last five years
+AQ is accrual quality, measured as the standard deviation of the residuals from the Dechow-Dichev model over the last five years
+SI is special items
+Loss is the relative frequency of annual losses in past three years (number of loss years divided by three).
+Analyst is log of 1 + the number of analysts. InstOwn is log of 1 + annual institutional ownership, where ownership is number of shares held scaled by shares outstanding
+Empl is log of 1 + the number of employees. Adv is log of 1 + advertising expense.
+Traday is the number of days the stock is traded in a given year
+BSM is the probability of default from the Merton 1974 option pricing model
+CBreadth is the change of breadth from year t ) 1 to year t scaled by breadth in year t )1. 
+Breadth is the annual average of quarterly breadth which is the ratio of the number of mutual funds that hold a long position in the stock to the total number of mutual funds in the quarter.",,,1981-06,,
+,drake2011should,,Should investors follow the prophets or the bears? Evidence on the use of public information by analysts and short sellers,"Rec: Consensus analyst recommendations in the last month of the calendar year
+ChgRec: Change in the consensus analyst recommendations from previous quarter
+SIratio: Number of Shares sold short as reported for the last month of the calendar quarter divided by the number of shares outstanding of the same date
+Areto: Six Month Abnormal return (ajusted for firm size, book-to-market ratio)
+SUE: Seasonally adjusted earnings scaled by the price for the fiscal quarter
+TACCR: Total Accruals scaled by the average assets measured at the end of quarter
+CAPEX: Rolling sum of the preceding four quarters of capital expenditures ending at fiscal quarter 
+MVE: Market Value of equity at the end of quarter
+EP: Ratio of rolling sum of earnings over the preceding four quarters to price
+BTM: Ratio of the book value to market value of equity 
+TURN: average daily volume per share over the processing six months
+SG: Rolling sum of sales growth over the preceding four fiscal quarters
+LTG: consensus long term earnings growth forecast
+FREV: rolling sum of preceding six months earnings forecast revisions scaled by price
+MOM: price momentum",,,1993-10,,
+,hafzalla2011percent,,Percent accruals,"Percent Operating Accruals
+Traditional Operating Accruals
+Return on Assets
+Cash Return on Assets
+Total Cash Flow Return on Assets
+Market Value of Equity
+Book Value/Market Value
+Price Per Share
+Three Year Sales Growth
+Proportion of firms with losses
+Per of firms with Special Item
+Arbitrage Risk",,,1989-08,,
+,landsman2011investors,,"Do investors understand really dirty surplus?
+","MVE: Market Value of Common Shares outstanding as of fiscal year end
+BVE: Book value of common equity as of fiscal year end 
+VCNI: Very Comprehensive earnings
+DS: Dirty Surplus measured as the sum of change of balance of unrealized gain or losses on marketable securities
+RDS: Real Dirty Surplus, measured as the change in the book value of common equity",,,1976-06,,
+,li2011well,,How well do investors understand loss persistence?,"ATQ: positive total assets (ATQ)
+SALESQ: positive sales (SALEQ),
+PRCCQ*CSHOQ: positive market value of equity at the end of the fiscal quarter",,,1984-06,,
+,thomas2011tax,,Tax expense momentum,"Tax Expense Surprise : Tax Expense per share in quarter
+Assets per share
+Earnings surprise
+Sales surprise
+Cost of goods surprise
+Selling, general and administrative Surprise
+Pre Tax income per share
+Total Assets per share
+Ratio of Cash Flow From Operations to Asset 
+Market Value
+Book to Market Ratio
+Return ",,,1977-06,,
+,johnson2012option,,"The option to stock volume ratio and future returns
+","OS: ratio of option volume of firm 
+Size: log of market capitalization 
+LBM: log of book-to-market ratio
+VLC: total call contract volume traded in a given month
+VLP: total put contract volume traded in a given month
+EQVOL: total equity volume traded",,,1996-2008,,
+,palazzo2012cash,,"Cash holdings, risk, and expected returns","CH: Cash-to-asset. Ratio
+CF: Cash-flows-to-assets
+BM: Book-to-market
+SEQ: Shareholder equity
+TXDITC: Deferred taxes and investment tax credit
+PSTKL: Book value of preferred stock
+Par Value of preferred stock",,,,,
+,bazdrech2009labor,,"Labor hiring, investment and stock return predictability in the cross section
+","LK: Labor-to-capital ratio, employees (31) in year t divides property, plant & equipment (8) in year t
+BM: Book-to-market equity, the ratio of the book value of equity to the market value of equity. Market equity is price times shares outstanding at the end of December of t, from CRSP.
+SIZE: the price times shares outstanding at the end of June of year t, from CRSP.
+Lev: leverage, book liabilities (total assets (6) minus book value of equity) in year t divides market value of firm (size plus total assets (6) minus book value of equity).
+AG: Asset growth, the natural log of the ratio of assets per split-adjusted share at the fiscal yearend in t-1 divided by assets per split-adjusted share at the fiscal yearend in t-1. This is equivalent to the natural log of the ratio of gross assets at t-1 (6) divided by gross assets at t-1 minus net stock issues from t-1 to t.
+YB: Profitability, equity income (income before extraordinary (18), minus dividends on preferred (19), if available, plus income statement deferred taxes (50), if available) in t divided by book equity for t.",,,1965-06,,
+,cohen2012complicated,,Complicated firms,"Number of conglm firms in the sample per year
+Number of standalones in the sample per year 
+Conglm firm market-cap percentile
+Standalone market-cap percentile
+Conglm firm book-to-market percentile
+Standalone book-to-market percentile
+Percent of sales per industry segment",,,1977-09,,
+,hirshleifer2013innovative,,"Innovative efficiency and stock returns
+","Patents granted scaled by R&D capital
+Adjusted Patent Citations scaled by R&D expenses",,,1976-06,,
+,prakash2013deferred,,Deferred revenues and the matching of revenues and expenses,"DRC/S: current deferred revenue, scaled by sales (Compustat variable DRC/SALE)
+DRT/S: total deferred revenue, scaled by sales ((DRC+DRLT)/SALE)
+DRC: annual change in current deferred revenue scaled by av. assets
+SALE: sales (in millions of dollars)
+PM: year-ahead profit margin, calculated operating income/assets
+LEADSAR: year ahead size adjusted returns
+PDCOST: Period Operating Costs as proportion of total operating costs, averaged over three years
+Q-Score: Change in conservatism score 
+ACCR: Accruals, calculated as income before extraordinary items less operating cash flows minus cash from extraordinary items and discontinued operations, adjusted for deferred revenues
+NOA: Annual Percentage change in net operating assets, scaled by average assets",,,2002-07,,
+,cohen2013misvaluing,,Misvaluing innovation,- Ability : Ability is computed for each firm every year using five (j = 1.. .5) time-series regressions of sales growth on past R&D,,,1980-09,,
+,novy2013other,,The other side of value: The gross profitability premium,"Gross Profit (revenues minus cost of goods scaled by assets) as well as income before extraordinary items
+Earnings
+Free Cash Flow: (net income plus amortization and depreciation minus changes in working capital and capital expendituresLog (Book/Market)
+Size: Log (Market Cap)",,,,,
+,frazzini2014betting,,"Betting against beta
+","SMB : Size
+HML: Book to market 
+UMD: Momentum (up minus down)
+Country Bonds
+Foreign Exchange
+US Treasury Bonds
+Credit Indices
+Commodities",,,1926-12,,
+,valta2016strategic,,"Strategic default, debt structure, and stock returns","log (Number of institutional shareholders)/log(market equity)
+Herfindahl-Hirschman Index computed using the percentage of ownership by each institutional investor
+Secured debt divided by total debt 
+Convertible debt divided by the total debt
+Proportion of total debt maturing within 3 years",,,1985-2012,,
+,da2009cashflow,,"Cashflow risk, systematic earnings revisions, and the cross-section of stock returns
+","realized earnings from the previous year
+longterm analyst growth forecasts for the next three to five years. 
+Book-to-market and size (in millions of dollars) 
+the percentage of stocks",,,1985-05,,
+,hou2011factors,,What factors drive global stock returns?,"Size
+Dividend
+Earnings yields (D/P and E/P)
+Cash flow-to-price (C/P)
+Book-to-market equity (B/M)
+leverage
+momentum",,,1981-03,,
+,harvey2000conditional,,Conditional skewness in asset pricing tests,"Size
+Book/market
+Momentum",,,,,
+,spiess1999long,,The long-run performance of stock returns following debt offerings,,,,,,
+,ang2006downside,,Downside risk,,,,,,
+,chordia2006earnings,,Earnings and price momentum,"- SUE_portfolio: standardized change in earnings from the most recent earnings announcement 
+- standardized unexpected earnings",,,,,
+,kishore2008earnings,,"Earnings announcements are full of surprises
+",- Earnings Announcement,,,1987-04,,
+,hawkins1984earnings,,Earnings expectations and security prices,,,,,,
+,frankel1998accounting,,"Accounting valuation, market expectation, and cross-sectional stock returns","ME is the market value of equity
+ROE is the return on equity for year
+P is the stock price
+ROA is the return on the total assets
+inverse of the equally-weighted average B/P ratio for each year",,,1975-93,,
+,abarbanell1998abnormal,,Abnormal returns to a fundamental analysis strategy,"BHAR: buy-and-hold abnormal return of f
+RSIGNAL : = scaled decile rank of fundamental
+RBETA: the scaled decile rank of beta for f
+RCEPS: the scaled decile rank of the change in earnings between",,,1974-88,,
+,ali2003arbitrage,,Arbitrage risk and the book-to-market anomaly,"Book-to-market
+Market Value of Equity
+",,,1976-97,,
+,vanden2006option,,Option coskewness and capital asset pricing,"a zero-beta strad
+a delta-hedged gains
+a volatility contract",,,1993-00,,
+,vanden2004options,,Options trading and the CAPM,,,,,,
+,chan1985exploratory,,An exploratory investigation of the firm size effect,"EWNY: Equally weighted NYSE stock index.
+IPISA: Growth rate of industrial production from month r to I + 1 (seasonally adjusted).
+UITB: Unanticipated inflation, defined as CPI - expected inflation.
+DEI: Change in expected inflation.
+UTS: Difference in return of long-term government bond portfolio and the one-month T-Bill
+BUSF: Growth rate of the Net Business Formation series from r to r + 1. The data, obtained from the Bureau of Economics Analysis, were seasonally adjusted.
+PREM: Difference in return of ‘under BAA’ (rated by Moody) bond portfolio and long-term government bond portfolio. The government bond data were taken from Ibbotson and Sinquetield (1982). The non-convertible bond data were obtained from R.G. Ibbotson & Co., Chicago.",,,1953-77,,
+,arbel1983giraffes,,"Giraffes, institutions and neglected firms","Institutional Concentration Ratio
+Sharpe Index
+Treynor Index
+Excess Return
+",,,,,
+,campbell1996understanding,,Understanding risk and return,,,,"1952-90, 1871-90",,
+,dittmar2002nonlinear,,"Nonlinear pricing kernels, kurtosis preference, and evidence from the cross section of equity returns",,,,,,
+,liu2006liquidity,,A liquidity-augmented capital asset pricing model,"MV: Market Capitalization measured in millions of dollars
+B/M: Book-to-market-value
+Liquidity Measurement 
+TO12: Average Daily turnover over the prior 12 months
+BA12:  Average daily relative bid-ask spread over the prior 12 months",,,1960-03,,
+,pastor2003liquidity,,Liquidity risk and expected stock returns,,,,,,
+,hirshleifer2010financing,,A financing-based misvaluation factor and the cross-section of expected returns," Market Factor
+Size Factor 
+Momentum Factor
+Investment Factor
+Leverage Factor",,,1970-08,,
+,black1972capital,,The capital asset pricing model: Some empirical tests,,,,1926-66,,
+,carhart1997persistence,,On persistence in mutual fund performance,,,,,,
+,black1972capital,,"Capital market equilibrium with restricted borrowing
+",,,,,,
+,kraus1976skewness,,"Skewness preference and the valuation of risk assets
+",,,,,,
+,lintner1965security,,"Security prices, risk, and maximal gains from diversification
+\",,,,,,
+,sharpe1964capital,,"Capital asset prices: A theory of market equilibrium under conditions of risk
+",,,,,,
+,heckerman1972portfolio,,"Portfolio selection and the structure of capital asset prices when relative prices of consumption goods may change
+",,,,,,
+,fama1973risk,,"Risk, return, and equilibrium: Empirical tests
+","- Return
+",monthly,,1926-29,,
+,mossin1966equilibrium,,"Equilibrium in a capital asset market
+",,,,,,
+,jagannathan1996conditional,,"The conditional CAPM and the cross-section of expected returns
+",,,,1962-90,,
+,ferson1991variation,,The variation of economic risk premiums,"Value weighted NYSE index return less 1 month Treasury Bill return
+Monthly real per capita growth of personal consumption expenditures for nondurable goods, seasonally adjusted
+Monthly return of corporate bonds rates BAA 
+Slope- Change in the differences between average monthly yield of a 10 year Treasury bond and 2 month TB
+Unexpected Inflation rate
+REALTB: 1 month TB less monthly information rate",,,,,
+,fogler1981three,,"Three factors, interest rate differentials and stock groups",,,,,,
+,boudoukh2007importance,,"On the importance of measuring payout yield: Implications for empirical asset pricing
+",,,,,,
+,hou2015digesting,,Digesting anomalies: An investment approach,,,,,,
+,holthausen1992prediction,,The prediction of stock returns using financial statement information,,,,1978–88,,
+,easley2010factoring,,"Factoring information into returns
+",,,,1983-01,,
+,chopra1992measuring,,Measuring abnormal performance: do stocks overreact?,,,,,,
+,chen2011alternative,,An alternative three-factor model,"IVOL: the standard deviation of the residuals from regressing the stock’s returns on the FamaFrench three factors
+SUE: earnings surprises as Standardized Unexpected Earnings
+Distress: 
+Net Stock Issues
+Asset Growth
+Book to Market
+Industries, CAPM Betas, and Market Equity
+Hansen-Jagannathan Distance
+Short-Term Prior Returns",,,,,
+,foster1984earnings,,"Earnings releases, anomalies, and the behavior of security returns",,,,,,
+,spiess1995underperformance,,"Underperformance in long-run stock returns following seasoned equity offerings
+",- seasoned equity offerings,,,1975-89,,
+,daniel1997evidence,,Evidence on the characteristics of cross sectional variation in stock returns,- Book to Market Value,,,,,
+,fama1992cross,,"The cross-section of expected stock returns
+",- ME: Market Size,,,1962-89,,
+,lo2006tading,,"Trading volume: Implications of an intertemporal capital asset pricing model
+",,,,1962-96,,
+,mayshar1981transaction,,Transaction costs and the pricing of assets,,,,,,
+,brennan1996market,,"Market microstructure and asset pricing: On the compensation for illiquidity in stock returns
+",,,,,,
+,jiang2005information,,"Information uncertainty and expected returns
+","information uncertainty (IU) proxies:
+Firm Age is defined as the number of months between event month t and the first month that a stock appears in CRSP
+Return volatility (Volatility) is defined as the standard deviation of daily returns of past 25 trading days
+Trading volume (Volume) is defined as the average daily turnover in percentage over the past six months, where daily turnover is the ratio of the number of shares traded each day to the number of shares outstanding at the end of the day
+Duration is a measure of implied equity duration derived from financial statement data and the current stock price",,,1965-01,,
+,lev2005r,,"R&D reporting biases and their consequences
+","Sales
+Earnings
+Book Value
+R&D Percent of Book Value
+Number of Firms",,,1975-95,,
+,bali2009volatility,,Volatility spreads and expected stock returns,"monthly returns
+Jensen’s alpha
+Market share - average share of quintile portfolio stocks in the market value of all stocks
+Size: Market Capitalization 
+B/M: Book Market ratio for firms",monthly,,1996-04,,
+,boyer2010expected,,Expected idiosyncratic skewness,"Momentum
+Turnover",,,1983-00,,
+,an2010warranted,,Warranted multiples and future returns,"The harmonic mean of the enterprise-value-to-sales, 
+The harmonic mean of the price-to-book, 
+The harmonic mean of the price-earnings, 
+The harmonic mean of the price-to-2-year-ahead earnings multiples
+The profit margin is defined as the percentage of the fi’s operating income divided by its sales
+This variable is computed as PM multiplied by Dum
+The growth forecast as the percentage increase of two-year-ahead forecasted earnings over that of the one-year-ahead forecasted earnings
+Book Leverage (LEV): This variable is computed as the percentage of the total long-term debt divided by the book value of common equity
+Return on Assets (ROA): This variable is a firm’s net income scaled by its total assets, in percentage terms
+Return on Equity (ROE): This variable is net income scaled by the end-ofperiod common equity, in percentage terms
+Total Research and Development Expenditures Divided by Sales (RND-NS): Total Research and Development (R&D) expenditures is computed using the figures from the trailing four quarters",,,1977-06,,
+,hameed2015industries,,Industries and stock return reversals,"excess return on the value market index over the 1-month T-bill return 
+Small minus big return premium 
+High book to market minus low book to market return premium",,,1968-10,,
+,simutin2010excess,,Excess cash and stock returns,"Log of the ratio of cash to total assets less cash
+Market-to-book ratio measured as book value of assets, less the book value of the equity plus the market value of equity divided by assets
+Size is log of real (adjusted by CPI) assets
+CPX is the ratio of capital expenditures to assets
+WC is the ratio of net working capital calculated without cash to assets
+LTD is the ratio of the long term debt to assets
+RD is the research and development expenses to the sales
+CF is the ratio of cash flow to total assets
+Industry sigma",,,1971-94,,
+,opler1999determinants,,The determinants and implications of corporate cash holdings,"Cash / Assets
+Real Size
+Market-to-Book 
+R&D/Sales
+CF/Assets
+Net Working Capital/Assets
+Capital Expenditures/Assets
+Acquisition/Assets
+Payout to Shareholders
+Industry Sigma
+Total Leverage
+",,,1971-94,,
+,huang2012extreme,,Extreme downside risk and expected stock returns,"Market Excess Returns
+SMB: Size
+HML: BM
+Momentum: Momentum",,,1963-09,,
+,balachandran2012using,,Using residual income to refine the relationship between earnings growth and stock returns,"NIB: Net Income before extraordinary items
+AT: Total Assets
+PRCC_F: Price at fiscal year
+CSHO: Maket Capitalization
+DLC: Total Invested Capiital 
+DLTT: Long Term Debt 
+MIB: Minority Interest
+CEQ: Total Common Equity ",,,1975-2008,,
+,conrad2013ex,,Ex ante skewness and expected stock returns,"Mean Return
+Adjusted Return
+Volume
+Beta
+Log of Market Value
+Book-to-market value",,,1996-05,,
+,burlacu2012risk,,Risk and the cross section of stock returns,"Firm Specific Risk Variations
+Delay Measure
+Excess Return
+Beta
+Amihud Illiqudity ",,,,,
+,durnev2009corporate,,Corporate investments: Learning from restatements,"Competitors Abnormal Returns
+Restating Firm’s Abnormal Returns
+Restating Amounts",,,1997-03,,
+,vassalou2004default,,Default risk in equity returns,"Long Term Debt
+Debt in One Year
+Survival Indicator
+Returns Difference between Moody’s BAA Corporate Bonds and AAA Corporate Bond Rates
+Spread
+EMKT value weighted excess return 
+SML
+HML",,,1971-99,,
+,adrian2008stock,,Stock returns and volatility: Pricing the short-run and long-run components of market risk,"market excess return
+Market Volatility
+Short run components
+Long run components",,,1962-05,,
+,wahlen2011can,,Can financial statement analysis beat consensus analysts’ recommendations?,"earnings increase score
+measure holding period returns
+",,,1994-05,,
+,penman2002modeling,,Modeling sustainable earnings and P/E ratios with financial statement analysis,"RNOA: Return on net operating assets.
+NCP: Dummy 1 if RNOA is negative, zero otherwise
+SNCP: squared of change in RNOA
+PM : Profit Margin
+ATO: Asset Turnover",,,,,
+,lev2016informational,,On the informational usefulness of R\&D capitalization and amortization,"Industry of R&D intensity 
+Industry of R&D expense
+P: market Value of common equity
+A: Total Assets
+D: Dummy Variables 
+B: Pro-forma Book value and Earnings
+DNE: Dummy variable equals one when pre-R&D earnings are negative
+Required
+Number of Observations",,,1983-1998,,
+,cen2006forecasted,,"Forecasted earnings per share and the cross section of expected stock returns
+","FEPS: Forecasted Earnings Per Share - Mean of forecasted one-year-ahead earnings per share in the previous month from I/B/E/S unadjusted summary historical file
+EPS: Earnings Per Share - 
+Size: Market value of equity at the end of the previous month computed from CRSP
+B/M: The Fama and French (1993) book-to-market ratio, where the value for July of year y to June of year y+1 is computed using the book value of equity for the fiscal-year-end in calendar year y-1 from Compustat and the market value of equity at the end of December of year t-1 from CRSP
+Price: Stock price at the end of the previous month from CRSP
+Ret : Cumulative (buy-and-hold) return over the past six months as of the previous month computed from CRSP
+Analyst: Number of analysts following a stock in the previous month from I/B/E/S
+FE/P: Forecasted earnings-to-price ratio, which is equal to FEPS in the previous month divided by the stock price on the corresponding date of I/B/E/S statistical period
+BPS: Book value of stockholders’ equity per share in the previous month, which is equal to the Compustat Item #60 at the recent announced fiscal-year-end as of the previous month divided by the number of shares outstanding on the corresponding date of I/B/E/S statistical period
+FROE: Forecasted return-on-equity in the previous month, which is equal to FEPS divided by BPS",,,1983-04,,
+,baik2007changes,,Changes in Order Backlog and Future Returns,"FERR1 is the forecast error defined as actual earnings less the median forecast (at the fiscal period end of year t + 1) divided by the absolute value of actual eps. 
+FERR2 is the forecast error defined as actual earnings less the median forecast (at the fiscal period end of year t + 1) divided by price.
+A is the actual EPS for firm 
+Price: Stock Price for firm I",,,1971-99,,
+,HuangAlanGuoming2009Tcso,,"The cross section of cashflow volatility and expected stock returns
+","CF: cashflow from operation
+ME: market value of equity (in million $)
+BEME: book to market equity, measured as book equity of last quarter to market equity at the beginning of the month
+PMOM: price momentum, measured as the past 12-month return
+SUE: standardized unexpected earnings
+ILLIQ: the illiquidity measure in Amihud (2002)
+EY: earnings yield, measured as earnings of last quarter divided by beginning-of-the-month market equity
+IRV: idiosyncratic volatility of the previous month's daily returns relative to the Fama–French three factors
+CFSALES: standard deviation of cashflow to sales over the past 16 quarters
+CFBE: standard deviation of the industryadjusted cashflow to book equity over the past 16 quarters
+RET: monthly stock return.",,,1973-04,,
+,PapanastasopoulosGeorgios2010Tior,,The implications of retained and distributed earnings for future profitability and stock returns,"Current Assets
+Cash and Cash Equivalents
+Current Liabilities
+Short term debt
+Total Accruals",,,,,
+,DaZhi2011Dsrr,,Decomposing short-term return reversal,,,,,,
+,imrohorogluaye2014fpra,,"Firm-Level Productivity, Risk, and Return","TFP 
+Size: Market Capitalization of firms
+BM: Ratio of Book Equity for the last fiscal year
+IK: fixed investment to capital ratio
+AG: Change in the natural log of assets
+HR: change of natural log of number of employees
+INV: Natural Log of inventories
+I/OC: ratio of the investment in the organization capital to the stock of organization capital 
+R&D/PPE: ratio of research and development expenses to gross PPE 
+RER: ratio of the buildings + capital leases to PPE 
+ROE: net income in year t divided by book equity for year
+RoA: Net income in year divided by the total assets
+GPR: Gross Profits in year t / book assets for year t
+AGE: number of years since the firm first shows up in Compustat
+N: Number of ages of the firm ",,,1962-09,,
+,nybergpeter2014feas,,Firm Expansion and Stock Price Momentum,AG: yearly percentage change in balance sheet total assets,,,1964-06,,
+,patatoukaspanosn.2012ccif,,Customer-Base Concentration: Implications for Firm Performance and Capital Markets,"CC: level of customer-base concentration; 
+ACC: annual change in customer-base concentration; 
+NCUS: number of reported major customers; 
+SDEP: fraction of annual firm sales derived from each reported major customer; 
+CDEP: measure of the firm's sales to identifiable customers as a fraction of the customers' cost of goods sold; 
+MV: market value of equity (in millions); 
+AGE: firm age; 
+SG: annual percentage sales growth of the firm; 
+CONGLO: an indicator variable equal to 1 if the firm reports at least two business segments; 
+ROA: ratio of income before extraordinary items to the beginning of year book value of total assets; 
+ROE: ratio of income before extraordinary items to the beginning of year book value of equity; 
+IHLD: ratio of inventory to the book value of total assets; 
+CMV: market value of equity of identifiable customers (in millions); 
+CAGE: firm age of identifiable customers; 
+CSG: annual percentage sales growth of the firm's identifiable customers; 
+INTRA: an indicator variable equal to 1 if the firm operates in the same four-digit SIC industry as at least one of its identifiable customers; 
+LINKAGE: duration of the link between the firm and its identifiable customers",,,1977-06,,
+,mclean2016doesacademic,,Does academic research destroy stock return predictability?," Predictors portfolios with t-statistics
+Mean publication year
+Median publication year
+Predictors from finance journals
+Predictors from economics journals
+Mean portfolio in-sample
+Standard Deviation of mean in-sample portfolio return
+Standard deviation of mean in-sample portfolio return
+Mean observations in sample
+Standard deviation of mean out-of-samples portfolio return 
+Mean portfolio return post-publication
+Standard deviation of mean post-publication portfolio return
+Mean observations post-publication",,,2013,,
+,baltussen2012unknown,,"Unknown unknowns: Vol-of-vol and the cross section of stock returns
+","Beta
+Book-to-market
+Size
+Momentum
+Short-term reversal
+Idiosyncratic volatility
+Maximum return
+Skewness
+Kurtosis
+Amid illiquidity
+Turnover
+Option bid-ask spread
+At-the-money knew
+Out-of-money skew
+Implied volatility- realized volatility spread
+Change in the ATM call IV
+Change in ATM put IV
+Age
+Analyst Coverage
+Forecast dispersion
+Volatility
+Leverage
+Private information
+Stock price delay
+Short-sale constraints
+Stochastic volatility
+Market-neural straddle returns
+Change in VIX
+Change in the slope of implied volatility skew
+OTM put return on S&P opinions
+",,,1996-09,,
+,an2014joint,,The joint cross section of stocks and options,"CVOL : call volatilities 
+PVOL : put volatiles
+RVOL : Realized Volatility
+ILLIQ: Illiquidity
+REV: Short-term reversal
+Implied volatility innovations
+Call Volume
+Put Volume
+Cull Open Interest
+Put Open Interest
+",,,1996-2011,,
+,li2010real,,Real earnings management and subsequent stock returns,"Abnormal Operating Cash Flows
+Abnormal Production Costs
+Discretionary Accruals
+Market Capitalization
+Book-to-Market
+Prior Year Return",,,,,
+,so2013new,,A new approach to predicting analyst forecast errors: Do investors overweight analyst forecasts?=,"ACC: Accruals scaled by total assets
+LTG: Mean consensus long-term growth forecast
+Sales Growth: five year percentage growth in sales
+PPE: Annual Change of property plant and equipment
+OLA: other long-term assets
+PEAD: most recent analyst based quarterly earnings surprise
+RET: Market-adjusted stock returns over the past 12 months
+REV: historical revisions of analysts two year forecasts in the past three months
+Book-to-price: book equity per share scaled by price
+Sales Growth: five-year percentage growth in sales
+LTG:  Mean consensus long-term growth forecast
+OP: Edwards-Bell-Ohlson fundamental value estimate derived from analysts forecasts. Using a constant discount rate of 10 percent",,,,,
+,beneish2013earnings,,Earnings manipulation and expected returns,"BHSAR denotes annual buy-and-hold returns to an equal-weighted portfolio formed at the start of the first day of the fifth month following the end of the fiscal year less the returns to a portfolio of companies from the same NYSE
+DSR
+GMI
+AQI
+SGI
+DEPI
+SGAI
+Accruals
+LEVI",,,1993-10,,
+,brennan2013informed,,Informed Trading and the Pricing of Good and Bad Private Information in the Cross-Section of Expected Stock Returns,"-  PIN: Probability of Informed Trading
+Total Number of Trades (and Matched Quotes) Used over the Sample Period 
+Maximum Number of Monthly Trades
+Maximum Number of Monthly Trades (and Matched Quotes) per Firm
+Average Number of Monthly Trades (and Matched Quotes)
+Average Number of Monthly Trades (and Matched Quotes) per Firm
+Pooled Number of Firms Used over the 336 Months (Firm-month Observations)
+cumulative abnormal return around the earnings announcement date (CAR), 
+the standardized unexpected earnings (SUE),",,,1983-98,,
+,boguth2013consumption,,Consumption volatility risk,"ME: Market Size
+Market Share
+BM
+MoM",,,,,
+,chordia2009theory,,Theory-based illiquidity and asset pricing,"MV: The market value defined as the month-end stock price times the number of shares outstanding (in million dollars).
+SM: The natural logarithm of MV
+BM_Raw: The book-to-market ratio defined as BV/MV, where the book value (BV) is common equity plus deferred taxes (in million dollars)
+BM_Trim: on equity plus deferred taxes (in million dollars). BMJTrim: The Winsorized book-to-market ratio, where BMJlaw values greater than the 99.5 percentile value or less than the 0.5 percentile value in a month are set equal to the 99.5 and 0.5 percentile values, respectively
+BTM: nth are set equal to the 99.5 and 0.5 percentile values, respectively. BTM: The natural logarithm of BM. Trim. Following Fama and French (1992), we fill monthly BMJlaw (hence BM.Trim and BTM) values for July of year t to June of year t + 1 with the value computed using the accounting data at the end of year t - 1, assuming a lag of six months before the annual accounting numbers are known to investors
+MOM1: The compounded holding period return of a stock over th most recent three months
+M0M2: The compounded holding-period return over the next recent three months (from month t - 4 to month t - 6). 
+M0M3: The compounded holding-period return over the three months from month t - 1 to month t - 9. 
+M0M4: The compounded holding-period return over the three months from month t - 9 to month t - 12. For each of the above four momentum variables to exist, a stock should have all three consecutive monthly returns over the corresponding three-month period
+Amihud: The illiquidity measure of Amihud (2002). We estimate this measure each month as the average of DDVOL, where r is the daily stock return and DDVOL is the daily dollar volume in thousand
+RolLGibbs: The market risk-adjusted effective bid-ask spread of Roll (1984), estimated at an annual frequency using the Gibbs sampler. This measure was obtained from Joel Hasbrouck's website
+DVOL: The average of daily dollar volume (in thousand dollars) within each month for each stock.
+TURN: The average of daily share turnover values within each month for each stock.",,,,,
+,,,,,,,,,
+,,,,,,,,,
+,baker2006investor,,Investor sentiment and the cross-section of stock returns,"CEFD: value weighted average discount on closed-end mutual funds
+TURN: retreaded log turnover
+NIPO: Initial Public Offerings
+RIPO: Annual First-day returns of Initial Public Offerings
+S: the year-end log ratio of the value-weighted average market-to-book ratios",,,1963-01,,
+,cremers2010search,,In search of aggregate jump and volatility risk in the cross-section of stock returns,"MN:  Market-neutral at-the-money straddle returns
+CNMN: crash-neutral, market neutral at-the-money straddle returns
+VIX: Changes in the CBOE",,,1983-07,,
+,cremers2009takeovers,,Takeovers and the cross-section of returns,"Q: Ratio of market-to-book value of assets where market assets are defined as the total assets plus market value of common stock minus book common equity and differed taxes
+PPE: property, plant and equipment to asset ratio
+Industry is equal to 1 if, based on Fama French 48-industry classification, there was a takeover in firms industry in the prior year
+ROA is the return on the assets
+Leverage is the book debt to the asset ratio
+Cash is the cash and short-term investments to assets ratio
+Firm Size is proxied by ln(MktCap), natural log of market equity
+G is governance index",,,1981-04,,
+,beneish1997detecting,,"Detecting GAAP violation: Implications for assessing earnings management among firms with extreme financial performance
+","- Accounting and Auditing Enforcement Releases (AAER)
+AAERs relating to financial institutions
+AAERs relating to auditing action against independent CPAs
+AAERs relating to 10-O violations
+AAERs relating to firms without data on COMPUSTAT, S & P Corporate Text or 10-K microfiche",,,1987-93,,
+,amihud1986asset,,Asset pricing and the bid-ask spread,,,,,,
+,chang2013market,,Market skewness risk and the cross section of stock returns,"Volatility
+Skewness
+High Minus Low
+UMD",,,,,
+,gu2005innovation,,"Innovation, future earnings, and market efficiency
+","PCI: the firm’s patent citation impact in a given year
+MV: firm’s market value at the fiscal year end
+M/B: Market to book ratio 
+RD: Research and Development
+LN(MV): Natural Log of Firm’s Market Value
+NI: Net income before extraordinary items",,,1975-99,,
+,gokcen2009information,,Information revelation and expected stock returns,"BETA: systematic risk
+RMSEDAY: unsystematic risk
+LNSIZE :  log of market capitalization of the stock 
+LNBTM: Log of book-to-market ratio
+ABSRET: Absolute value of monthly market-adjusted return
+VOLD: Firm Specific dollar volume
+RHO: Absolute Returns and Volume
+ILLIQ: Amihud’s liquidity measure
+TRNOVDY: Daily number of shares traded is dived by the number of shares outstanding, then over a year
+DIVYLD: Dividend paid in a year divided by year end price",,,,,
+,korniotis2009geography,,The Geography of Return Predictability,"N: firms in each state
+AvgRet: Average Monthly Returns
+RFFR: Four Factor Model, SMB, HML, UMD
+Size
+Dividend yield in percent
+Firm Size based industry concentration or Herfindahl index multiplied by hundred
+ANCOV: Analyst Converage",,,1963-2005,,
+,douglas1967risk,,Risk in the equity markets: An empirical appraisal of market efficiency,,,,,,
+,shu2007trader,,"Trader composition, price efficiency, and the cross-section of stock returns","split of trading volume associated with institutions and individuals
+split of the number of trades,
+split of the number of traders.",,,,,
+,harvey2016and,,… and the cross-section of expected returns,,,,,,
+,head2009would,,Would a stock by any other ticker smell as sweet?,"SMB
+HML
+Alpha
+UMD",,,1984-06,,
+,armstrong2011information,,Information quality and the cross-section of expected returns,"HLIQ : High-low information quality
+Idiosyncratic Volatility 
+Mean Forecast Error ",,,1986-08,,
+,brown2007productivity,,The productivity premium in equity returns,"Portfolio Excess Returns
+Market Value averages of differences ",,,1970-05,,
+,ackert1997prior,,"Prior uncertainty, analyst bias, and subsequent abnormal returns",- Consensus Forecast,,,1980-91,,
+,ortiz2014real,,Real asset illiquidity and the cost of capital,"ICC: the implied cost of capital
+FFCC: factor model of cost of capital
+MNoPotBuy: is minus number of rival firms in the industry that have debt ratings 
+NLPotBuy: Average book leverage net of cash holdings of rival firms 
+MTotM&A: minus the value of all M&A activity in the industry scaled by the book of the assets
+MInM&A: minus the value of M&A activity in the industry involving acquirers that operate within the industry scaled by the book value of assets in the industry
+MOutM&A: minus the value of M&A activity in the industry in involving acquirers that operate outside the industry scaled by the book value of the assets
+WAIL1: Weighted Asset Liquidity - proportion of cash and equivalents to the firm’s lagged total assets.
+WAIL2: Weighted Asset Liquidity - proportion of cash and equivalents and non cash current assets to the lagged total assets
+WAIL3: Weighted Asset Liquidity - proportion of cash and equivalent and intangibles to lagged total assets
+MWAIL : market-weighted asset liquidity
+LogMap: Logarithm of market capitalization
+LogBM: Logarithm of Book-to-market
+DRP: distribution of default risk
+BLev: Book Leverage
+RoE: Return in Equity
+VolRoe: Standard Deviation of ROE over the past five years
+FA/TA: fixed assets scaled by total assets
+R&DExp: Research and Development Expenditure scaled by sales
+LogAge: Logarithm of 1 plus the number of years 
+DivPay: Dividend pay
+SalGrow: Annual change in logarithm of sales
+LogInvPrice: Logarithm of 1 divided by the stock price as the estimation of date of ICC
+RetPM: stock return over the past month 
+Ret12M: stock return over the past 12 months",,,1984-06,,
+,gopalan2012asset,,Asset liquidity and stock liquidity,"WAIL1: Weighted Asset Liquidity - proportion of cash and equivalents to the firm’s lagged total assets.
+WAIL2: Weighted Asset Liquidity - proportion of cash and equivalents and non cash current assets to the lagged total assets
+WAIL3: Weighted Asset Liquidity - proportion of cash and equivalent and intangibles to lagged total assets
+MWAIL : market-weighted asset liquidity
+Firm Size: natural log of market capitalization
+RoA: Return on Assets
+BHAR: Buy and Hold ratio
+Discretionary Accruals 
+Stock return volatility",,,1962-05,,
+,bauman1988growth,,Growth projections and common stock returns,"EG: Expected Growth Rate
+PEPS: The projected EPS for the current year
+EPS: EPS reported in the prior year",,,1978-89,,
+,balvers2007productivity,,Productivity-based asset pricing: Theory and evidence,"Risk Premium
+Shanken 
+PROD: productivity model",,,1964-04,,
+,teo2004style,,Style effects in the cross-section of stock returns,"RMRF
+SMB
+HML
+PR1YR: Porfolio for one year return momentum",,,,,
+,gu2011overpriced,,"Overpriced shares, ill-advised acquisitions, and goodwill impairment","OVEI: Overpricing
+P/E: relative P/E
+DACC: Discretionary accruals
+NEQ: Equity Issuance",,,1990-06,,
+,chen2012does,,Does idiosyncratic volatility proxy for risk exposure?,"DIV: Dividend Yield
+TERM: Term Spread
+DEF: Default Spread
+RF: 30-day T-bill rate",,,1963-09,,
+,da2009cash,,"Cash flow, consumption risk, and the cross-section of stock returns","ME: Market Equity 
+BM: Book-to-Market
+PastReturn
+Return",,,1951-05,,
+,campbell2004bad,,"Bad beta, good beta
+","Ty: Term Yield
+PE: log ratio of S&P500 to S&P500 ten-year moving average of earnings
+VS: Small-stock value spread",,,1928-01,,
+,lettau2001resurrecting,,Resurrecting the (C) CAPM: A cross-sectional test when risk premia are time-varying,"HML
+SMB",,,,,
+,breeden1989empirical,,Empirical tests of the consumption-oriented CAPM,,,,1926-82,,
+,yogo2006consumption,,"A consumption-based explanation of expected stock returns
+","SMB
+HML
+Market
+Nondurables
+Durables",,,1951-01,,
+,gomes2006asset,,Asset pricing implications of firms’ financing constraints,,,,,,
+,savov2011asset,,Asset pricing with garbage,- MSW: Municipal Solid Waste,,,1960-07,,
+,bansal1993no,,No arbitrage and arbitrage pricing: A new approach,,,,,,
+,xing2008interpreting,,Interpreting the value effect through the Q-theory: An empirical investigation,"BM
+MoM",,,,,
+,parker2005consumption,,Consumption risk and the cross section of expected returns,,,,1926-2002,,
+,brennan2004estimation,,Estimation and test of a simple model of intertemporal capital asset pricing,- Bond Manturity (years),,,1952-00,,
+,chan1996does,,Does money explain asset returns? Theory and empirical analysis,"M2C
+M3C
+Equally weighted portfolio
+Value weighted portfolio",,,1959-88,,
+,chapman1997approximating,,Approximating the asset pricing kernel,"PCE: Personal Consumption Expendtiure
+Temporary Shock 
+Inflation
+Govt Bonds",,,1954-91,,
+,cochrane1996cross,,A cross-sectional test of an investment-based asset pricing model,,,,,,
+,bossaerts1994tax,,Tax-Induced Intertemporal Restrictions on Security Returns,,,,1959-90,,
+,korniotis2008habit,,"Habit formation, incomplete markets, and the significance of regional risk for expected returns",,,,1965-88,,
+,breeden1979intertemporal,,An intertemporal asset pricing model with stochastic consumption and investment opportunities,,,,,,
+,stulz1986asset,,Asset pricing and expected inflation,,,,,,
+,george2010resolution,,"A resolution of the distress risk and leverage puzzles in the cross section of stock returns
+","High Leverage: dummies whether individual stocks are the top and bottom 20% of leverage as measured by book value of total debt to the book value of asset prior to the portfolio formation
+Low Leverage
+High Tax
+Low Tax
+High VIX
+Low VIX",,,1965-03,,
+,livdan2009financially,,Financially constrained stock returns,"Capital share in production
+Monthly rate of capital depreciation
+Persistence coefficient of aggregate productivity
+Conditional volatility of aggregate productivity
+Time preference coefficient
+Constant price of risk parameter
+Adjustment cost parapet when investment is positive
+Adjustment cost parameter when invest is negative
+Persistence coefficient firm specific ",,,,,
+,adler1983international,,International portfolio choice and corporation finance: A synthesis,,,,,,
+,rubinstein1973fundamental,,The fundamental theorem of parameter-preference security valuation,,,,,,
+,constantinides1982intertemporal,,Intertemporal asset pricing with heterogeneous consumers and without demand aggregation,,,,,,
+,garleanu2012displacement,,Displacement risk and asset returns,,,,,,
+,lucas1978asset,,Asset prices in an exchange economy,,,,,,
+,garlappi2011financial,,Financial distress and the cross-section of equity returns,"B/M
+CAPM alpha",,,,,
+,jarrow1980heterogeneous,,"Heterogeneous expectations, restrictions on short sales, and equilibrium asset prices",,,,,,
+,merton1973intertemporal,,An intertemporal capital asset pricing model,,,,,,
+,constantinides1986capital,,Capital market equilibrium with transaction costs,,,,,,
+,stulz1981model,,A model of international asset pricing,,,,,,
+,solnik1974equilibrium,,An equilibrium model of the international capital market,,,,,,
+,chordia2013trends,,Trends in capital market anomalies,,,,,,
+,ferson2013out`,,The “out-of-sample” performance of long run risk models,,,,,,
+,akbas2013time,,Time varying market efficiency in the cross-section of expected stock returns,,,,,,
+,doskov2016tradable,,Tradable aggregate risk factors and the cross-section of stock returns,"R_10YR: Excess return on the JP Morgan US Treasury Note Futures Tracker Index
+INFL Excess return on the Dow Jones Credit Suisse 10‐Year Inflation Breakeven Index
+DIV_LEVEL: Excess return on 1‐year S&P 500 dividend contract
+DIV_GROWTH: Excess return on 5‐year S&P 500 dividend contract ‐ return on 1‐ year S&P 500 dividend contract
+DIV_GROWTH2 Excess return on 2‐year S&P 500 dividend contract ‐ return on 1‐ year S&P 500 dividend contract
+DIV_GROWTH3 Excess return on 3‐year S&P 500 dividend contract ‐ return on 1‐ year S&P 500 dividend contract
+RISK_FUT: Excess return on the S&P 500 VIX short‐term futures index
+RISK_VIX: Percent change in the CBOE S&P 500 volatility index (VIX)
+CDS Excess return on the Markit CDX Credit Default Swap 5‐year return index
+BC_FIN_SPREAD Return of the Barclays Investment Grade Financials index ‐  Return of the Barclays Investment Grade Credit index
+FIX_TRANS Non‐tradable liquidity factor based on the fixed component of price impact. As constructed by Sadka (2006)
+VAR_PER Non‐tradable liquidity factor based on the variable component of price impact. As constructed by Sadka (2006)
+DIV_GR_IBES Consensus forecast of next twelve‐month dividend growth for the S&P 500 index
+CHG_DIV_GR_IBES Monthly change in DIV_GR_IBES
+MKT: Excess return on US equity market
+HML: Fama-French factor value (avg. return on two value portfolio average return on the growth portfolios)
+SMB: Fama-French Factor for firm size (averge return of three small portfolio minus average return of the three large portfolio)
+DY: A factor portfolio for dividend yield (average on top three deciles by div yield- average return on bottom three deciles)
+EP: A factor portfolio for earnings yield (average return on top of three by cash flow to price - average return on bottom 3 deciles)
+CFP: A factor portfolio for cash flow to price (Avg. return on top three by cash flow to price - avg. return on bottom three deciles)
+RF: Monthly return on 3 month US treasury bills",,,,,
+,jagannathan2007lazy,,"Lazy investors, discretionary consumption, and the cross-section of stock returns","Consumption Growth
+SMB
+HML
+",,,1954-03,,
+,vassalou2003news,,News related to future GDP growth as a risk factor in equity returns,"Size (MV)
+Book-to-Market(B/M)
+TERMY : the yield spread of long-term Treasury bonds minus the T-bill yield
+DEFY: the yield spread of long-term corporate bonds minus the yield on long-term government bonds",,,1953-98,,
+,jacobs2004idiosyncratic,,Idiosyncratic consumption risk and the cross section of asset returns,"BMI: Book to Market 
+Size: five size quintiles
+Corporate bonds
+Treasury Bills (TB)",,,1963-95,,
+,ozoguz2009good,,Good times or bad times? Investors' uncertainty and stock returns,,,,,,
+,malloy2009long,,Long-run stockholder consumption risk and asset returns,,,,1926-04,,
+,sweeney1986pricing,,The pricing of interest-rate risk: evidence from the stock market,"Aggregate Dollar Volume in Flow
+",,,1991-96,,
+,oldfield1981treasury,,Treasury bill factors and common stock returns,,,,,,
+,kapadia2011tracking,,Tracking down distress risk,"HML
+SMB
+MKTRF",,,1927-92,,
+,ferson1993risk,,The risk and predictability of international equity returns,"dG7ELT : the monthly change in a measure of long-term infla- tionary expectation
+dTED: the change in the spread between the 90-day Eurodollar deposit rate and the 90-day U.S. Treasury-bill yiel
+G7RTB: a weighted average of short-term interest rates in the G-7 countries, using the shares of G-7 GDP as the weights, minus the G-7 inflation rate
+dOIL: the change in the monthly average U.S. dollar price per barrel of crude oil
+dG7IP: a weighted average of industrial production growth rates in the G-7 countries, where a measure of relative production shares is used as the weight",,,1970-89,,
+,ferson1994sources,,Sources of risk and expected returns in global equity markets,,,,,,
+,ferson1999conditioning,,Conditioning variables and the cross section of stock returns,,,,,,
+,heaton2000portfolio,,Portfolio choice and asset prices: The importance of entrepreneurial risk,,,,,,
+,lustig2005housing,,"Housing collateral, consumption insurance, and risk premia: An empirical perspective",,,,,,
+,fung1997empirical,,Empirical characteristics of dynamic trading strategies: The case of hedge funds,,,,,,
