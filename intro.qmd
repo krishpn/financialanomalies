@@ -407,3 +407,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @oldfield1981Treasury
 @kapadia2011Tracking
 @ferson1993risk
+@ferson1994Sources
