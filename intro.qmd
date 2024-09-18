@@ -411,3 +411,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @ferson1999Conditioning
 @heaton2000Portfolio
 @lustig2005Housing
+@fung1997Empirical
