@@ -421,3 +421,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @li2006Sector
 @g2016Labor
 @bali2016Risk
+@hu2013Noise
