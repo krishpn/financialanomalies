@@ -425,3 +425,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @berkman2011Time
 @campbell2018intertemporal
 @chung2006Asset
+@erb1996Expected
