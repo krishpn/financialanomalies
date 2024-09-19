@@ -419,3 +419,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @chen1986Economic
 @eiling2013Industry
 @li2006Sector
+@g2016Labor
