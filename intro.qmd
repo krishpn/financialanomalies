@@ -417,3 +417,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @chen2014Contingent
 @koijenevert
 @chen1986Economic
+@eiling2013Industry
