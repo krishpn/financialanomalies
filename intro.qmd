@@ -423,3 +423,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @bali2016Risk
 @hu2013Noise
 @berkman2011Time
+@campbell2018intertemporal
