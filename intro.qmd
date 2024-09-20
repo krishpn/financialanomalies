@@ -374,3 +374,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @wang2012Debt
 @da2009Long
 @jiang2014Dispersion
+@zhao2012Information
