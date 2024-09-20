@@ -370,3 +370,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @chung2006Asset
 @erb1996Expected
 @elton1995Fundamental
+@elton1995Fundamental
