@@ -1,62 +1,5 @@
 # Introduction
 
-`START`
-
-Extreme Gradient Boosting (XGBoost) is a highly scalable, powerful and leading decision tree algorithm proposed by Chen and Guestrin (2016). Designed to handle the large datasets, XGBoost implements distributed gradient tree boosting learning strategy to train the model. That is, it sequentially learns from multiple weak classifiers (base learners or decision trees) and iteratively updates their weights (Friedman et al. (2000), Littlestone and Warmuth (1989)). Each combination of the update of the "weak learners" creates the powerful ensemble of "stronger learners". The sequential ordering means tree generated in the later steps will consider the prediction results of the preceding steps. In other words, the strategy is to gradually instruct weak learners to correct the fault from the preceding step. It also accounts for the deviations when comparing between the former and later decision trees of each iteration. In summary, XGBoost trains model in stages as follows:
-
-1.  Initialize model with a single decision tree.
-
-2.  Calculate the residuals of the model for each iteration. Residuals also known as errors are the differences between the actual and predicted values.
-
-3.  Construct and fit a new decision tree (weak learners) to predict the residuals.
-
-4.  Add the decision tree to the ensemble model in a way that minimizes the loss function.
-
-5.  Update the predictions, then added to preceding predictions to effectively updating model's approximation.
-
-6.  Calculate the new residuals based on the updated predictions.
-
-7.  Build a new tree and update the residuals repeated for predefined number of times.
-
-8.  Combine all predictions to give final predictions of the ensemble
-
-Formally, in a given training dataset $\mathbb{D} = (X_i, y_i)$, where $\mathbb{D}$ is organized in $n$ rows and $m$ columns, $X_i$ denotes vector of covariates and $y_i$ represents labels (if lawful = $1$, else $0$), and $|D| =n, x_i \in \mathbb{R}^m$ and $y_i \in \mathbb{R}$. The predicted value of $\hat{y}$ for the $i^{th}$ sample can be represented by a model comprising $k$ decision trees, expressed as in Equation \ref{Equation:xgboostequationone}.
-
-```{=tex}
-\begin{align}
-    &\hat{y_i} = \sum_{i=1}^K f_k(x_i), f_k \in \mathbfcal{F},
-\end{align}
-where $f_k$ represents the $k^{th}$ decision tree, $K$ is the number of trees and $\mathbfcal{F}$ is the functional space denoting the collection of all possible decision trees.
-\label{Equation:xgboostequationone}
-```
-In order to predict the tree in subsequent step, the algorithm computes the loss function given by \ref{Equation:xgboostequationtwo}.
-
-```{=tex}
-\begin{align}
-    &L = \sum_{i=1}^n \ell(y_i, \hat{y_i}),
-\end{align}
-where $L$ is the loss function, and respectively $y_i$ and $\hat{y}_i$ are the real and  predicted value of sample $i$. 
-\label{Equation:xgboostequationtwo}
-```
-In addition to the loss function , the salient feature of the XGBoost is also to estimate the regularization term. Together loss function and regularization term results into the objective function (see Equation \ref{Equation:xgboostequationtthree}). The model estimates and find the best fitting parameters ($\theta$) of the objective function during training.
-
-```{=tex}
-\begin{align}
-    &Obj(\theta) = \sum_{i=1}^n \ell(y_i, \hat{y_i}) + \sum_{k=1}^K \Omega(f_k),
-\end{align}
-where $\theta$ are the parameters to be estimated, $\ell$ is the loss function, respectively $y_i$ and $\hat{y}_i$are the real and  predicted value of sample $i$, and $\Omega$ is the regularization term. 
-\label{Equation:xgboostequationtthree}
-```
-The loss function $\ell$ can be different type, for example, mean squared error, log loss, etc. The regularization $\Omega(f_k)$ component represents the penalty term for $k^{th}$ tree estimated according to Equation \ref{Equation:xgboostequationtfour}
-
-```{=tex}
-\begin{align}
-    \Omega(f_k) = \gamma T_k + \frac{1}{2} \lambda \sum_{j=1}^{T_k} w_{k,j}^2,
-\end{align}
-where $w_{k,j}^2$ is the weight of the $j^{th}$ leaf in the $k^{th}$ tree, $T$ is the number of leaf nodes, $\gamma$ and $\lambda$ are respectively minimum loss requires  shrinkage (learning) parameters. 
-\label{Equation:xgboostequationtfour}
-```
-`END`
 
 @fama1973risk show two-parameter regression model estimates average risk-return relationships based on efficient market porfolio ($m$), that is, the market prices fully reflect the available information. The asset are constructed based on Equation \ref{Equation:BlackScholes1972} for an asset ($i$) proposed by \@@black1972capital.
 
@@ -426,3 +369,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @campbell2018intertemporal
 @chung2006Asset
 @erb1996Expected
+@elton1995Fundamental
