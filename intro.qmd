@@ -378,3 +378,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @han2011Term
 @callen2020term
 @botosan1997Disclosure
+@loughran1997long
