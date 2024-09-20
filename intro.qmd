@@ -372,3 +372,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @elton1995Fundamental
 @elton1995Fundamental
 @wang2012Debt
+@da2009Long
