@@ -401,3 +401,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @brennan2009Sell
 @li2012Continuous
 @sadka2006Momentum
+@friewald2014cross
