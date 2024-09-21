@@ -389,3 +389,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @cooper2010Corporate
 @chen2011Labor
 @garcia2012Geographic
+@kim2012Political
