@@ -394,3 +394,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @price2012Earnings
 @larcker2013Boardroom
 @amaya2011Realized
+@easley2002information
