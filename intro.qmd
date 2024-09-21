@@ -403,3 +403,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @sadka2006Momentum
 @friewald2014cross
 @donangelo2014Labor
+@gourio2007Labor
