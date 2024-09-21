@@ -397,3 +397,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @easley2002information
 @hvidkjaer2008Small
 @barber2008retail
+@moskowitz2012Time
