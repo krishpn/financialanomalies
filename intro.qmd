@@ -395,3 +395,4 @@ Measure of Illiquidity (based on Amihud, 2002):
 @larcker2013Boardroom
 @amaya2011Realized
 @easley2002information
+@hvidkjaer2008Small
